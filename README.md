@@ -8,7 +8,7 @@ This research project focuses on **AI-assisted chest X-ray report generation and
 
 ## 👥 Authors
 
-**Dharmavarapu Gayathri Jyothirmai**
+**Dharmavarapu Gayathri Jyothirmai, **
 **Anvesh Reddy Lankala**
 
 Under the guidance of
@@ -244,7 +244,7 @@ to improve the reliability, transparency, and clinical usefulness of AI-assisted
 
 # 👩‍💻 Author
 
-**Dharmavarapu Gayathri Jyothirmai**
+**Dharmavarapu Gayathri Jyothirmai, **
 **Anvesh Reddy Lankala**
 
 Under the guidance of
