@@ -1,37 +1,49 @@
-# Radiology Project
+# 🩻 Radiology Project
 
-AI-assisted chest X-ray report generation and evaluation using CheXagent, BLEU, ROUGE, BERTScore, CheXbert, and future Knowledge Graph based analysis.
+## AI-Assisted Chest X-Ray Report Generation and Evaluation using Vision-Language Models
 
----
-
-## Project Overview
-
-This project focuses on generating radiology reports from chest X-ray images using Large Vision-Language Models (LVLMs) and evaluating their quality against expert-written reports.
-
-Current work includes:
-
-- Report generation using CheXagent
-- Automatic evaluation using BLEU
-- ROUGE evaluation
-- BERTScore evaluation
-- CheXbert label comparison
-- Counterfactual analysis
-- Knowledge Graph based evaluation (Work in Progress)
+This research project focuses on **AI-assisted chest X-ray report generation and comprehensive evaluation** using Large Vision-Language Models (LVLMs). The project explores the gap between AI-generated radiology reports and expert-written reports through automated evaluation, hallucination analysis, and future Knowledge Graph-based reasoning.
 
 ---
 
-## Repository Structure
+## 👥 Authors
+
+**Dharmavarapu Gayathri Jyothirmai**
+**Anvesh Reddy Lankala**
+
+Under the guidance of
+**Dr. P. Krishna Reddy**
+
+---
+
+# 📌 Project Overview
+
+The objective of this project is to generate radiology reports from chest X-ray images using advanced AI models and evaluate their clinical accuracy, similarity, and reliability compared with expert-written reports.
+
+The current research workflow includes:
+
+✅ Chest X-ray report generation using **CheXagent**
+✅ Automated evaluation using traditional NLP metrics
+✅ Semantic similarity evaluation
+✅ Clinical label-based evaluation using CheXbert
+✅ Hallucination detection analysis using GREEN model
+✅ Counterfactual analysis
+✅ Future Knowledge Graph-based evaluation and reasoning
+
+---
+
+# 🏗️ Repository Structure
 
 ```
 Radiology_Project/
 │
-├── scripts/               # Python scripts
-├── notebooks/             # Jupyter notebooks
-├── outputs/               # Generated reports
-├── evaluation/            # Evaluation results
+├── scripts/               # Python scripts for generation and evaluation
+├── notebooks/             # Jupyter notebooks for experiments
+├── outputs/               # Generated AI reports
+├── evaluation/            # Evaluation results and metric scores
 ├── logs/                  # Execution logs
-├── models/                # Model references/configs
-├── data/                  # (Not included in GitHub)
+├── models/                # Model references/configurations
+├── data/                  # Dataset files (not included in GitHub)
 ├── check_dataset.py
 ├── push_dataset.py
 └── README.md
@@ -39,59 +51,80 @@ Radiology_Project/
 
 ---
 
-## Dataset
+# 📂 Dataset
 
-The dataset is hosted separately on Hugging Face.
+The project uses a processed version of the **MIMIC-CXR dataset**.
 
-Dataset:
+The datasets are hosted separately due to their size.
 
+## Original Processed Dataset
+
+📌 Dataset:
+
+```
 https://huggingface.co/datasets/Anvesh-Lankala/Radiology_Project
+```
 
-The GitHub repository intentionally excludes the dataset because of its size.
+## Annotated Dataset
 
----
+An additional annotated dataset is introduced for enhanced evaluation and future research:
 
-## Current Workflow
+📌 Annotated Dataset:
 
-1. Prepare dataset
-2. Generate reports using CheXagent
-3. Save generated reports
-4. Evaluate using BLEU
-5. Evaluate using ROUGE
-6. Evaluate using BERTScore
-7. Evaluate using CheXbert
-8. Perform Knowledge Graph analysis (ongoing)
+```
+https://huggingface.co/datasets/Anvesh-Lankala/Radiology_Project_Annotated
+```
+
+The GitHub repository intentionally excludes datasets because of storage limitations.
 
 ---
 
-## Evaluation Metrics
+# 🔬 Current Research Workflow
+
+1. 📥 Prepare and preprocess chest X-ray dataset
+2. 🤖 Generate reports using CheXagent
+3. 💾 Store generated AI reports
+4. 📊 Evaluate using BLEU
+5. 📊 Evaluate using ROUGE
+6. 🧠 Evaluate semantic similarity using BERTScore
+7. 🩺 Compare clinical findings using CheXbert
+8. ⚠️ Analyze hallucinations using GREEN model
+9. 🔍 Perform counterfactual analysis
+10. 🕸️ Develop Knowledge Graph based evaluation framework (ongoing)
+
+---
+
+# 📈 Evaluation Metrics
 
 Current evaluation includes:
 
-- BLEU
-- ROUGE
-- BERTScore
-- CheXbert
+| Metric    | Purpose                                                            |
+| --------- | ------------------------------------------------------------------ |
+| BLEU      | Measures n-gram similarity between generated and reference reports |
+| ROUGE     | Evaluates overlap of important report information                  |
+| BERTScore | Measures semantic similarity using contextual embeddings           |
+| CheXbert  | Compares clinical observations and abnormalities                   |
+| GREEN     | Evaluates hallucinations and factual consistency                   |
 
-Additional metrics may be added during future development.
+Additional evaluation methods will be integrated during future development.
 
 ---
 
-## Results
+# 📊 Results
 
-Generated reports are stored inside:
+Generated reports are stored in:
 
 ```
 outputs/
 ```
 
-Evaluation summaries are stored inside:
+Evaluation results are stored in:
 
 ```
 evaluation/
 ```
 
-Execution logs are stored inside:
+Execution logs are stored in:
 
 ```
 logs/
@@ -99,71 +132,120 @@ logs/
 
 ---
 
-## Environment
+# ⚙️ Environment
 
+## Python
+
+```
 Python 3.10
+```
 
-Conda Environment:
+## Conda Environment
 
 ```
 chexagent
 ```
 
+## Hardware
+
 GPU:
 
-- NVIDIA RTX 6000 Ada
+```
+NVIDIA RTX 6000 Ada Generation
+```
 
 Platform:
 
-- Turing HPC Cluster
+```
+Turing HPC Cluster
+```
 
 ---
 
-## Running the Project
+# 🚀 Running the Project
 
-Generate reports
+## Generate Reports
 
 ```bash
 python scripts/compare_reports_official.py
 ```
 
-Evaluate BLEU and ROUGE
+## Evaluate BLEU and ROUGE
 
 ```bash
 python scripts/evaluate_bleu_rouge.py
 ```
 
-Evaluate BERTScore
+## Evaluate BERTScore
 
 ```bash
 python scripts/evaluate_bertscore.py
 ```
 
+## Evaluate CheXbert
+
+```bash
+python scripts/evaluate_chexbert.py
+```
+
 ---
 
-## Repository
+# 🧬 Research Direction
 
-Code:
+This project aims to move beyond simple text similarity evaluation and develop a clinically meaningful evaluation framework for AI-generated radiology reports.
+
+Future research directions include:
+
+* 🟢 Hallucination detection and reduction using GREEN model
+* 🔄 Counterfactual Contrastive Learning (CCL) for improving report reliability
+* 🕒 Temporal comparison of longitudinal radiology reports
+* 🕸️ Knowledge Graph construction for clinical reasoning
+* 🚨 Automatic error detection in generated reports
+* 📊 Radiology report quality scoring dashboard
+* 🔍 Explainable AI-based evaluation methods
+
+---
+
+# 🔗 Repository Links
+
+## Code Repository
+
+```
 https://github.com/Gayathrijyothirmai2310/Radiology_Project
+```
 
-Dataset:
+## Dataset
+
+```
 https://huggingface.co/datasets/Anvesh-Lankala/Radiology_Project
+```
+
+## Annotated Dataset
+
+```
+https://huggingface.co/datasets/Anvesh-Lankala/Radiology_Project_Annotated
+```
 
 ---
 
-## Future Work
+# 🌟 Future Vision
 
-- Improve report generation quality
-- Reduce hallucinations
-- Temporal report comparison
-- Knowledge Graph construction
-- Automatic error detection
-- Report quality scoring dashboard
+The long-term goal of this research is to develop a robust evaluation framework for AI-generated radiology reports by combining:
+
+🩻 Vision-Language Models
+🧠 Clinical Knowledge Representation
+🕸️ Knowledge Graph Reasoning
+⚠️ Hallucination Detection
+🔄 Counterfactual Learning
+
+to improve the reliability, transparency, and clinical usefulness of AI-assisted radiology systems.
 
 ---
 
-## Author
+# 👩‍💻 Author
 
-Gayathri Jyothirmai
+**Dharmavarapu Gayathri Jyothirmai**
+**Anvesh Reddy Lankala**
 
-Research Project
+Under the guidance of
+**Dr. P. Krishna Reddy**
