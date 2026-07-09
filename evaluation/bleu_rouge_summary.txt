@@ -1,0 +1,9 @@
+BLEU / ROUGE Evaluation
+========================
+
+Images Evaluated : 100
+
+Average BLEU     : 0.0485
+Average ROUGE-1  : 0.3843
+Average ROUGE-2  : 0.1340
+Average ROUGE-L  : 0.2429
