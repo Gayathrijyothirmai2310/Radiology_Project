@@ -1,0 +1,11 @@
+
+GREEN Evaluation Summary
+========================
+
+Number of Reports : 100
+
+Average GREEN Score : 0.2560
+
+GREEN Score Standard Deviation : 0.3244
+
+Average Hallucination Score : 0.7440
