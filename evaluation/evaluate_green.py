@@ -75,6 +75,18 @@ mean_score, std_score, green_scores, summary, results_df = green(
     hyps,
 )
 
+print("\n================ RESULTS_DF COLUMNS ================\n")
+print(results_df.columns)
+
+print("\n================ RESULTS_DF ================\n")
+print(results_df)
+
+print("\n================ SUMMARY ================\n")
+print(summary)
+# ==========================================================
+# Save per-report scores
+# ==========================================================
+
 # ==========================================================
 # Save per-report scores
 # ==========================================================
@@ -88,7 +100,9 @@ df.to_csv(OUTPUT_CSV, index=False)
 # Summary
 # ==========================================================
 
-average_hallucination = 1 - mean_score
+# ==========================================================
+# Summary
+# ==========================================================
 
 summary_text = f"""
 GREEN Evaluation Summary
@@ -99,8 +113,6 @@ Number of Reports : {len(df)}
 Average GREEN Score : {mean_score:.4f}
 
 GREEN Score Standard Deviation : {std_score:.4f}
-
-Average Hallucination Score : {average_hallucination:.4f}
 """
 
 with open(SUMMARY_TXT, "w") as f:
