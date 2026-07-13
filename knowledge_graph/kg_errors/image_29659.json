@@ -1,0 +1,62 @@
+{
+    "image_id": "image_29659",
+    "generated_text": "1 . No acute cardiopulmonary process . 2 . Free air under the diaphragm , likely related to the patient ' s known large hiatal hernia .",
+    "ground_truth_text": "No acute cardiac or pulmonary process . Pneumomediastinum and pneumoperitoneum are not necessarily unexpected findings in a patient status post recent hiatal hernia repair .",
+    "missing_entities": [
+        "cardiac",
+        "pneumomediastinum",
+        "pneumoperitoneum",
+        "pulmonary"
+    ],
+    "hallucinated_entities": [
+        "cardiopulmonary",
+        "diaphragm",
+        "free air",
+        "under"
+    ],
+    "common_entities": [
+        "acute",
+        "hiatal hernia",
+        "process"
+    ],
+    "missing_relations": [
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiac"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "pulmonary"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "free air",
+            "relation": "located_at",
+            "target": "diaphragm"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        },
+        {
+            "source": "under",
+            "relation": "modify",
+            "target": "diaphragm"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 7,
+        "groundtruth_entity_count": 7,
+        "common_entity_count": 3,
+        "missing_entity_count": 4,
+        "hallucinated_entity_count": 4,
+        "generated_relation_count": 4,
+        "groundtruth_relation_count": 3,
+        "missing_relation_count": 2,
+        "hallucinated_relation_count": 3
+    }
+}

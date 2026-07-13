@@ -1,0 +1,57 @@
+{
+    "image_id": "image_17233",
+    "generated_text": "No significant changes were observed .",
+    "ground_truth_text": "Stable bilateral parenchymal opacities , consistent with severe pulmonary edema .",
+    "missing_entities": [
+        "bilateral",
+        "edema",
+        "opacities",
+        "parenchymal",
+        "pulmonary",
+        "severe",
+        "stable"
+    ],
+    "hallucinated_entities": [
+        "changes"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "parenchymal"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "edema"
+        },
+        {
+            "source": "severe",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "stable",
+            "relation": "modify",
+            "target": "opacities"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 1,
+        "groundtruth_entity_count": 7,
+        "common_entity_count": 0,
+        "missing_entity_count": 7,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 5,
+        "missing_relation_count": 5,
+        "hallucinated_relation_count": 0
+    }
+}

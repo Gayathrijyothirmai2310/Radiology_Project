@@ -1,0 +1,64 @@
+{
+    "image_id": "image_16883",
+    "generated_text": "No significant changes were observed .",
+    "ground_truth_text": "Unchanged large bilateral pleural effusions . Right lung opacity and left lung consolidation may be due to pneumonia .",
+    "missing_entities": [
+        "bilateral pleural",
+        "consolidation",
+        "effusions",
+        "large",
+        "left lung",
+        "opacity",
+        "pneumonia",
+        "right lung",
+        "unchanged"
+    ],
+    "hallucinated_entities": [
+        "changes"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "consolidation",
+            "relation": "located_at",
+            "target": "left lung"
+        },
+        {
+            "source": "consolidation",
+            "relation": "suggestive_of",
+            "target": "pneumonia"
+        },
+        {
+            "source": "large",
+            "relation": "modify",
+            "target": "effusions"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "right lung"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "pneumonia"
+        },
+        {
+            "source": "unchanged",
+            "relation": "modify",
+            "target": "effusions"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 1,
+        "groundtruth_entity_count": 9,
+        "common_entity_count": 0,
+        "missing_entity_count": 9,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 6,
+        "missing_relation_count": 6,
+        "hallucinated_relation_count": 0
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "image_id": "image_20520",
+    "generated_text": "No acute cardiopulmonary process .",
+    "ground_truth_text": "Rotated examination with low lung volumes without evidence for pneumonia on this single view .",
+    "missing_entities": [
+        "examination",
+        "low",
+        "lung",
+        "pneumonia",
+        "volumes"
+    ],
+    "hallucinated_entities": [
+        "acute",
+        "cardiopulmonary",
+        "process"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "low",
+            "relation": "located_at",
+            "target": "volumes"
+        },
+        {
+            "source": "volumes",
+            "relation": "modify",
+            "target": "lung"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 5,
+        "common_entity_count": 0,
+        "missing_entity_count": 5,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 2,
+        "missing_relation_count": 2,
+        "hallucinated_relation_count": 2
+    }
+}

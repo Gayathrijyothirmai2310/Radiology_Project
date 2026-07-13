@@ -1,0 +1,90 @@
+{
+    "image_id": "image_19228",
+    "generated_text": "No acute cardiopulmonary process .",
+    "ground_truth_text": "No displaced rib fracture . Indistinct airspace opacity in the right lung base may be related to atelectasis from low lung volumes or early consolidation , depending upon the clinical setting .",
+    "missing_entities": [
+        "airspace",
+        "atelectasis",
+        "consolidation",
+        "displaced",
+        "fracture",
+        "indistinct",
+        "low",
+        "lung",
+        "opacity",
+        "rib",
+        "right lung base",
+        "volumes"
+    ],
+    "hallucinated_entities": [
+        "acute",
+        "cardiopulmonary",
+        "process"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "displaced",
+            "relation": "modify",
+            "target": "fracture"
+        },
+        {
+            "source": "fracture",
+            "relation": "located_at",
+            "target": "rib"
+        },
+        {
+            "source": "indistinct",
+            "relation": "modify",
+            "target": "opacity"
+        },
+        {
+            "source": "low",
+            "relation": "located_at",
+            "target": "volumes"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "airspace"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "consolidation"
+        },
+        {
+            "source": "volumes",
+            "relation": "modify",
+            "target": "lung"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 12,
+        "common_entity_count": 0,
+        "missing_entity_count": 12,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 8,
+        "missing_relation_count": 8,
+        "hallucinated_relation_count": 2
+    }
+}

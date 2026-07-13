@@ -1,0 +1,59 @@
+{
+    "image_id": "image_22435",
+    "generated_text": "No acute cardiopulmonary process .",
+    "ground_truth_text": "No evidence of infection or pulmonary edema . A subpleural irregular opacity appreciated on recent CT dated is beyond the resolution of chest radiograph .",
+    "missing_entities": [
+        "edema",
+        "infection",
+        "irregular",
+        "opacity",
+        "pulmonary",
+        "subpleural"
+    ],
+    "hallucinated_entities": [
+        "acute",
+        "cardiopulmonary",
+        "process"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "irregular",
+            "relation": "modify",
+            "target": "opacity"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "subpleural"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 6,
+        "common_entity_count": 0,
+        "missing_entity_count": 6,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 3,
+        "missing_relation_count": 3,
+        "hallucinated_relation_count": 2
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "image_id": "image_8144",
+    "generated_text": "No acute cardiopulmonary process .",
+    "ground_truth_text": "No pulmonary edema .",
+    "missing_entities": [
+        "edema",
+        "pulmonary"
+    ],
+    "hallucinated_entities": [
+        "acute",
+        "cardiopulmonary",
+        "process"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 2,
+        "common_entity_count": 0,
+        "missing_entity_count": 2,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 1,
+        "missing_relation_count": 1,
+        "hallucinated_relation_count": 2
+    }
+}

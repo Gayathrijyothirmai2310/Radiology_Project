@@ -1,0 +1,58 @@
+{
+    "image_id": "image_28422",
+    "generated_text": "Left retrocardiac opacity and left - sided pleural effusion are present . Mild pulmonary edema is observed .",
+    "ground_truth_text": "No overt evidence of infectious process .",
+    "missing_entities": [
+        "infectious"
+    ],
+    "hallucinated_entities": [
+        "edema",
+        "effusion",
+        "left  sided",
+        "mild",
+        "opacity",
+        "pleural",
+        "pulmonary",
+        "retrocardiac"
+    ],
+    "common_entities": [],
+    "missing_relations": [],
+    "hallucinated_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "left  sided",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "retrocardiac"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 8,
+        "groundtruth_entity_count": 1,
+        "common_entity_count": 0,
+        "missing_entity_count": 1,
+        "hallucinated_entity_count": 8,
+        "generated_relation_count": 5,
+        "groundtruth_relation_count": 0,
+        "missing_relation_count": 0,
+        "hallucinated_relation_count": 5
+    }
+}

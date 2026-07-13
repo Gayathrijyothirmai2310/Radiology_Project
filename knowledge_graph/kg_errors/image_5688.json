@@ -1,0 +1,122 @@
+{
+    "image_id": "image_5688",
+    "generated_text": "1 . Right mainstem bronchus intubation . 2 . Small left apical pneumothorax . 3 . Mild pulmonary edema .",
+    "ground_truth_text": "ET tube which terminates at the origin of the left mainstem bronchus , and should be retracted . New left lung opacification , which may represent atelectasis , edema , or layering pleural effusion . D . by , M . D .",
+    "missing_entities": [
+        "atelectasis",
+        "effusion",
+        "et tube",
+        "layering",
+        "left mainstem bronchus",
+        "lung",
+        "new",
+        "opacification",
+        "origin",
+        "pleural"
+    ],
+    "hallucinated_entities": [
+        "apical",
+        "bronchus",
+        "intubation",
+        "mainstem",
+        "mild",
+        "pneumothorax",
+        "pulmonary",
+        "right",
+        "small"
+    ],
+    "common_entities": [
+        "edema",
+        "left"
+    ],
+    "missing_relations": [
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "et tube",
+            "relation": "located_at",
+            "target": "origin"
+        },
+        {
+            "source": "layering",
+            "relation": "modify",
+            "target": "effusion"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "lung"
+        },
+        {
+            "source": "new",
+            "relation": "modify",
+            "target": "opacification"
+        },
+        {
+            "source": "opacification",
+            "relation": "located_at",
+            "target": "lung"
+        },
+        {
+            "source": "opacification",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        },
+        {
+            "source": "opacification",
+            "relation": "suggestive_of",
+            "target": "edema"
+        },
+        {
+            "source": "opacification",
+            "relation": "suggestive_of",
+            "target": "effusion"
+        },
+        {
+            "source": "origin",
+            "relation": "modify",
+            "target": "left mainstem bronchus"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "apical"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "pneumothorax",
+            "relation": "located_at",
+            "target": "apical"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "pneumothorax"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 11,
+        "groundtruth_entity_count": 12,
+        "common_entity_count": 2,
+        "missing_entity_count": 10,
+        "hallucinated_entity_count": 9,
+        "generated_relation_count": 5,
+        "groundtruth_relation_count": 10,
+        "missing_relation_count": 10,
+        "hallucinated_relation_count": 5
+    }
+}

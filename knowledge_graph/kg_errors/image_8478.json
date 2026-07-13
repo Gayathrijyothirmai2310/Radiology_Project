@@ -1,0 +1,78 @@
+{
+    "image_id": "image_8478",
+    "generated_text": "No acute cardiopulmonary process .",
+    "ground_truth_text": "Interval placement of a Dobhoff tube with tip terminating in the stomach . Overall unchanged appearance otherwise with low lung volumes and mild bibasilar atelectasis .",
+    "missing_entities": [
+        "atelectasis",
+        "bibasilar",
+        "dobhoff tube",
+        "low",
+        "lung",
+        "mild",
+        "stomach",
+        "tip",
+        "unchanged",
+        "volumes"
+    ],
+    "hallucinated_entities": [
+        "acute",
+        "cardiopulmonary",
+        "process"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "atelectasis",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "low",
+            "relation": "located_at",
+            "target": "lung"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "atelectasis"
+        },
+        {
+            "source": "tip",
+            "relation": "located_at",
+            "target": "stomach"
+        },
+        {
+            "source": "tip",
+            "relation": "modify",
+            "target": "dobhoff tube"
+        },
+        {
+            "source": "volumes",
+            "relation": "modify",
+            "target": "lung"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 10,
+        "common_entity_count": 0,
+        "missing_entity_count": 10,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 6,
+        "missing_relation_count": 6,
+        "hallucinated_relation_count": 2
+    }
+}

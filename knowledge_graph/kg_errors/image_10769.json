@@ -1,0 +1,76 @@
+{
+    "image_id": "image_10769",
+    "generated_text": "No significant changes were observed .",
+    "ground_truth_text": "Status post right thoracentesis and interval placement of a right - sided pigtail catheter , with a now resolved right pleural effusion . No evidence of pneumothorax . Stable , moderate left pleural effusion .",
+    "missing_entities": [
+        "effusion",
+        "left",
+        "moderate",
+        "pigtail catheter",
+        "pleural",
+        "pneumothorax",
+        "resolved",
+        "right",
+        "right  sided",
+        "stable",
+        "thoracentesis"
+    ],
+    "hallucinated_entities": [
+        "changes"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "moderate",
+            "relation": "modify",
+            "target": "effusion"
+        },
+        {
+            "source": "pigtail catheter",
+            "relation": "located_at",
+            "target": "right  sided"
+        },
+        {
+            "source": "resolved",
+            "relation": "modify",
+            "target": "effusion"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "stable",
+            "relation": "modify",
+            "target": "effusion"
+        },
+        {
+            "source": "thoracentesis",
+            "relation": "located_at",
+            "target": "right"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 1,
+        "groundtruth_entity_count": 11,
+        "common_entity_count": 0,
+        "missing_entity_count": 11,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 8,
+        "missing_relation_count": 8,
+        "hallucinated_relation_count": 0
+    }
+}

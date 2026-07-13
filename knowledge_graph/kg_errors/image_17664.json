@@ -1,0 +1,54 @@
+{
+    "image_id": "image_17664",
+    "generated_text": "The nasogastric tube is in a normal position with its tip located in the middle of the stomach .",
+    "ground_truth_text": "As above .",
+    "missing_entities": [],
+    "hallucinated_entities": [
+        "middle",
+        "nasogastric",
+        "normal position",
+        "stomach",
+        "tip",
+        "tube"
+    ],
+    "common_entities": [],
+    "missing_relations": [],
+    "hallucinated_relations": [
+        {
+            "source": "middle",
+            "relation": "modify",
+            "target": "stomach"
+        },
+        {
+            "source": "normal position",
+            "relation": "modify",
+            "target": "tube"
+        },
+        {
+            "source": "tip",
+            "relation": "located_at",
+            "target": "stomach"
+        },
+        {
+            "source": "tip",
+            "relation": "modify",
+            "target": "tube"
+        },
+        {
+            "source": "tube",
+            "relation": "located_at",
+            "target": "nasogastric"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 6,
+        "groundtruth_entity_count": 0,
+        "common_entity_count": 0,
+        "missing_entity_count": 0,
+        "hallucinated_entity_count": 6,
+        "generated_relation_count": 5,
+        "groundtruth_relation_count": 0,
+        "missing_relation_count": 0,
+        "hallucinated_relation_count": 5
+    }
+}

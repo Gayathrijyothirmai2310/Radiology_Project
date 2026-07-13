@@ -1,0 +1,49 @@
+{
+    "image_id": "image_5771",
+    "generated_text": "Moderate pulmonary edema . Small bilateral pleural effusions .",
+    "ground_truth_text": "Marked pulmonary edema . Follow up CXR after diuresis may be helpful to exclude underlying pneumonia in right middle lobe .",
+    "missing_entities": [
+        "marked"
+    ],
+    "hallucinated_entities": [
+        "bilateral",
+        "effusions",
+        "moderate",
+        "pleural",
+        "small"
+    ],
+    "common_entities": [
+        "edema",
+        "pulmonary"
+    ],
+    "missing_relations": [
+        {
+            "source": "marked",
+            "relation": "modify",
+            "target": "edema"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "effusions",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "moderate",
+            "relation": "modify",
+            "target": "edema"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 7,
+        "groundtruth_entity_count": 3,
+        "common_entity_count": 2,
+        "missing_entity_count": 1,
+        "hallucinated_entity_count": 5,
+        "generated_relation_count": 3,
+        "groundtruth_relation_count": 2,
+        "missing_relation_count": 1,
+        "hallucinated_relation_count": 2
+    }
+}

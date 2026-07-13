@@ -1,0 +1,119 @@
+{
+    "image_id": "image_21626",
+    "generated_text": "Mild pulmonary edema . Bilateral pleural effusions , left greater than right .",
+    "ground_truth_text": "Mild cardiomegaly with mild pulmonary vascular congestion . Small bilateral pleural effusions with bibasilar patchy opacities , likely compressive atelectasis , though infection is not excluded in the correct clinical setting . Correlation with nonemergent CT is recommended for further assessment .",
+    "missing_entities": [
+        "atelectasis",
+        "bibasilar",
+        "cardiomegaly",
+        "congestion",
+        "infection",
+        "opacities",
+        "patchy",
+        "small",
+        "vascular"
+    ],
+    "hallucinated_entities": [
+        "edema",
+        "greater",
+        "left",
+        "right"
+    ],
+    "common_entities": [
+        "bilateral",
+        "effusions",
+        "mild",
+        "pleural",
+        "pulmonary"
+    ],
+    "missing_relations": [
+        {
+            "source": "bilateral",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "congestion",
+            "relation": "located_at",
+            "target": "vascular"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "cardiomegaly"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "congestion"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "infection"
+        },
+        {
+            "source": "patchy",
+            "relation": "modify",
+            "target": "opacities"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "effusions"
+        },
+        {
+            "source": "vascular",
+            "relation": "modify",
+            "target": "pulmonary"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "greater",
+            "relation": "located_at",
+            "target": "left"
+        },
+        {
+            "source": "greater",
+            "relation": "modify",
+            "target": "effusions"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "pleural"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 9,
+        "groundtruth_entity_count": 14,
+        "common_entity_count": 5,
+        "missing_entity_count": 9,
+        "hallucinated_entity_count": 4,
+        "generated_relation_count": 6,
+        "groundtruth_relation_count": 11,
+        "missing_relation_count": 10,
+        "hallucinated_relation_count": 5
+    }
+}

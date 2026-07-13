@@ -1,0 +1,46 @@
+{
+    "image_id": "image_18336",
+    "generated_text": "No significant changes were observed .",
+    "ground_truth_text": "No change in small left right basilar hydropneumothorax and adjacent right lower lobe consolidation .",
+    "missing_entities": [
+        "consolidation",
+        "hydropneumothorax",
+        "left right basilar",
+        "no change",
+        "right lower lobe",
+        "small"
+    ],
+    "hallucinated_entities": [
+        "changes"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "consolidation",
+            "relation": "located_at",
+            "target": "right lower lobe"
+        },
+        {
+            "source": "hydropneumothorax",
+            "relation": "located_at",
+            "target": "left right basilar"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "hydropneumothorax"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 1,
+        "groundtruth_entity_count": 6,
+        "common_entity_count": 0,
+        "missing_entity_count": 6,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 3,
+        "missing_relation_count": 3,
+        "hallucinated_relation_count": 0
+    }
+}

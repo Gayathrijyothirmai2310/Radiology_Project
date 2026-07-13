@@ -1,0 +1,63 @@
+{
+    "image_id": "image_7840",
+    "generated_text": "Mild pulmonary edema . Small bilateral pleural effusions . Bibasilar atelectasis .",
+    "ground_truth_text": "Mild congestive heart failure with small bilateral pleural effusions .",
+    "missing_entities": [
+        "congestive",
+        "failure",
+        "heart"
+    ],
+    "hallucinated_entities": [
+        "atelectasis",
+        "bibasilar",
+        "edema",
+        "pulmonary"
+    ],
+    "common_entities": [
+        "bilateral",
+        "effusions",
+        "mild",
+        "pleural",
+        "small"
+    ],
+    "missing_relations": [
+        {
+            "source": "failure",
+            "relation": "located_at",
+            "target": "heart"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "failure"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "atelectasis",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "effusions"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 9,
+        "groundtruth_entity_count": 8,
+        "common_entity_count": 5,
+        "missing_entity_count": 3,
+        "hallucinated_entity_count": 4,
+        "generated_relation_count": 3,
+        "groundtruth_relation_count": 2,
+        "missing_relation_count": 2,
+        "hallucinated_relation_count": 3
+    }
+}

@@ -1,0 +1,3 @@
+Slight increase in extent of the pre-existing opacities.
+
+Possible missing findings: atelectasis.

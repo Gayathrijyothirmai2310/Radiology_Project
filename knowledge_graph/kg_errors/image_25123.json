@@ -1,0 +1,117 @@
+{
+    "image_id": "image_25123",
+    "generated_text": "Moderate right and small left pleural effusions with mild pulmonary edema .",
+    "ground_truth_text": "Right internal jugular central venous line tip terminates in the lower SVC . No pneumothorax . Endotracheal tube is too high and should be advanced slightly for more appropriate positioning . was paged at 433pm by Dr . .",
+    "missing_entities": [
+        "central",
+        "endotracheal",
+        "high",
+        "internal",
+        "jugular",
+        "line",
+        "lower",
+        "pneumothorax",
+        "svc",
+        "tip",
+        "tube",
+        "venous"
+    ],
+    "hallucinated_entities": [
+        "edema",
+        "effusions",
+        "left",
+        "mild",
+        "moderate",
+        "pleural",
+        "pulmonary",
+        "small"
+    ],
+    "common_entities": [
+        "right"
+    ],
+    "missing_relations": [
+        {
+            "source": "central",
+            "relation": "modify",
+            "target": "venous"
+        },
+        {
+            "source": "endotracheal",
+            "relation": "modify",
+            "target": "tube"
+        },
+        {
+            "source": "high",
+            "relation": "modify",
+            "target": "tube"
+        },
+        {
+            "source": "jugular",
+            "relation": "modify",
+            "target": "venous"
+        },
+        {
+            "source": "line",
+            "relation": "located_at",
+            "target": "venous"
+        },
+        {
+            "source": "lower",
+            "relation": "modify",
+            "target": "svc"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "venous"
+        },
+        {
+            "source": "tip",
+            "relation": "located_at",
+            "target": "svc"
+        },
+        {
+            "source": "tip",
+            "relation": "modify",
+            "target": "line"
+        },
+        {
+            "source": "tube",
+            "relation": "located_at",
+            "target": "endotracheal"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "moderate",
+            "relation": "modify",
+            "target": "effusions"
+        },
+        {
+            "source": "small",
+            "relation": "located_at",
+            "target": "left"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "effusions"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 9,
+        "groundtruth_entity_count": 13,
+        "common_entity_count": 1,
+        "missing_entity_count": 12,
+        "hallucinated_entity_count": 8,
+        "generated_relation_count": 4,
+        "groundtruth_relation_count": 10,
+        "missing_relation_count": 10,
+        "hallucinated_relation_count": 4
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "image_id": "image_12054",
+    "generated_text": "The endotracheal tube is in a good position .",
+    "ground_truth_text": "No change .",
+    "missing_entities": [
+        "change"
+    ],
+    "hallucinated_entities": [
+        "endotracheal tube",
+        "good position"
+    ],
+    "common_entities": [],
+    "missing_relations": [],
+    "hallucinated_relations": [
+        {
+            "source": "good position",
+            "relation": "modify",
+            "target": "endotracheal tube"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 2,
+        "groundtruth_entity_count": 1,
+        "common_entity_count": 0,
+        "missing_entity_count": 1,
+        "hallucinated_entity_count": 2,
+        "generated_relation_count": 1,
+        "groundtruth_relation_count": 0,
+        "missing_relation_count": 0,
+        "hallucinated_relation_count": 1
+    }
+}

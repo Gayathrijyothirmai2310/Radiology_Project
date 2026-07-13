@@ -1,0 +1,26 @@
+{
+    "image_id": "image_20101",
+    "generated_text": "Mild pulmonary vascular congestion .",
+    "ground_truth_text": "Mild pulmonary vascular congestion .",
+    "missing_entities": [],
+    "hallucinated_entities": [],
+    "common_entities": [
+        "congestion",
+        "mild",
+        "pulmonary",
+        "vascular"
+    ],
+    "missing_relations": [],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 4,
+        "groundtruth_entity_count": 4,
+        "common_entity_count": 4,
+        "missing_entity_count": 0,
+        "hallucinated_entity_count": 0,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 2,
+        "missing_relation_count": 0,
+        "hallucinated_relation_count": 0
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "image_id": "image_11018",
+    "generated_text": "Diffuse bilateral interstitial and airspace disease , with more confluent opacities at the lung bases , which may represent pulmonary edema , aspiration , or infection .",
+    "ground_truth_text": "Bilateral airspace opacities most likely due to severe CHF .",
+    "missing_entities": [
+        "chf",
+        "severe"
+    ],
+    "hallucinated_entities": [
+        "aspiration",
+        "bases",
+        "confluent",
+        "diffuse",
+        "disease",
+        "edema",
+        "infection",
+        "interstitial",
+        "lung",
+        "pulmonary"
+    ],
+    "common_entities": [
+        "airspace",
+        "bilateral",
+        "opacities"
+    ],
+    "missing_relations": [
+        {
+            "source": "airspace",
+            "relation": "modify",
+            "target": "bilateral"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "airspace"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "chf"
+        },
+        {
+            "source": "severe",
+            "relation": "modify",
+            "target": "chf"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "bases",
+            "relation": "modify",
+            "target": "lung"
+        },
+        {
+            "source": "bilateral",
+            "relation": "modify",
+            "target": "interstitial"
+        },
+        {
+            "source": "confluent",
+            "relation": "modify",
+            "target": "opacities"
+        },
+        {
+            "source": "diffuse",
+            "relation": "modify",
+            "target": "disease"
+        },
+        {
+            "source": "disease",
+            "relation": "located_at",
+            "target": "airspace"
+        },
+        {
+            "source": "disease",
+            "relation": "located_at",
+            "target": "interstitial"
+        },
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "bases"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "lung"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "aspiration"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "edema"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "infection"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 13,
+        "groundtruth_entity_count": 5,
+        "common_entity_count": 3,
+        "missing_entity_count": 2,
+        "hallucinated_entity_count": 10,
+        "generated_relation_count": 12,
+        "groundtruth_relation_count": 4,
+        "missing_relation_count": 4,
+        "hallucinated_relation_count": 12
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "image_id": "image_0196",
+    "generated_text": "No acute cardiopulmonary process .",
+    "ground_truth_text": "Minimally displaced fracture of the right sixth posterior rib without underlying pneumothorax on this chest radiograph . Possible fracture of the fifth lateral rib as well .",
+    "missing_entities": [
+        "displaced",
+        "fifth",
+        "fracture",
+        "lateral",
+        "minimally",
+        "pneumothorax",
+        "posterior",
+        "rib",
+        "right",
+        "sixth"
+    ],
+    "hallucinated_entities": [
+        "acute",
+        "cardiopulmonary",
+        "process"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "displaced",
+            "relation": "modify",
+            "target": "fracture"
+        },
+        {
+            "source": "fifth",
+            "relation": "modify",
+            "target": "rib"
+        },
+        {
+            "source": "fracture",
+            "relation": "located_at",
+            "target": "rib"
+        },
+        {
+            "source": "lateral",
+            "relation": "modify",
+            "target": "rib"
+        },
+        {
+            "source": "minimally",
+            "relation": "modify",
+            "target": "fracture"
+        },
+        {
+            "source": "posterior",
+            "relation": "modify",
+            "target": "rib"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "rib"
+        },
+        {
+            "source": "sixth",
+            "relation": "modify",
+            "target": "rib"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 10,
+        "common_entity_count": 0,
+        "missing_entity_count": 10,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 8,
+        "missing_relation_count": 8,
+        "hallucinated_relation_count": 2
+    }
+}

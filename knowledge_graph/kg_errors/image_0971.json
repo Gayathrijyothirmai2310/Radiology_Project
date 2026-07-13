@@ -1,0 +1,78 @@
+{
+    "image_id": "image_0971",
+    "generated_text": "Bibasilar opacities could represent atelectasis , but pneumonia or aspiration cannot be excluded . Small bilateral pleural effusions .",
+    "ground_truth_text": "Lower lung opacities could represent pneumonia with effusion . Would recommend dedicated PA and lateral views to more clearly assess .",
+    "missing_entities": [
+        "effusion",
+        "lower",
+        "lung"
+    ],
+    "hallucinated_entities": [
+        "aspiration",
+        "atelectasis",
+        "bibasilar",
+        "bilateral",
+        "effusions",
+        "pleural",
+        "small"
+    ],
+    "common_entities": [
+        "opacities",
+        "pneumonia"
+    ],
+    "missing_relations": [
+        {
+            "source": "lower",
+            "relation": "modify",
+            "target": "lung"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "lung"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "bilateral",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "effusions",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "aspiration"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "effusions"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 9,
+        "groundtruth_entity_count": 5,
+        "common_entity_count": 2,
+        "missing_entity_count": 3,
+        "hallucinated_entity_count": 7,
+        "generated_relation_count": 7,
+        "groundtruth_relation_count": 3,
+        "missing_relation_count": 2,
+        "hallucinated_relation_count": 6
+    }
+}

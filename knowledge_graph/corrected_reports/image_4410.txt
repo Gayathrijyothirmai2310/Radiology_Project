@@ -1,0 +1,3 @@
+. effusion.
+
+Possible missing findings: atelectasis.

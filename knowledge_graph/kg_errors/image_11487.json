@@ -1,0 +1,59 @@
+{
+    "image_id": "image_11487",
+    "generated_text": "The endotracheal tube is in a good position . There is a slight improvement in the aeration of the left lung base .",
+    "ground_truth_text": "Improvement in both edema and residual infection",
+    "missing_entities": [
+        "edema",
+        "infection",
+        "residual"
+    ],
+    "hallucinated_entities": [
+        "aeration",
+        "endotracheal tube",
+        "good position",
+        "left lung base"
+    ],
+    "common_entities": [
+        "improvement"
+    ],
+    "missing_relations": [
+        {
+            "source": "improvement",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "residual",
+            "relation": "modify",
+            "target": "infection"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "aeration",
+            "relation": "located_at",
+            "target": "left lung base"
+        },
+        {
+            "source": "good position",
+            "relation": "modify",
+            "target": "endotracheal tube"
+        },
+        {
+            "source": "improvement",
+            "relation": "modify",
+            "target": "aeration"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 5,
+        "groundtruth_entity_count": 4,
+        "common_entity_count": 1,
+        "missing_entity_count": 3,
+        "hallucinated_entity_count": 4,
+        "generated_relation_count": 3,
+        "groundtruth_relation_count": 2,
+        "missing_relation_count": 2,
+        "hallucinated_relation_count": 3
+    }
+}

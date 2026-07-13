@@ -1,0 +1,71 @@
+{
+    "image_id": "image_9048",
+    "generated_text": "Left retrocardiac opacity may represent atelectasis .",
+    "ground_truth_text": "No substantial change compared to the prior examination . Deviation of the trachea to the right has increased since and may be due to a dilated aorta .",
+    "missing_entities": [
+        "aorta",
+        "change",
+        "deviation",
+        "dilated",
+        "increased",
+        "substantial",
+        "trachea"
+    ],
+    "hallucinated_entities": [
+        "atelectasis",
+        "left",
+        "opacity",
+        "retrocardiac"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "deviation",
+            "relation": "located_at",
+            "target": "trachea"
+        },
+        {
+            "source": "dilated",
+            "relation": "located_at",
+            "target": "aorta"
+        },
+        {
+            "source": "increased",
+            "relation": "modify",
+            "target": "deviation"
+        },
+        {
+            "source": "substantial",
+            "relation": "modify",
+            "target": "change"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "retrocardiac"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "retrocardiac"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 4,
+        "groundtruth_entity_count": 7,
+        "common_entity_count": 0,
+        "missing_entity_count": 7,
+        "hallucinated_entity_count": 4,
+        "generated_relation_count": 3,
+        "groundtruth_relation_count": 4,
+        "missing_relation_count": 4,
+        "hallucinated_relation_count": 3
+    }
+}

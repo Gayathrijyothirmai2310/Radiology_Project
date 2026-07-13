@@ -1,0 +1,58 @@
+{
+    "image_id": "image_16841",
+    "generated_text": "Multifocal pneumonia",
+    "ground_truth_text": "Slight interval improvement in the right basal consolidation . Persistent visualization of a a stellate mass in the right upper lung , this may reflect scarring in distortion related the underlying COPD but a neoplasm cannot be excluded and a CT chest is recommended to further evaluate .",
+    "missing_entities": [
+        "consolidation",
+        "improvement",
+        "neoplasm",
+        "right basal",
+        "right upper lung",
+        "scarring",
+        "stellate mass"
+    ],
+    "hallucinated_entities": [
+        "multifocal",
+        "pneumonia"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "consolidation",
+            "relation": "located_at",
+            "target": "right basal"
+        },
+        {
+            "source": "improvement",
+            "relation": "modify",
+            "target": "consolidation"
+        },
+        {
+            "source": "stellate mass",
+            "relation": "located_at",
+            "target": "right upper lung"
+        },
+        {
+            "source": "stellate mass",
+            "relation": "suggestive_of",
+            "target": "neoplasm"
+        },
+        {
+            "source": "stellate mass",
+            "relation": "suggestive_of",
+            "target": "scarring"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 2,
+        "groundtruth_entity_count": 7,
+        "common_entity_count": 0,
+        "missing_entity_count": 7,
+        "hallucinated_entity_count": 2,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 5,
+        "missing_relation_count": 5,
+        "hallucinated_relation_count": 0
+    }
+}

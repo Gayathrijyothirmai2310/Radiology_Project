@@ -1,0 +1,133 @@
+{
+    "image_id": "image_10536",
+    "generated_text": "1 . Low position of the endotracheal tube . 2 . Small right pneumothorax . 3 . Right basilar opacity , likely atelectasis . 4 . Left basilar opacity , likely atelectasis .",
+    "ground_truth_text": "Bibasilar right greater than left opacities could represent either atelectasis or aspiration . Suboptimal positioning of right chest tube along with small pneumothorax inferior to chest tube entry site .",
+    "missing_entities": [
+        "aspiration",
+        "bibasilar",
+        "chest",
+        "greater",
+        "inferior",
+        "opacities",
+        "suboptimal positioning",
+        "tube"
+    ],
+    "hallucinated_entities": [
+        "basilar",
+        "endotracheal tube",
+        "opacity",
+        "pneumothorax",
+        "position",
+        "small"
+    ],
+    "common_entities": [
+        "atelectasis",
+        "left",
+        "right"
+    ],
+    "missing_relations": [
+        {
+            "source": "greater",
+            "relation": "located_at",
+            "target": "right"
+        },
+        {
+            "source": "greater",
+            "relation": "modify",
+            "target": "opacities"
+        },
+        {
+            "source": "inferior",
+            "relation": "modify",
+            "target": "chest"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "bibasilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "aspiration"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "bibasilar"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "chest"
+        },
+        {
+            "source": "suboptimal positioning",
+            "relation": "modify",
+            "target": "tube"
+        },
+        {
+            "source": "tube",
+            "relation": "located_at",
+            "target": "chest"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "basilar"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "basilar"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        },
+        {
+            "source": "pneumothorax",
+            "relation": "located_at",
+            "target": "right"
+        },
+        {
+            "source": "position",
+            "relation": "modify",
+            "target": "endotracheal tube"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "basilar"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "pneumothorax"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 9,
+        "groundtruth_entity_count": 11,
+        "common_entity_count": 3,
+        "missing_entity_count": 8,
+        "hallucinated_entity_count": 6,
+        "generated_relation_count": 7,
+        "groundtruth_relation_count": 11,
+        "missing_relation_count": 11,
+        "hallucinated_relation_count": 7
+    }
+}

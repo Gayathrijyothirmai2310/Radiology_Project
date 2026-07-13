@@ -1,0 +1,35 @@
+{
+    "image_id": "image_3189",
+    "generated_text": "Mild pulmonary edema .",
+    "ground_truth_text": "Pulmonary vascular congestion .",
+    "missing_entities": [
+        "congestion",
+        "vascular"
+    ],
+    "hallucinated_entities": [
+        "edema",
+        "mild"
+    ],
+    "common_entities": [
+        "pulmonary"
+    ],
+    "missing_relations": [
+        {
+            "source": "congestion",
+            "relation": "located_at",
+            "target": "vascular"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 3,
+        "common_entity_count": 1,
+        "missing_entity_count": 2,
+        "hallucinated_entity_count": 2,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 1,
+        "missing_relation_count": 1,
+        "hallucinated_relation_count": 0
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "image_id": "image_11082",
+    "generated_text": "Mild pulmonary edema .",
+    "ground_truth_text": "Left basilar opacity may reflect pleural fluid or atelectasis . However , an infectious process cannot be excluded . PA and lateral chest radiographs would be helpful for further evaluation , if patient can tolerate it .",
+    "missing_entities": [
+        "atelectasis",
+        "basilar",
+        "fluid",
+        "infectious",
+        "left",
+        "opacity",
+        "pleural"
+    ],
+    "hallucinated_entities": [
+        "edema",
+        "mild",
+        "pulmonary"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "fluid",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "basilar"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "basilar"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "fluid"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 7,
+        "common_entity_count": 0,
+        "missing_entity_count": 7,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 5,
+        "missing_relation_count": 5,
+        "hallucinated_relation_count": 0
+    }
+}

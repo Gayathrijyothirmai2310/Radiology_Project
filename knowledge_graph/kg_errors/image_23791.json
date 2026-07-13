@@ -1,0 +1,81 @@
+{
+    "image_id": "image_23791",
+    "generated_text": "Left retrocardiac opacity , likely atelectasis , although pneumonia cannot be excluded . Small left - sided pleural effusion .",
+    "ground_truth_text": "Left basal opacity concerning for effusion and atelectasis . Please refer to subsequent CT chest for further details .",
+    "missing_entities": [
+        "basal"
+    ],
+    "hallucinated_entities": [
+        "left  sided",
+        "pleural",
+        "pneumonia",
+        "retrocardiac",
+        "small"
+    ],
+    "common_entities": [
+        "atelectasis",
+        "effusion",
+        "left",
+        "opacity"
+    ],
+    "missing_relations": [
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "basal"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "basal"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "effusion"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "retrocardiac"
+        },
+        {
+            "source": "left  sided",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "retrocardiac"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "pneumonia"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "effusion"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 9,
+        "groundtruth_entity_count": 5,
+        "common_entity_count": 4,
+        "missing_entity_count": 1,
+        "hallucinated_entity_count": 5,
+        "generated_relation_count": 7,
+        "groundtruth_relation_count": 4,
+        "missing_relation_count": 3,
+        "hallucinated_relation_count": 6
+    }
+}

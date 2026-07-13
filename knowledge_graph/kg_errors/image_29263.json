@@ -1,0 +1,114 @@
+{
+    "image_id": "image_29263",
+    "generated_text": "Calcifications of the tracheobronchial tree are noted . There is a moderate right pleural effusion . There is a left retrocardiac opacity . There is mild pulmonary edema .",
+    "ground_truth_text": "Extensive opacification involving much of the right hemithorax is grossly unchanged , and likely represents a combination of asymmetric pulmonary edema and pneumonia .",
+    "missing_entities": [
+        "asymmetric",
+        "extensive",
+        "grossly",
+        "hemithorax",
+        "opacification",
+        "pneumonia",
+        "unchanged"
+    ],
+    "hallucinated_entities": [
+        "calcifications",
+        "effusion",
+        "left retrocardiac",
+        "mild",
+        "moderate",
+        "opacity",
+        "pleural",
+        "tracheobronchial tree"
+    ],
+    "common_entities": [
+        "edema",
+        "pulmonary",
+        "right"
+    ],
+    "missing_relations": [
+        {
+            "source": "asymmetric",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "extensive",
+            "relation": "modify",
+            "target": "opacification"
+        },
+        {
+            "source": "grossly",
+            "relation": "modify",
+            "target": "unchanged"
+        },
+        {
+            "source": "opacification",
+            "relation": "located_at",
+            "target": "hemithorax"
+        },
+        {
+            "source": "opacification",
+            "relation": "suggestive_of",
+            "target": "edema"
+        },
+        {
+            "source": "opacification",
+            "relation": "suggestive_of",
+            "target": "pneumonia"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "hemithorax"
+        },
+        {
+            "source": "unchanged",
+            "relation": "modify",
+            "target": "opacification"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "calcifications",
+            "relation": "located_at",
+            "target": "tracheobronchial tree"
+        },
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "moderate",
+            "relation": "modify",
+            "target": "effusion"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "left retrocardiac"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "pleural"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 11,
+        "groundtruth_entity_count": 10,
+        "common_entity_count": 3,
+        "missing_entity_count": 7,
+        "hallucinated_entity_count": 8,
+        "generated_relation_count": 7,
+        "groundtruth_relation_count": 9,
+        "missing_relation_count": 8,
+        "hallucinated_relation_count": 6
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "image_id": "image_25545",
+    "generated_text": "Small right apical pneumothorax",
+    "ground_truth_text": "Moderate right apical pneumothorax . Interval placement of right chest tube with a small amount of associated atelectasis . with Dr .",
+    "missing_entities": [
+        "atelectasis",
+        "chest",
+        "interval placement",
+        "moderate",
+        "small amount",
+        "tube"
+    ],
+    "hallucinated_entities": [
+        "small"
+    ],
+    "common_entities": [
+        "apical",
+        "pneumothorax",
+        "right"
+    ],
+    "missing_relations": [
+        {
+            "source": "moderate",
+            "relation": "modify",
+            "target": "pneumothorax"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "chest"
+        },
+        {
+            "source": "small amount",
+            "relation": "modify",
+            "target": "atelectasis"
+        },
+        {
+            "source": "tube",
+            "relation": "located_at",
+            "target": "chest"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 4,
+        "groundtruth_entity_count": 9,
+        "common_entity_count": 3,
+        "missing_entity_count": 6,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 1,
+        "groundtruth_relation_count": 5,
+        "missing_relation_count": 4,
+        "hallucinated_relation_count": 0
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "image_id": "image_11178",
+    "generated_text": "Right lower lobe infiltrate",
+    "ground_truth_text": "Increased prominence of right basilar opacity may represent developing consolidation .",
+    "missing_entities": [
+        "basilar",
+        "consolidation",
+        "increased",
+        "opacity",
+        "prominence"
+    ],
+    "hallucinated_entities": [
+        "infiltrate",
+        "lobe",
+        "lower"
+    ],
+    "common_entities": [
+        "right"
+    ],
+    "missing_relations": [
+        {
+            "source": "increased",
+            "relation": "modify",
+            "target": "prominence"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "basilar"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "consolidation"
+        },
+        {
+            "source": "prominence",
+            "relation": "modify",
+            "target": "opacity"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "basilar"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "infiltrate",
+            "relation": "located_at",
+            "target": "lobe"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 4,
+        "groundtruth_entity_count": 6,
+        "common_entity_count": 1,
+        "missing_entity_count": 5,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 1,
+        "groundtruth_relation_count": 5,
+        "missing_relation_count": 5,
+        "hallucinated_relation_count": 1
+    }
+}

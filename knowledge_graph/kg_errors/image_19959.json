@@ -1,0 +1,50 @@
+{
+    "image_id": "image_19959",
+    "generated_text": "Right - sided hydropneumothorax with collapse of the right middle lobe .",
+    "ground_truth_text": "Stable right hydropneumothorax . Mild increase in pulmonary vascular congestion .",
+    "missing_entities": [
+        "congestion",
+        "increase",
+        "right",
+        "stable",
+        "vascular"
+    ],
+    "hallucinated_entities": [
+        "collapse",
+        "right  sided",
+        "right middle lobe"
+    ],
+    "common_entities": [
+        "hydropneumothorax"
+    ],
+    "missing_relations": [
+        {
+            "source": "increase",
+            "relation": "modify",
+            "target": "congestion"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "collapse",
+            "relation": "located_at",
+            "target": "right middle lobe"
+        },
+        {
+            "source": "hydropneumothorax",
+            "relation": "located_at",
+            "target": "right  sided"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 4,
+        "groundtruth_entity_count": 6,
+        "common_entity_count": 1,
+        "missing_entity_count": 5,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 1,
+        "missing_relation_count": 1,
+        "hallucinated_relation_count": 2
+    }
+}

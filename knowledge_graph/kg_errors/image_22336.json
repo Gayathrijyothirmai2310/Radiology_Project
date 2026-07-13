@@ -1,0 +1,74 @@
+{
+    "image_id": "image_22336",
+    "generated_text": "Pulmonary edema .",
+    "ground_truth_text": "Bilateral diffuse pulmonary opacity may be due to severe pulmonary edema or hemorrhage , in the correct setting . Retrocardiac opacification may also be due to a component of underlying atelectasis .",
+    "missing_entities": [
+        "atelectasis",
+        "bilateral",
+        "diffuse",
+        "hemorrhage",
+        "opacification",
+        "opacity",
+        "retrocardiac",
+        "severe"
+    ],
+    "hallucinated_entities": [],
+    "common_entities": [
+        "edema",
+        "pulmonary"
+    ],
+    "missing_relations": [
+        {
+            "source": "bilateral",
+            "relation": "modify",
+            "target": "pulmonary"
+        },
+        {
+            "source": "diffuse",
+            "relation": "modify",
+            "target": "opacity"
+        },
+        {
+            "source": "opacification",
+            "relation": "located_at",
+            "target": "retrocardiac"
+        },
+        {
+            "source": "opacification",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "edema"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "hemorrhage"
+        },
+        {
+            "source": "severe",
+            "relation": "modify",
+            "target": "edema"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 2,
+        "groundtruth_entity_count": 10,
+        "common_entity_count": 2,
+        "missing_entity_count": 8,
+        "hallucinated_entity_count": 0,
+        "generated_relation_count": 1,
+        "groundtruth_relation_count": 9,
+        "missing_relation_count": 8,
+        "hallucinated_relation_count": 0
+    }
+}

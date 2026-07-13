@@ -1,0 +1,45 @@
+{
+    "image_id": "image_12092",
+    "generated_text": "No acute cardiopulmonary process .",
+    "ground_truth_text": "No acute findings .",
+    "missing_entities": [
+        "findings"
+    ],
+    "hallucinated_entities": [
+        "cardiopulmonary",
+        "process"
+    ],
+    "common_entities": [
+        "acute"
+    ],
+    "missing_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "findings"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 2,
+        "common_entity_count": 1,
+        "missing_entity_count": 1,
+        "hallucinated_entity_count": 2,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 1,
+        "missing_relation_count": 1,
+        "hallucinated_relation_count": 2
+    }
+}

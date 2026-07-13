@@ -1,0 +1,96 @@
+{
+    "image_id": "image_18946",
+    "generated_text": "Slight decrease in size of left pneumothorax",
+    "ground_truth_text": "Interval increase in the moderate left - sided pneumothorax compared to the prior exam with slightly increased deviation of trachea to the right . New small left pleural effusion These findings were discussed with Dr . by Dr . by phone at : a . m . on the day of the exam .",
+    "missing_entities": [
+        "deviation",
+        "effusion",
+        "increase",
+        "increased",
+        "left  sided",
+        "moderate",
+        "new",
+        "pleural",
+        "small",
+        "trachea"
+    ],
+    "hallucinated_entities": [
+        "decrease",
+        "size",
+        "slight"
+    ],
+    "common_entities": [
+        "left",
+        "pneumothorax"
+    ],
+    "missing_relations": [
+        {
+            "source": "deviation",
+            "relation": "located_at",
+            "target": "trachea"
+        },
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "increase",
+            "relation": "modify",
+            "target": "pneumothorax"
+        },
+        {
+            "source": "increased",
+            "relation": "modify",
+            "target": "deviation"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "moderate",
+            "relation": "modify",
+            "target": "pneumothorax"
+        },
+        {
+            "source": "new",
+            "relation": "modify",
+            "target": "effusion"
+        },
+        {
+            "source": "pneumothorax",
+            "relation": "located_at",
+            "target": "left  sided"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "effusion"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "pneumothorax",
+            "relation": "located_at",
+            "target": "left"
+        },
+        {
+            "source": "slight",
+            "relation": "modify",
+            "target": "decrease"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 5,
+        "groundtruth_entity_count": 12,
+        "common_entity_count": 2,
+        "missing_entity_count": 10,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 9,
+        "missing_relation_count": 9,
+        "hallucinated_relation_count": 2
+    }
+}

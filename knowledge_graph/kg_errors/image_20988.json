@@ -1,0 +1,95 @@
+{
+    "image_id": "image_20988",
+    "generated_text": "Increased opacification at the bases is consistent with layering effusions and compressive atelectasis .",
+    "ground_truth_text": "Worsening of the patient ' s pulmonary edema , more severe on the right than on the left . Bibasilar pleural effusions with compressive atelectasis .",
+    "missing_entities": [
+        "bibasilar pleural",
+        "compressive atelectasis",
+        "edema",
+        "pulmonary",
+        "right",
+        "severe",
+        "worsening"
+    ],
+    "hallucinated_entities": [
+        "atelectasis",
+        "bases",
+        "compressive",
+        "increased",
+        "layering",
+        "opacification"
+    ],
+    "common_entities": [
+        "effusions"
+    ],
+    "missing_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "effusions",
+            "relation": "located_at",
+            "target": "bibasilar pleural"
+        },
+        {
+            "source": "severe",
+            "relation": "located_at",
+            "target": "right"
+        },
+        {
+            "source": "severe",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "worsening",
+            "relation": "modify",
+            "target": "edema"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "compressive",
+            "relation": "modify",
+            "target": "atelectasis"
+        },
+        {
+            "source": "increased",
+            "relation": "modify",
+            "target": "opacification"
+        },
+        {
+            "source": "layering",
+            "relation": "modify",
+            "target": "effusions"
+        },
+        {
+            "source": "opacification",
+            "relation": "located_at",
+            "target": "bases"
+        },
+        {
+            "source": "opacification",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        },
+        {
+            "source": "opacification",
+            "relation": "suggestive_of",
+            "target": "effusions"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 7,
+        "groundtruth_entity_count": 8,
+        "common_entity_count": 1,
+        "missing_entity_count": 7,
+        "hallucinated_entity_count": 6,
+        "generated_relation_count": 6,
+        "groundtruth_relation_count": 5,
+        "missing_relation_count": 5,
+        "hallucinated_relation_count": 6
+    }
+}

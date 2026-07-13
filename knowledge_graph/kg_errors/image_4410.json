@@ -1,0 +1,68 @@
+{
+    "image_id": "image_4410",
+    "generated_text": "Mild pulmonary edema . Small left pleural effusion .",
+    "ground_truth_text": "Improved aeration of the right lower lobe with persistent left basal pleural effusion and atelectasis .",
+    "missing_entities": [
+        "aeration",
+        "atelectasis",
+        "improved",
+        "left basal pleural",
+        "right lower lobe"
+    ],
+    "hallucinated_entities": [
+        "edema",
+        "left",
+        "mild",
+        "pleural",
+        "pulmonary",
+        "small"
+    ],
+    "common_entities": [
+        "effusion"
+    ],
+    "missing_relations": [
+        {
+            "source": "aeration",
+            "relation": "located_at",
+            "target": "right lower lobe"
+        },
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "left basal pleural"
+        },
+        {
+            "source": "improved",
+            "relation": "modify",
+            "target": "aeration"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "pleural"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 7,
+        "groundtruth_entity_count": 6,
+        "common_entity_count": 1,
+        "missing_entity_count": 5,
+        "hallucinated_entity_count": 6,
+        "generated_relation_count": 3,
+        "groundtruth_relation_count": 3,
+        "missing_relation_count": 3,
+        "hallucinated_relation_count": 3
+    }
+}

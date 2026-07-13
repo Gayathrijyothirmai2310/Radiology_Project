@@ -1,0 +1,39 @@
+{
+    "image_id": "image_14858",
+    "generated_text": "Possible small right pleural effusion .",
+    "ground_truth_text": "No evidence of acute disease .",
+    "missing_entities": [
+        "acute disease"
+    ],
+    "hallucinated_entities": [
+        "effusion",
+        "pleural",
+        "right",
+        "small"
+    ],
+    "common_entities": [],
+    "missing_relations": [],
+    "hallucinated_relations": [
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "pleural"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 4,
+        "groundtruth_entity_count": 1,
+        "common_entity_count": 0,
+        "missing_entity_count": 1,
+        "hallucinated_entity_count": 4,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 0,
+        "missing_relation_count": 0,
+        "hallucinated_relation_count": 2
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "image_id": "image_3132",
+    "generated_text": "Slight increase in extent of the pre - existing right basal parenchymal opacity . Unchanged retrocardiac atelectasis .",
+    "ground_truth_text": "PICC line is in good position . Linear changes in the left base probably reflect atelectasis . There is increased opacification of the right base which might represent infection .",
+    "missing_entities": [
+        "base",
+        "good position",
+        "increased opacification",
+        "infection",
+        "left",
+        "linear changes",
+        "picc line",
+        "right base"
+    ],
+    "hallucinated_entities": [
+        "basal",
+        "increase",
+        "increase in extent",
+        "opacity",
+        "parenchymal",
+        "pre  existing",
+        "retrocardiac",
+        "right",
+        "slight",
+        "unchanged"
+    ],
+    "common_entities": [
+        "atelectasis"
+    ],
+    "missing_relations": [
+        {
+            "source": "good position",
+            "relation": "modify",
+            "target": "picc line"
+        },
+        {
+            "source": "increased opacification",
+            "relation": "located_at",
+            "target": "right base"
+        },
+        {
+            "source": "increased opacification",
+            "relation": "suggestive_of",
+            "target": "infection"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "base"
+        },
+        {
+            "source": "linear changes",
+            "relation": "located_at",
+            "target": "base"
+        },
+        {
+            "source": "linear changes",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "atelectasis",
+            "relation": "located_at",
+            "target": "retrocardiac"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "basal"
+        },
+        {
+            "source": "parenchymal",
+            "relation": "modify",
+            "target": "basal"
+        },
+        {
+            "source": "pre  existing",
+            "relation": "modify",
+            "target": "opacity"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "basal"
+        },
+        {
+            "source": "unchanged",
+            "relation": "modify",
+            "target": "atelectasis"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 11,
+        "groundtruth_entity_count": 9,
+        "common_entity_count": 1,
+        "missing_entity_count": 8,
+        "hallucinated_entity_count": 10,
+        "generated_relation_count": 6,
+        "groundtruth_relation_count": 6,
+        "missing_relation_count": 6,
+        "hallucinated_relation_count": 6
+    }
+}

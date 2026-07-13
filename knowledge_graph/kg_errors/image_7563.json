@@ -1,0 +1,38 @@
+{
+    "image_id": "image_7563",
+    "generated_text": "No significant changes are observed .",
+    "ground_truth_text": "Bibasilar atelectasis are improved .",
+    "missing_entities": [
+        "atelectasis",
+        "bibasilar",
+        "improved"
+    ],
+    "hallucinated_entities": [
+        "changes"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "atelectasis",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "improved",
+            "relation": "modify",
+            "target": "atelectasis"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 1,
+        "groundtruth_entity_count": 3,
+        "common_entity_count": 0,
+        "missing_entity_count": 3,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 2,
+        "missing_relation_count": 2,
+        "hallucinated_relation_count": 0
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "image_id": "image_8525",
+    "generated_text": "Mild pulmonary edema .",
+    "ground_truth_text": "Mild cardiomegaly with mild pulmonary edema .",
+    "missing_entities": [
+        "cardiomegaly"
+    ],
+    "hallucinated_entities": [],
+    "common_entities": [
+        "edema",
+        "mild",
+        "pulmonary"
+    ],
+    "missing_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "cardiomegaly"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 4,
+        "common_entity_count": 3,
+        "missing_entity_count": 1,
+        "hallucinated_entity_count": 0,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 2,
+        "missing_relation_count": 2,
+        "hallucinated_relation_count": 0
+    }
+}

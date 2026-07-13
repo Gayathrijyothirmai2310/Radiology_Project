@@ -1,0 +1,58 @@
+{
+    "image_id": "image_24096",
+    "generated_text": "No acute cardiopulmonary process .",
+    "ground_truth_text": "Right basilar atelectasis and / or small effusion .",
+    "missing_entities": [
+        "atelectasis",
+        "basilar",
+        "effusion",
+        "right",
+        "small"
+    ],
+    "hallucinated_entities": [
+        "acute",
+        "cardiopulmonary",
+        "process"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "atelectasis",
+            "relation": "located_at",
+            "target": "basilar"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "basilar"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "effusion"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 5,
+        "common_entity_count": 0,
+        "missing_entity_count": 5,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 3,
+        "missing_relation_count": 3,
+        "hallucinated_relation_count": 2
+    }
+}

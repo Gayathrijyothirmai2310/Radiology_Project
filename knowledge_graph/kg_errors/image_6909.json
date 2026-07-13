@@ -1,0 +1,108 @@
+{
+    "image_id": "image_6909",
+    "generated_text": "1 . Low position of the endotracheal tube , terminating 1 . 5 cm above the carina . 2 . Right basilar opacity , likely atelectasis .",
+    "ground_truth_text": "Endotracheal and enteric tubes in appropriate position . Small right pleural effusion with increased underlying atelectasis compared to the most recent prior study .",
+    "missing_entities": [
+        "appropriate",
+        "effusion",
+        "endotracheal",
+        "enteric",
+        "increased",
+        "pleural",
+        "small",
+        "tubes",
+        "underlying"
+    ],
+    "hallucinated_entities": [
+        "1  5 cm above",
+        "basilar",
+        "carina",
+        "endotracheal tube",
+        "opacity"
+    ],
+    "common_entities": [
+        "atelectasis",
+        "position",
+        "right"
+    ],
+    "missing_relations": [
+        {
+            "source": "appropriate",
+            "relation": "modify",
+            "target": "position"
+        },
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "endotracheal",
+            "relation": "modify",
+            "target": "tubes"
+        },
+        {
+            "source": "enteric",
+            "relation": "modify",
+            "target": "tubes"
+        },
+        {
+            "source": "increased",
+            "relation": "modify",
+            "target": "atelectasis"
+        },
+        {
+            "source": "position",
+            "relation": "modify",
+            "target": "tubes"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "effusion"
+        },
+        {
+            "source": "underlying",
+            "relation": "modify",
+            "target": "atelectasis"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "1  5 cm above",
+            "relation": "modify",
+            "target": "carina"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "basilar"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "basilar"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 8,
+        "groundtruth_entity_count": 12,
+        "common_entity_count": 3,
+        "missing_entity_count": 9,
+        "hallucinated_entity_count": 5,
+        "generated_relation_count": 4,
+        "groundtruth_relation_count": 9,
+        "missing_relation_count": 9,
+        "hallucinated_relation_count": 4
+    }
+}

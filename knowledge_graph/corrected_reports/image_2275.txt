@@ -1,0 +1,3 @@
+pulmonary .
+
+Possible missing findings: pneumonia.

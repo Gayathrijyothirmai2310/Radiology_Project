@@ -1,0 +1,131 @@
+{
+    "image_id": "image_12101",
+    "generated_text": "Diffuse bilateral pulmonary opacification , worse on the right , is consistent with asymmetric pulmonary edema .",
+    "ground_truth_text": "Endotracheal and enteric tubes in standard positions . Moderate pulmonary edema with trace bilateral pleural effusions . These findings may relate to ARDS . Lucency about the mediastinum concerning for pneumomediastinum .",
+    "missing_entities": [
+        "ards",
+        "effusions",
+        "endotracheal",
+        "enteric",
+        "lucency",
+        "mediastinum",
+        "moderate",
+        "pleural",
+        "pneumomediastinum",
+        "standard positions",
+        "trace",
+        "tubes"
+    ],
+    "hallucinated_entities": [
+        "asymmetric",
+        "diffuse",
+        "opacification",
+        "right",
+        "worse"
+    ],
+    "common_entities": [
+        "bilateral",
+        "edema",
+        "pulmonary"
+    ],
+    "missing_relations": [
+        {
+            "source": "bilateral",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "effusions",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "effusions",
+            "relation": "suggestive_of",
+            "target": "ards"
+        },
+        {
+            "source": "endotracheal",
+            "relation": "modify",
+            "target": "tubes"
+        },
+        {
+            "source": "enteric",
+            "relation": "modify",
+            "target": "tubes"
+        },
+        {
+            "source": "lucency",
+            "relation": "located_at",
+            "target": "mediastinum"
+        },
+        {
+            "source": "lucency",
+            "relation": "suggestive_of",
+            "target": "pneumomediastinum"
+        },
+        {
+            "source": "moderate",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "standard positions",
+            "relation": "modify",
+            "target": "tubes"
+        },
+        {
+            "source": "trace",
+            "relation": "modify",
+            "target": "effusions"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "asymmetric",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "bilateral",
+            "relation": "modify",
+            "target": "pulmonary"
+        },
+        {
+            "source": "diffuse",
+            "relation": "modify",
+            "target": "opacification"
+        },
+        {
+            "source": "opacification",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "opacification",
+            "relation": "suggestive_of",
+            "target": "edema"
+        },
+        {
+            "source": "worse",
+            "relation": "located_at",
+            "target": "right"
+        },
+        {
+            "source": "worse",
+            "relation": "modify",
+            "target": "opacification"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 8,
+        "groundtruth_entity_count": 15,
+        "common_entity_count": 3,
+        "missing_entity_count": 12,
+        "hallucinated_entity_count": 5,
+        "generated_relation_count": 8,
+        "groundtruth_relation_count": 11,
+        "missing_relation_count": 10,
+        "hallucinated_relation_count": 7
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "image_id": "image_20713",
+    "generated_text": "Small left apical pneumothorax",
+    "ground_truth_text": "Interval resolution of loculated pneumothorax associated with a left base chest tube . No recurrent pleural effusion or pneumothorax .",
+    "missing_entities": [
+        "base",
+        "chest",
+        "effusion",
+        "interval",
+        "loculated",
+        "pleural",
+        "resolution",
+        "tube"
+    ],
+    "hallucinated_entities": [
+        "apical",
+        "small"
+    ],
+    "common_entities": [
+        "left",
+        "pneumothorax"
+    ],
+    "missing_relations": [
+        {
+            "source": "base",
+            "relation": "modify",
+            "target": "chest"
+        },
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "chest"
+        },
+        {
+            "source": "loculated",
+            "relation": "modify",
+            "target": "pneumothorax"
+        },
+        {
+            "source": "tube",
+            "relation": "located_at",
+            "target": "chest"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "pneumothorax",
+            "relation": "located_at",
+            "target": "apical"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 4,
+        "groundtruth_entity_count": 10,
+        "common_entity_count": 2,
+        "missing_entity_count": 8,
+        "hallucinated_entity_count": 2,
+        "generated_relation_count": 1,
+        "groundtruth_relation_count": 5,
+        "missing_relation_count": 5,
+        "hallucinated_relation_count": 1
+    }
+}

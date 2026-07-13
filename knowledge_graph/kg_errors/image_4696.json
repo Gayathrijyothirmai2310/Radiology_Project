@@ -1,0 +1,77 @@
+{
+    "image_id": "image_4696",
+    "generated_text": "No significant changes were observed .",
+    "ground_truth_text": "The ET tube cuff may be slightly hyperinflated . Lung volumes are lower and there may be minimal worsening of layering left pleural effusion .",
+    "missing_entities": [
+        "cuff",
+        "effusion",
+        "et tube",
+        "hyperinflated",
+        "layering",
+        "left",
+        "lower",
+        "lung",
+        "minimal worsening",
+        "pleural",
+        "slightly hyperinflated",
+        "volumes"
+    ],
+    "hallucinated_entities": [
+        "changes"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "cuff",
+            "relation": "modify",
+            "target": "et tube"
+        },
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "hyperinflated",
+            "relation": "modify",
+            "target": "cuff"
+        },
+        {
+            "source": "layering",
+            "relation": "modify",
+            "target": "effusion"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "lower",
+            "relation": "located_at",
+            "target": "lung"
+        },
+        {
+            "source": "slightly hyperinflated",
+            "relation": "modify",
+            "target": "cuff"
+        },
+        {
+            "source": "volumes",
+            "relation": "modify",
+            "target": "lung"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 1,
+        "groundtruth_entity_count": 12,
+        "common_entity_count": 0,
+        "missing_entity_count": 12,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 8,
+        "missing_relation_count": 8,
+        "hallucinated_relation_count": 0
+    }
+}

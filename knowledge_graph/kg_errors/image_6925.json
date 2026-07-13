@@ -1,0 +1,32 @@
+{
+    "image_id": "image_6925",
+    "generated_text": "Mild pulmonary edema .",
+    "ground_truth_text": "Pulmonary edema .",
+    "missing_entities": [],
+    "hallucinated_entities": [
+        "mild"
+    ],
+    "common_entities": [
+        "edema",
+        "pulmonary"
+    ],
+    "missing_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 2,
+        "common_entity_count": 2,
+        "missing_entity_count": 0,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 1,
+        "missing_relation_count": 1,
+        "hallucinated_relation_count": 0
+    }
+}

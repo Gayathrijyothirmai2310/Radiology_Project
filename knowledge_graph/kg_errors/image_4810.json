@@ -1,0 +1,74 @@
+{
+    "image_id": "image_4810",
+    "generated_text": "No acute cardiopulmonary process .",
+    "ground_truth_text": "Pacemaker with single lead in the right ventricle , without pneumothorax or evidence of other complication . Possible increase in severe cardiomegaly , but pulmonary vascular engorgement has improved and there is no edema .",
+    "missing_entities": [
+        "cardiomegaly",
+        "edema",
+        "engorgement",
+        "improved",
+        "pacemaker",
+        "pneumothorax",
+        "pulmonary",
+        "right ventricle",
+        "severe",
+        "single lead",
+        "vascular"
+    ],
+    "hallucinated_entities": [
+        "acute",
+        "cardiopulmonary",
+        "process"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "engorgement",
+            "relation": "located_at",
+            "target": "vascular"
+        },
+        {
+            "source": "improved",
+            "relation": "modify",
+            "target": "engorgement"
+        },
+        {
+            "source": "severe",
+            "relation": "modify",
+            "target": "cardiomegaly"
+        },
+        {
+            "source": "single lead",
+            "relation": "located_at",
+            "target": "right ventricle"
+        },
+        {
+            "source": "single lead",
+            "relation": "modify",
+            "target": "pacemaker"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 11,
+        "common_entity_count": 0,
+        "missing_entity_count": 11,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 5,
+        "missing_relation_count": 5,
+        "hallucinated_relation_count": 2
+    }
+}

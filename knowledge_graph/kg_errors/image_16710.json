@@ -1,0 +1,42 @@
+{
+    "image_id": "image_16710",
+    "generated_text": "No significant changes were observed .",
+    "ground_truth_text": "Volume loss with bilateral lower lobe atelectasis , progressed when compared to the prior study . Superimposed infection cannot be excluded .",
+    "missing_entities": [
+        "atelectasis",
+        "bilateral",
+        "loss",
+        "lower lobe",
+        "progressed",
+        "superimposed infection",
+        "volume"
+    ],
+    "hallucinated_entities": [
+        "changes"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "loss",
+            "relation": "located_at",
+            "target": "volume"
+        },
+        {
+            "source": "progressed",
+            "relation": "modify",
+            "target": "atelectasis"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 1,
+        "groundtruth_entity_count": 7,
+        "common_entity_count": 0,
+        "missing_entity_count": 7,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 2,
+        "missing_relation_count": 2,
+        "hallucinated_relation_count": 0
+    }
+}

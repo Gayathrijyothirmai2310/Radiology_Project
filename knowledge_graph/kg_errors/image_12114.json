@@ -1,0 +1,80 @@
+{
+    "image_id": "image_12114",
+    "generated_text": "Bibasilar opacities , left greater than right , could represent atelectasis or aspiration .",
+    "ground_truth_text": "Endotracheal tube and transesophageal tube are in adequate position . Progressive basilar opacities may represent atelectasis , though infiltrate is not excluded .",
+    "missing_entities": [
+        "basilar",
+        "endotracheal",
+        "endotracheal tube",
+        "infiltrate",
+        "progressive",
+        "transesophageal",
+        "tube"
+    ],
+    "hallucinated_entities": [
+        "aspiration",
+        "bibasilar",
+        "greater",
+        "left",
+        "right"
+    ],
+    "common_entities": [
+        "atelectasis",
+        "opacities"
+    ],
+    "missing_relations": [
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "basilar"
+        },
+        {
+            "source": "progressive",
+            "relation": "modify",
+            "target": "opacities"
+        },
+        {
+            "source": "transesophageal",
+            "relation": "modify",
+            "target": "tube"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "greater",
+            "relation": "located_at",
+            "target": "left"
+        },
+        {
+            "source": "greater",
+            "relation": "modify",
+            "target": "opacities"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "bibasilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "aspiration"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 7,
+        "groundtruth_entity_count": 9,
+        "common_entity_count": 2,
+        "missing_entity_count": 7,
+        "hallucinated_entity_count": 5,
+        "generated_relation_count": 6,
+        "groundtruth_relation_count": 4,
+        "missing_relation_count": 3,
+        "hallucinated_relation_count": 5
+    }
+}

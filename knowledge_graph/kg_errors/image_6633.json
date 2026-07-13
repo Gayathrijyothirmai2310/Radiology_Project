@@ -1,0 +1,46 @@
+{
+    "image_id": "image_6633",
+    "generated_text": "No acute cardiopulmonary process .",
+    "ground_truth_text": "Mild cardiomegaly . No pneumonia .",
+    "missing_entities": [
+        "cardiomegaly",
+        "mild",
+        "pneumonia"
+    ],
+    "hallucinated_entities": [
+        "acute",
+        "cardiopulmonary",
+        "process"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "cardiomegaly"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 3,
+        "common_entity_count": 0,
+        "missing_entity_count": 3,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 1,
+        "missing_relation_count": 1,
+        "hallucinated_relation_count": 2
+    }
+}

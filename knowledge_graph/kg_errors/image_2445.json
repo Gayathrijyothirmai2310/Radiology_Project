@@ -1,0 +1,47 @@
+{
+    "image_id": "image_2445",
+    "generated_text": "Prominent right hilum . Mild pulmonary edema .",
+    "ground_truth_text": "Pulmonary edema with small bilateral pleural effusions and cardiomegaly .",
+    "missing_entities": [
+        "bilateral",
+        "cardiomegaly",
+        "effusions",
+        "pleural",
+        "small"
+    ],
+    "hallucinated_entities": [
+        "hilum",
+        "mild",
+        "prominent",
+        "right"
+    ],
+    "common_entities": [
+        "edema",
+        "pulmonary"
+    ],
+    "missing_relations": [
+        {
+            "source": "effusions",
+            "relation": "located_at",
+            "target": "pleural"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "prominent",
+            "relation": "located_at",
+            "target": "hilum"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 6,
+        "groundtruth_entity_count": 7,
+        "common_entity_count": 2,
+        "missing_entity_count": 5,
+        "hallucinated_entity_count": 4,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 2,
+        "missing_relation_count": 1,
+        "hallucinated_relation_count": 1
+    }
+}

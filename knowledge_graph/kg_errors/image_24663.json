@@ -1,0 +1,58 @@
+{
+    "image_id": "image_24663",
+    "generated_text": "No acute focal pneumonia .",
+    "ground_truth_text": "Right - sided PICC line likely terminates at the confluence of the brachiocephalic vein / proximal SVC , however the tip is not definitely identified on this portable examination . PA and lateral chest radiographs may be helpful for further delineation",
+    "missing_entities": [
+        "picc line",
+        "proximal",
+        "right  sided",
+        "svc",
+        "tip"
+    ],
+    "hallucinated_entities": [
+        "acute",
+        "focal",
+        "pneumonia"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "picc line",
+            "relation": "located_at",
+            "target": "right  sided"
+        },
+        {
+            "source": "proximal",
+            "relation": "modify",
+            "target": "svc"
+        },
+        {
+            "source": "tip",
+            "relation": "modify",
+            "target": "picc line"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "pneumonia"
+        },
+        {
+            "source": "focal",
+            "relation": "modify",
+            "target": "pneumonia"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 5,
+        "common_entity_count": 0,
+        "missing_entity_count": 5,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 3,
+        "missing_relation_count": 3,
+        "hallucinated_relation_count": 2
+    }
+}

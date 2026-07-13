@@ -1,0 +1,68 @@
+{
+    "image_id": "image_8969",
+    "generated_text": "Mild pulmonary vascular congestion and bibasilar atelectasis .",
+    "ground_truth_text": "Repositioned left PICC with the tip in the upper SVC . Resolution of mild pulmonary edema . No evidence of pneumonia .",
+    "missing_entities": [
+        "edema",
+        "left",
+        "picc",
+        "pneumonia",
+        "repositioned",
+        "tip"
+    ],
+    "hallucinated_entities": [
+        "atelectasis",
+        "bibasilar",
+        "congestion",
+        "vascular"
+    ],
+    "common_entities": [
+        "mild",
+        "pulmonary"
+    ],
+    "missing_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "picc",
+            "relation": "located_at",
+            "target": "left"
+        },
+        {
+            "source": "repositioned",
+            "relation": "modify",
+            "target": "picc"
+        },
+        {
+            "source": "tip",
+            "relation": "modify",
+            "target": "picc"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "congestion"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 6,
+        "groundtruth_entity_count": 8,
+        "common_entity_count": 2,
+        "missing_entity_count": 6,
+        "hallucinated_entity_count": 4,
+        "generated_relation_count": 1,
+        "groundtruth_relation_count": 5,
+        "missing_relation_count": 5,
+        "hallucinated_relation_count": 1
+    }
+}

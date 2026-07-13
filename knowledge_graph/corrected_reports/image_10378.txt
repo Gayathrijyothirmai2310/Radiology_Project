@@ -1,0 +1,3 @@
+Left
+
+Possible missing findings: pneumonia.

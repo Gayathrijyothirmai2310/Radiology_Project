@@ -1,0 +1,40 @@
+{
+    "image_id": "image_10244",
+    "generated_text": "Mild pulmonary edema .",
+    "ground_truth_text": "No acute cardiopulmonary process .",
+    "missing_entities": [
+        "acute",
+        "cardiopulmonary",
+        "process"
+    ],
+    "hallucinated_entities": [
+        "edema",
+        "mild",
+        "pulmonary"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 3,
+        "common_entity_count": 0,
+        "missing_entity_count": 3,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 2,
+        "missing_relation_count": 2,
+        "hallucinated_relation_count": 0
+    }
+}

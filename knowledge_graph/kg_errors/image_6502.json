@@ -1,0 +1,54 @@
+{
+    "image_id": "image_6502",
+    "generated_text": "Small left pneumothorax",
+    "ground_truth_text": "Postsurgical changes without evidence of pneumothorax . Left chest tube in place .",
+    "missing_entities": [
+        "changes",
+        "chest",
+        "in place",
+        "postsurgical",
+        "tube"
+    ],
+    "hallucinated_entities": [
+        "small"
+    ],
+    "common_entities": [
+        "left",
+        "pneumothorax"
+    ],
+    "missing_relations": [
+        {
+            "source": "in place",
+            "relation": "modify",
+            "target": "tube"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "chest"
+        },
+        {
+            "source": "postsurgical",
+            "relation": "modify",
+            "target": "changes"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "pneumothorax",
+            "relation": "located_at",
+            "target": "left"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 7,
+        "common_entity_count": 2,
+        "missing_entity_count": 5,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 1,
+        "groundtruth_relation_count": 3,
+        "missing_relation_count": 3,
+        "hallucinated_relation_count": 1
+    }
+}

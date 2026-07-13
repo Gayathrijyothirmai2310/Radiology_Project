@@ -1,0 +1,83 @@
+{
+    "image_id": "image_22145",
+    "generated_text": "1 . Diffuse interstitial lung disease . 2 . Small amount of free air under the left hemidiaphragm .",
+    "ground_truth_text": "Stable known pneumoperitoneum . Stable cardiopulmonary findings",
+    "missing_entities": [
+        "cardiopulmonary",
+        "findings",
+        "pneumoperitoneum",
+        "stable"
+    ],
+    "hallucinated_entities": [
+        "diffuse",
+        "disease",
+        "free air",
+        "hemidiaphragm",
+        "interstitial",
+        "left",
+        "lung",
+        "small",
+        "under"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "findings",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        },
+        {
+            "source": "stable",
+            "relation": "modify",
+            "target": "findings"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "diffuse",
+            "relation": "modify",
+            "target": "disease"
+        },
+        {
+            "source": "disease",
+            "relation": "located_at",
+            "target": "interstitial"
+        },
+        {
+            "source": "free air",
+            "relation": "located_at",
+            "target": "hemidiaphragm"
+        },
+        {
+            "source": "interstitial",
+            "relation": "modify",
+            "target": "lung"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "hemidiaphragm"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "free air"
+        },
+        {
+            "source": "under",
+            "relation": "modify",
+            "target": "hemidiaphragm"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 9,
+        "groundtruth_entity_count": 4,
+        "common_entity_count": 0,
+        "missing_entity_count": 4,
+        "hallucinated_entity_count": 9,
+        "generated_relation_count": 7,
+        "groundtruth_relation_count": 2,
+        "missing_relation_count": 2,
+        "hallucinated_relation_count": 7
+    }
+}

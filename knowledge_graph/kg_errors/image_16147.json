@@ -1,0 +1,97 @@
+{
+    "image_id": "image_16147",
+    "generated_text": "Left basilar opacity silhouetting the hemidiaphragm , potentially atelectasis noting that infection is not excluded .",
+    "ground_truth_text": "Bibasilar opacities , left greater than right , potentially atelectasis , noting that infection is also possible . Consider PA and lateral film performed in the radiology department for improved visualization .",
+    "missing_entities": [
+        "bibasilar",
+        "greater",
+        "opacities",
+        "right"
+    ],
+    "hallucinated_entities": [
+        "basilar",
+        "hemidiaphragm",
+        "opacity",
+        "silhouetting"
+    ],
+    "common_entities": [
+        "atelectasis",
+        "infection",
+        "left"
+    ],
+    "missing_relations": [
+        {
+            "source": "greater",
+            "relation": "located_at",
+            "target": "left"
+        },
+        {
+            "source": "greater",
+            "relation": "modify",
+            "target": "opacities"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "bibasilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "infection"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "bibasilar"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "basilar"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "basilar"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        },
+        {
+            "source": "silhouetting",
+            "relation": "located_at",
+            "target": "hemidiaphragm"
+        },
+        {
+            "source": "silhouetting",
+            "relation": "modify",
+            "target": "opacity"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 7,
+        "groundtruth_entity_count": 7,
+        "common_entity_count": 3,
+        "missing_entity_count": 4,
+        "hallucinated_entity_count": 4,
+        "generated_relation_count": 5,
+        "groundtruth_relation_count": 7,
+        "missing_relation_count": 7,
+        "hallucinated_relation_count": 5
+    }
+}

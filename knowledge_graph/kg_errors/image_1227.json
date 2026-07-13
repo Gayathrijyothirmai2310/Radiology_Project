@@ -1,0 +1,98 @@
+{
+    "image_id": "image_1227",
+    "generated_text": "Large right lower lobe consolidation and small bilateral pleural effusions .",
+    "ground_truth_text": "There is persistent rounded mass like opacity at the lung base with small right pleural effusion . Left lung interstitial edema and atelectasis is slightly increased .",
+    "missing_entities": [
+        "atelectasis",
+        "base",
+        "edema",
+        "effusion",
+        "interstitial",
+        "left lung",
+        "lung",
+        "opacity",
+        "right",
+        "rounded"
+    ],
+    "hallucinated_entities": [
+        "bilateral",
+        "consolidation",
+        "effusions",
+        "large",
+        "right lower lobe"
+    ],
+    "common_entities": [
+        "pleural",
+        "small"
+    ],
+    "missing_relations": [
+        {
+            "source": "base",
+            "relation": "modify",
+            "target": "lung"
+        },
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "interstitial"
+        },
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "interstitial",
+            "relation": "modify",
+            "target": "lung"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "lung"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "effusion"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "consolidation",
+            "relation": "located_at",
+            "target": "right lower lobe"
+        },
+        {
+            "source": "effusions",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "large",
+            "relation": "modify",
+            "target": "consolidation"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "effusions"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 7,
+        "groundtruth_entity_count": 12,
+        "common_entity_count": 2,
+        "missing_entity_count": 10,
+        "hallucinated_entity_count": 5,
+        "generated_relation_count": 4,
+        "groundtruth_relation_count": 7,
+        "missing_relation_count": 7,
+        "hallucinated_relation_count": 4
+    }
+}

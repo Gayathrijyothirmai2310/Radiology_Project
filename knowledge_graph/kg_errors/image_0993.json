@@ -1,0 +1,60 @@
+{
+    "image_id": "image_0993",
+    "generated_text": "The endotracheal tube tip is located over the mid thoracic trachea .",
+    "ground_truth_text": "The new endotracheal tube has been placed into the right mainstem bronchus , and should be withdrawn for optimal placement . Persistent pulmonary edema , right lung opacities , and bilateral effusions . to Dr .",
+    "missing_entities": [
+        "bilateral",
+        "edema",
+        "effusions",
+        "new endotracheal tube",
+        "opacities",
+        "pulmonary",
+        "right lung",
+        "right mainstem bronchus"
+    ],
+    "hallucinated_entities": [
+        "mid thoracic trachea",
+        "tip"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "effusions",
+            "relation": "located_at",
+            "target": "bilateral"
+        },
+        {
+            "source": "new endotracheal tube",
+            "relation": "located_at",
+            "target": "right mainstem bronchus"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "right lung"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "tip",
+            "relation": "located_at",
+            "target": "mid thoracic trachea"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 2,
+        "groundtruth_entity_count": 8,
+        "common_entity_count": 0,
+        "missing_entity_count": 8,
+        "hallucinated_entity_count": 2,
+        "generated_relation_count": 1,
+        "groundtruth_relation_count": 4,
+        "missing_relation_count": 4,
+        "hallucinated_relation_count": 1
+    }
+}

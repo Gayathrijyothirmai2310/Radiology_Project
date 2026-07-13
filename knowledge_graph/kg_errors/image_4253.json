@@ -1,0 +1,58 @@
+{
+    "image_id": "image_4253",
+    "generated_text": "No acute intrathoracic process .",
+    "ground_truth_text": "No convincing radiographic evidence for pneumonia is identified . Mild bibasilar opacities are likely atelectasis .",
+    "missing_entities": [
+        "atelectasis",
+        "bibasilar",
+        "mild",
+        "opacities",
+        "pneumonia"
+    ],
+    "hallucinated_entities": [
+        "acute",
+        "intrathoracic",
+        "process"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "opacities"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "intrathoracic"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 5,
+        "common_entity_count": 0,
+        "missing_entity_count": 5,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 3,
+        "missing_relation_count": 3,
+        "hallucinated_relation_count": 2
+    }
+}

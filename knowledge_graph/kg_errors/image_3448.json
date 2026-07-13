@@ -1,0 +1,52 @@
+{
+    "image_id": "image_3448",
+    "generated_text": "No significant changes were observed .",
+    "ground_truth_text": "Atelectasis of the left lower lobe is new compared to the prior study . Pulmonary vascular congestion without frank pulmonary edema .",
+    "missing_entities": [
+        "atelectasis",
+        "congestion",
+        "edema",
+        "left lower lobe",
+        "new",
+        "pulmonary",
+        "vascular"
+    ],
+    "hallucinated_entities": [
+        "changes"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "atelectasis",
+            "relation": "located_at",
+            "target": "left lower lobe"
+        },
+        {
+            "source": "congestion",
+            "relation": "located_at",
+            "target": "vascular"
+        },
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "new",
+            "relation": "modify",
+            "target": "atelectasis"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 1,
+        "groundtruth_entity_count": 7,
+        "common_entity_count": 0,
+        "missing_entity_count": 7,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 4,
+        "missing_relation_count": 4,
+        "hallucinated_relation_count": 0
+    }
+}

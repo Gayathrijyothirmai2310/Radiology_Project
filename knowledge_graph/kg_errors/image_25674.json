@@ -1,0 +1,90 @@
+{
+    "image_id": "image_25674",
+    "generated_text": "Right upper lobe opacity with associated volume loss may represent post - obstructive pneumonia .",
+    "ground_truth_text": "Chronic bilateral parenchymal opacities without convincing evidence for superimposed acute cardiopulmonary process .",
+    "missing_entities": [
+        "acute",
+        "bilateral",
+        "cardiopulmonary",
+        "chronic",
+        "opacities",
+        "parenchymal",
+        "process",
+        "superimposed"
+    ],
+    "hallucinated_entities": [
+        "lobe",
+        "loss",
+        "opacity",
+        "pneumonia",
+        "post  obstructive",
+        "upper",
+        "volume"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "chronic",
+            "relation": "modify",
+            "target": "opacities"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        },
+        {
+            "source": "superimposed",
+            "relation": "modify",
+            "target": "process"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "loss",
+            "relation": "located_at",
+            "target": "volume"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "lobe"
+        },
+        {
+            "source": "opacity",
+            "relation": "suggestive_of",
+            "target": "pneumonia"
+        },
+        {
+            "source": "post  obstructive",
+            "relation": "modify",
+            "target": "pneumonia"
+        },
+        {
+            "source": "upper",
+            "relation": "modify",
+            "target": "lobe"
+        },
+        {
+            "source": "volume",
+            "relation": "modify",
+            "target": "lobe"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 7,
+        "groundtruth_entity_count": 8,
+        "common_entity_count": 0,
+        "missing_entity_count": 8,
+        "hallucinated_entity_count": 7,
+        "generated_relation_count": 6,
+        "groundtruth_relation_count": 4,
+        "missing_relation_count": 4,
+        "hallucinated_relation_count": 6
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "image_id": "image_28458",
+    "generated_text": "No evidence of pneumothorax .",
+    "ground_truth_text": "Expected postoperative appearance of the chest with possible , residual small pneumopericardium .",
+    "missing_entities": [
+        "chest",
+        "expected postoperative appearance",
+        "pneumopericardium",
+        "residual small",
+        "residual small pneumopericardium"
+    ],
+    "hallucinated_entities": [
+        "pneumothorax"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "expected postoperative appearance",
+            "relation": "located_at",
+            "target": "chest"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 1,
+        "groundtruth_entity_count": 5,
+        "common_entity_count": 0,
+        "missing_entity_count": 5,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 1,
+        "missing_relation_count": 1,
+        "hallucinated_relation_count": 0
+    }
+}

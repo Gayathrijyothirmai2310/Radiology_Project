@@ -1,0 +1,27 @@
+{
+    "image_id": "image_26052",
+    "generated_text": "Mild pulmonary edema .",
+    "ground_truth_text": "No pneumothorax .",
+    "missing_entities": [
+        "pneumothorax"
+    ],
+    "hallucinated_entities": [
+        "edema",
+        "mild",
+        "pulmonary"
+    ],
+    "common_entities": [],
+    "missing_relations": [],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 1,
+        "common_entity_count": 0,
+        "missing_entity_count": 1,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 0,
+        "missing_relation_count": 0,
+        "hallucinated_relation_count": 0
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "image_id": "image_15771",
+    "generated_text": "1 . Mild pulmonary edema . 2 . Small right pleural effusion . 3 . Moderate cardiomegaly .",
+    "ground_truth_text": "No change in the degree of pulmonary edema , with persistent bilateral pleural effusions and bibasilar atelectasis .",
+    "missing_entities": [
+        "atelectasis",
+        "bibasilar",
+        "bilateral",
+        "effusions",
+        "no change"
+    ],
+    "hallucinated_entities": [
+        "cardiomegaly",
+        "effusion",
+        "mild",
+        "moderate",
+        "right",
+        "small"
+    ],
+    "common_entities": [
+        "edema",
+        "pleural",
+        "pulmonary"
+    ],
+    "missing_relations": [
+        {
+            "source": "atelectasis",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "bilateral",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "effusions",
+            "relation": "located_at",
+            "target": "pleural"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "moderate",
+            "relation": "modify",
+            "target": "cardiomegaly"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "effusion"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 9,
+        "groundtruth_entity_count": 8,
+        "common_entity_count": 3,
+        "missing_entity_count": 5,
+        "hallucinated_entity_count": 6,
+        "generated_relation_count": 6,
+        "groundtruth_relation_count": 4,
+        "missing_relation_count": 3,
+        "hallucinated_relation_count": 5
+    }
+}

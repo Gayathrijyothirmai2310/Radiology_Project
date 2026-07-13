@@ -1,0 +1,47 @@
+{
+    "image_id": "image_17892",
+    "generated_text": "Small right pneumothorax",
+    "ground_truth_text": "Successful placement of chest tube and PleurX tube , small right basal loculated pneumothorax replaces area of successful pleural drainage .",
+    "missing_entities": [
+        "chest tube",
+        "loculated",
+        "pleurx tube"
+    ],
+    "hallucinated_entities": [
+        "right"
+    ],
+    "common_entities": [
+        "pneumothorax",
+        "small"
+    ],
+    "missing_relations": [
+        {
+            "source": "loculated",
+            "relation": "modify",
+            "target": "pneumothorax"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "pneumothorax"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "pneumothorax",
+            "relation": "located_at",
+            "target": "right"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 5,
+        "common_entity_count": 2,
+        "missing_entity_count": 3,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 1,
+        "groundtruth_relation_count": 2,
+        "missing_relation_count": 2,
+        "hallucinated_relation_count": 1
+    }
+}

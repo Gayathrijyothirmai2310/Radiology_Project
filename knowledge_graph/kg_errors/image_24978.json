@@ -1,0 +1,40 @@
+{
+    "image_id": "image_24978",
+    "generated_text": "No acute cardiopulmonary process .",
+    "ground_truth_text": "Continuous evidence of pneumoperitoneum . No pneumothorax or pneumomediastinum .",
+    "missing_entities": [
+        "pneumomediastinum",
+        "pneumoperitoneum",
+        "pneumothorax"
+    ],
+    "hallucinated_entities": [
+        "acute",
+        "cardiopulmonary",
+        "process"
+    ],
+    "common_entities": [],
+    "missing_relations": [],
+    "hallucinated_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 3,
+        "common_entity_count": 0,
+        "missing_entity_count": 3,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 0,
+        "missing_relation_count": 0,
+        "hallucinated_relation_count": 2
+    }
+}

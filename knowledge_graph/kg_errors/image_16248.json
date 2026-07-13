@@ -1,0 +1,73 @@
+{
+    "image_id": "image_16248",
+    "generated_text": "1 . The endotracheal tube is positioned high , ending 7 . 5 cm above the carina . 2 . The lungs are clear .",
+    "ground_truth_text": "Nasogastric tube tip ends at the GE junction and should be advanced prior to use . Mild bibasilar atelectasis .",
+    "missing_entities": [
+        "atelectasis",
+        "bibasilar",
+        "ge",
+        "mild",
+        "nasogastric",
+        "tip",
+        "tube"
+    ],
+    "hallucinated_entities": [
+        "7  5 cm above",
+        "carina",
+        "clear",
+        "endotracheal tube",
+        "high",
+        "lungs"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "atelectasis",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "atelectasis"
+        },
+        {
+            "source": "nasogastric",
+            "relation": "modify",
+            "target": "tube"
+        },
+        {
+            "source": "tip",
+            "relation": "modify",
+            "target": "tube"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "7  5 cm above",
+            "relation": "modify",
+            "target": "carina"
+        },
+        {
+            "source": "clear",
+            "relation": "located_at",
+            "target": "lungs"
+        },
+        {
+            "source": "high",
+            "relation": "modify",
+            "target": "endotracheal tube"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 6,
+        "groundtruth_entity_count": 7,
+        "common_entity_count": 0,
+        "missing_entity_count": 7,
+        "hallucinated_entity_count": 6,
+        "generated_relation_count": 3,
+        "groundtruth_relation_count": 4,
+        "missing_relation_count": 4,
+        "hallucinated_relation_count": 3
+    }
+}

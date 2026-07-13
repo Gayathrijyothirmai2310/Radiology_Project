@@ -1,0 +1,57 @@
+{
+    "image_id": "image_6526",
+    "generated_text": "Mild pulmonary edema .",
+    "ground_truth_text": "Mild pulmonary edema with small left pleural effusion . No pneumothorax . Results were conveyed via telephone by Dr . to Dr .",
+    "missing_entities": [
+        "effusion",
+        "left",
+        "pleural",
+        "pneumothorax",
+        "small"
+    ],
+    "hallucinated_entities": [],
+    "common_entities": [
+        "edema",
+        "mild",
+        "pulmonary"
+    ],
+    "missing_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "effusion"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 8,
+        "common_entity_count": 3,
+        "missing_entity_count": 5,
+        "hallucinated_entity_count": 0,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 5,
+        "missing_relation_count": 5,
+        "hallucinated_relation_count": 0
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "image_id": "image_19527",
+    "generated_text": "Mild pulmonary edema .",
+    "ground_truth_text": "Single view portable chest examination demonstrates findings compatible with left - sided CHF .",
+    "missing_entities": [
+        "chf",
+        "left  sided"
+    ],
+    "hallucinated_entities": [
+        "edema",
+        "mild",
+        "pulmonary"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "chf",
+            "relation": "located_at",
+            "target": "left  sided"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 2,
+        "common_entity_count": 0,
+        "missing_entity_count": 2,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 1,
+        "missing_relation_count": 1,
+        "hallucinated_relation_count": 0
+    }
+}

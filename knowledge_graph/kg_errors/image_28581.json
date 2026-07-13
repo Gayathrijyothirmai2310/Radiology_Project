@@ -1,0 +1,86 @@
+{
+    "image_id": "image_28581",
+    "generated_text": "Slight increase in extent of the pre - existing bilateral parenchymal opacities .",
+    "ground_truth_text": "ETT in good position . Mild pulmonary vascular congestion . Worsening bibasilar opacities can be worsening atelectasis or aspiration .",
+    "missing_entities": [
+        "aspiration",
+        "atelectasis",
+        "bibasilar",
+        "congestion",
+        "ett",
+        "good",
+        "mild",
+        "position",
+        "pulmonary",
+        "vascular",
+        "worsening"
+    ],
+    "hallucinated_entities": [
+        "bilateral",
+        "parenchymal",
+        "pre  existing"
+    ],
+    "common_entities": [
+        "opacities"
+    ],
+    "missing_relations": [
+        {
+            "source": "congestion",
+            "relation": "located_at",
+            "target": "vascular"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "congestion"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "aspiration"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        },
+        {
+            "source": "worsening",
+            "relation": "modify",
+            "target": "opacities"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "parenchymal"
+        },
+        {
+            "source": "parenchymal",
+            "relation": "modify",
+            "target": "bilateral"
+        },
+        {
+            "source": "pre  existing",
+            "relation": "modify",
+            "target": "opacities"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 4,
+        "groundtruth_entity_count": 12,
+        "common_entity_count": 1,
+        "missing_entity_count": 11,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 3,
+        "groundtruth_relation_count": 6,
+        "missing_relation_count": 6,
+        "hallucinated_relation_count": 3
+    }
+}

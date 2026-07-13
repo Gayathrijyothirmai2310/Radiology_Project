@@ -1,0 +1,72 @@
+{
+    "image_id": "image_11405",
+    "generated_text": "Slight improvement in pulmonary edema .",
+    "ground_truth_text": "Improved aeration of the bilateral lung bases with persistent infrahilar opacities may reflect improved pulmonary edema .",
+    "missing_entities": [
+        "aeration",
+        "bases",
+        "bilateral",
+        "improved",
+        "infrahilar",
+        "lung",
+        "opacities"
+    ],
+    "hallucinated_entities": [
+        "improvement",
+        "slight"
+    ],
+    "common_entities": [
+        "edema",
+        "pulmonary"
+    ],
+    "missing_relations": [
+        {
+            "source": "bases",
+            "relation": "modify",
+            "target": "lung"
+        },
+        {
+            "source": "bilateral",
+            "relation": "modify",
+            "target": "lung"
+        },
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "improved",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "infrahilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "edema"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "slight",
+            "relation": "modify",
+            "target": "improvement"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 4,
+        "groundtruth_entity_count": 9,
+        "common_entity_count": 2,
+        "missing_entity_count": 7,
+        "hallucinated_entity_count": 2,
+        "generated_relation_count": 1,
+        "groundtruth_relation_count": 6,
+        "missing_relation_count": 6,
+        "hallucinated_relation_count": 1
+    }
+}

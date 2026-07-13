@@ -1,0 +1,25 @@
+{
+    "image_id": "image_2362",
+    "generated_text": "No significant changes were observed .",
+    "ground_truth_text": "No change .",
+    "missing_entities": [
+        "change"
+    ],
+    "hallucinated_entities": [
+        "changes"
+    ],
+    "common_entities": [],
+    "missing_relations": [],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 1,
+        "groundtruth_entity_count": 1,
+        "common_entity_count": 0,
+        "missing_entity_count": 1,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 0,
+        "missing_relation_count": 0,
+        "hallucinated_relation_count": 0
+    }
+}

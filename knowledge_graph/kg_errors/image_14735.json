@@ -1,0 +1,77 @@
+{
+    "image_id": "image_14735",
+    "generated_text": "Right lower lobe consolidation and left retrocardiac opacity are concerning for multifocal pneumonia . Mild pulmonary edema and small bilateral pleural effusions are present .",
+    "ground_truth_text": "As above .",
+    "missing_entities": [],
+    "hallucinated_entities": [
+        "bilateral",
+        "consolidation",
+        "edema",
+        "effusions",
+        "left",
+        "mild",
+        "multifocal",
+        "opacity",
+        "pleural",
+        "pneumonia",
+        "pulmonary",
+        "retrocardiac",
+        "right lower lobe",
+        "small"
+    ],
+    "common_entities": [],
+    "missing_relations": [],
+    "hallucinated_relations": [
+        {
+            "source": "bilateral",
+            "relation": "modify",
+            "target": "pleural"
+        },
+        {
+            "source": "consolidation",
+            "relation": "located_at",
+            "target": "right lower lobe"
+        },
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "effusions",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "retrocardiac"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "opacity",
+            "relation": "located_at",
+            "target": "retrocardiac"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "effusions"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 14,
+        "groundtruth_entity_count": 0,
+        "common_entity_count": 0,
+        "missing_entity_count": 0,
+        "hallucinated_entity_count": 14,
+        "generated_relation_count": 8,
+        "groundtruth_relation_count": 0,
+        "missing_relation_count": 0,
+        "hallucinated_relation_count": 8
+    }
+}

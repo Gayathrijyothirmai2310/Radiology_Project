@@ -1,0 +1,75 @@
+{
+    "image_id": "image_26935",
+    "generated_text": "Mild pulmonary edema .",
+    "ground_truth_text": "Diffusely increased interstitial markings in the lungs which can be seen with interstitial edema versus bilateral infection .",
+    "missing_entities": [
+        "bilateral",
+        "diffusely",
+        "increased",
+        "infection",
+        "interstitial",
+        "lungs",
+        "markings"
+    ],
+    "hallucinated_entities": [
+        "mild",
+        "pulmonary"
+    ],
+    "common_entities": [
+        "edema"
+    ],
+    "missing_relations": [
+        {
+            "source": "diffusely",
+            "relation": "modify",
+            "target": "increased"
+        },
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "interstitial"
+        },
+        {
+            "source": "increased",
+            "relation": "modify",
+            "target": "markings"
+        },
+        {
+            "source": "infection",
+            "relation": "located_at",
+            "target": "bilateral"
+        },
+        {
+            "source": "interstitial",
+            "relation": "modify",
+            "target": "lungs"
+        },
+        {
+            "source": "markings",
+            "relation": "located_at",
+            "target": "interstitial"
+        },
+        {
+            "source": "markings",
+            "relation": "suggestive_of",
+            "target": "edema"
+        },
+        {
+            "source": "markings",
+            "relation": "suggestive_of",
+            "target": "infection"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 8,
+        "common_entity_count": 1,
+        "missing_entity_count": 7,
+        "hallucinated_entity_count": 2,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 8,
+        "missing_relation_count": 8,
+        "hallucinated_relation_count": 0
+    }
+}

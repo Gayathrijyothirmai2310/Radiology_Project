@@ -1,0 +1,39 @@
+{
+    "image_id": "image_6918",
+    "generated_text": "Mild pulmonary edema .",
+    "ground_truth_text": "Improvement in pulmonary edema . No additional finding incomplete imaging of the left lung",
+    "missing_entities": [
+        "improvement"
+    ],
+    "hallucinated_entities": [
+        "mild"
+    ],
+    "common_entities": [
+        "edema",
+        "pulmonary"
+    ],
+    "missing_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "pulmonary"
+        },
+        {
+            "source": "improvement",
+            "relation": "modify",
+            "target": "edema"
+        }
+    ],
+    "hallucinated_relations": [],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 3,
+        "common_entity_count": 2,
+        "missing_entity_count": 1,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 0,
+        "groundtruth_relation_count": 2,
+        "missing_relation_count": 2,
+        "hallucinated_relation_count": 0
+    }
+}

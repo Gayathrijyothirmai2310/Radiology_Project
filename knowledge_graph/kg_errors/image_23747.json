@@ -1,0 +1,47 @@
+{
+    "image_id": "image_23747",
+    "generated_text": "No acute cardiopulmonary process .",
+    "ground_truth_text": "No acute intrathoracic process . Interval resolution of previously detected interstitial edema .",
+    "missing_entities": [
+        "edema",
+        "interstitial",
+        "intrathoracic"
+    ],
+    "hallucinated_entities": [
+        "cardiopulmonary"
+    ],
+    "common_entities": [
+        "acute",
+        "process"
+    ],
+    "missing_relations": [
+        {
+            "source": "edema",
+            "relation": "located_at",
+            "target": "interstitial"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "intrathoracic"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 5,
+        "common_entity_count": 2,
+        "missing_entity_count": 3,
+        "hallucinated_entity_count": 1,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 3,
+        "missing_relation_count": 2,
+        "hallucinated_relation_count": 1
+    }
+}

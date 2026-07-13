@@ -1,0 +1,99 @@
+{
+    "image_id": "image_8409",
+    "generated_text": "Mild pulmonary edema . Small bilateral pleural effusions . Bibasilar airspace opacities may reflect atelectasis but infection is not excluded .",
+    "ground_truth_text": "Intervally improved pulmonary edema . Persistent lower lung opacities which could represent pneumonia or aspiration .",
+    "missing_entities": [
+        "aspiration",
+        "improved",
+        "intervally",
+        "lower",
+        "lung",
+        "pneumonia"
+    ],
+    "hallucinated_entities": [
+        "airspace",
+        "atelectasis",
+        "bibasilar",
+        "bilateral",
+        "effusions",
+        "infection",
+        "mild",
+        "pleural",
+        "small"
+    ],
+    "common_entities": [
+        "edema",
+        "opacities",
+        "pulmonary"
+    ],
+    "missing_relations": [
+        {
+            "source": "improved",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "intervally",
+            "relation": "modify",
+            "target": "improved"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "aspiration"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "pneumonia"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "airspace",
+            "relation": "modify",
+            "target": "opacities"
+        },
+        {
+            "source": "effusions",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "edema"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "infection"
+        },
+        {
+            "source": "small",
+            "relation": "modify",
+            "target": "effusions"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 12,
+        "groundtruth_entity_count": 9,
+        "common_entity_count": 3,
+        "missing_entity_count": 6,
+        "hallucinated_entity_count": 9,
+        "generated_relation_count": 8,
+        "groundtruth_relation_count": 5,
+        "missing_relation_count": 4,
+        "hallucinated_relation_count": 7
+    }
+}

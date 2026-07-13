@@ -1,0 +1,70 @@
+{
+    "image_id": "image_16950",
+    "generated_text": "No acute cardiopulmonary process .",
+    "ground_truth_text": "Density projecting over the right hilus correlates with right hilar adenopathy and bronchial thickening as seen on the subsequent CT .",
+    "missing_entities": [
+        "adenopathy",
+        "bronchial",
+        "density",
+        "hilar",
+        "right",
+        "right hilus",
+        "thickening"
+    ],
+    "hallucinated_entities": [
+        "acute",
+        "cardiopulmonary",
+        "process"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "adenopathy",
+            "relation": "located_at",
+            "target": "hilar"
+        },
+        {
+            "source": "density",
+            "relation": "located_at",
+            "target": "right hilus"
+        },
+        {
+            "source": "density",
+            "relation": "suggestive_of",
+            "target": "adenopathy"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "hilar"
+        },
+        {
+            "source": "thickening",
+            "relation": "located_at",
+            "target": "bronchial"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "process"
+        },
+        {
+            "source": "process",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 7,
+        "common_entity_count": 0,
+        "missing_entity_count": 7,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 5,
+        "missing_relation_count": 5,
+        "hallucinated_relation_count": 2
+    }
+}

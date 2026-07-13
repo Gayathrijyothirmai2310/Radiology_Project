@@ -1,0 +1,53 @@
+{
+    "image_id": "image_10378",
+    "generated_text": "Left lower lobe infiltrate",
+    "ground_truth_text": "Persisting left basilar opacities , concerning for pneumonia .",
+    "missing_entities": [
+        "basilar",
+        "opacities",
+        "pneumonia"
+    ],
+    "hallucinated_entities": [
+        "infiltrate",
+        "lobe",
+        "lower"
+    ],
+    "common_entities": [
+        "left"
+    ],
+    "missing_relations": [
+        {
+            "source": "left",
+            "relation": "modify",
+            "target": "basilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "basilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "pneumonia"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "infiltrate",
+            "relation": "located_at",
+            "target": "lobe"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 4,
+        "groundtruth_entity_count": 4,
+        "common_entity_count": 1,
+        "missing_entity_count": 3,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 1,
+        "groundtruth_relation_count": 3,
+        "missing_relation_count": 3,
+        "hallucinated_relation_count": 1
+    }
+}

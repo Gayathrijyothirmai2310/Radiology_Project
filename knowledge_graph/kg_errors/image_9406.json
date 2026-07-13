@@ -1,0 +1,57 @@
+{
+    "image_id": "image_9406",
+    "generated_text": "No acute cardiopulmonary abnormality .",
+    "ground_truth_text": "Nasogastric tube tip within the stomach .",
+    "missing_entities": [
+        "nasogastric",
+        "stomach",
+        "tip",
+        "tube"
+    ],
+    "hallucinated_entities": [
+        "abnormality",
+        "acute",
+        "cardiopulmonary"
+    ],
+    "common_entities": [],
+    "missing_relations": [
+        {
+            "source": "tip",
+            "relation": "located_at",
+            "target": "stomach"
+        },
+        {
+            "source": "tip",
+            "relation": "modify",
+            "target": "tube"
+        },
+        {
+            "source": "tube",
+            "relation": "located_at",
+            "target": "nasogastric"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "abnormality",
+            "relation": "located_at",
+            "target": "cardiopulmonary"
+        },
+        {
+            "source": "acute",
+            "relation": "modify",
+            "target": "abnormality"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 3,
+        "groundtruth_entity_count": 4,
+        "common_entity_count": 0,
+        "missing_entity_count": 4,
+        "hallucinated_entity_count": 3,
+        "generated_relation_count": 2,
+        "groundtruth_relation_count": 3,
+        "missing_relation_count": 3,
+        "hallucinated_relation_count": 2
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "image_id": "image_10231",
+    "generated_text": "Mild bibasilar atelectasis . Slight blunting of the right costophrenic angle may be due to a trace pleural effusion .",
+    "ground_truth_text": "Bibasilar opacities , potentially due to atelectasis ; however , clinical correlation regarding infection is suggested .",
+    "missing_entities": [
+        "opacities"
+    ],
+    "hallucinated_entities": [
+        "angle",
+        "costophrenic",
+        "effusion",
+        "mild",
+        "pleural",
+        "right",
+        "slight blunting",
+        "trace"
+    ],
+    "common_entities": [
+        "atelectasis",
+        "bibasilar"
+    ],
+    "missing_relations": [
+        {
+            "source": "opacities",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "opacities",
+            "relation": "suggestive_of",
+            "target": "atelectasis"
+        }
+    ],
+    "hallucinated_relations": [
+        {
+            "source": "angle",
+            "relation": "modify",
+            "target": "costophrenic"
+        },
+        {
+            "source": "atelectasis",
+            "relation": "located_at",
+            "target": "bibasilar"
+        },
+        {
+            "source": "effusion",
+            "relation": "located_at",
+            "target": "pleural"
+        },
+        {
+            "source": "mild",
+            "relation": "modify",
+            "target": "atelectasis"
+        },
+        {
+            "source": "right",
+            "relation": "modify",
+            "target": "costophrenic"
+        },
+        {
+            "source": "slight blunting",
+            "relation": "suggestive_of",
+            "target": "effusion"
+        },
+        {
+            "source": "trace",
+            "relation": "modify",
+            "target": "effusion"
+        }
+    ],
+    "summary": {
+        "generated_entity_count": 10,
+        "groundtruth_entity_count": 3,
+        "common_entity_count": 2,
+        "missing_entity_count": 1,
+        "hallucinated_entity_count": 8,
+        "generated_relation_count": 7,
+        "groundtruth_relation_count": 2,
+        "missing_relation_count": 2,
+        "hallucinated_relation_count": 7
+    }
+}
