@@ -1,0 +1,90 @@
+{
+    "0": {
+        "text": "Repositioned left PICC with the tip in the upper SVC . Resolution of mild pulmonary edema . No evidence of pneumonia .",
+        "entities": {
+            "1": {
+                "tokens": "Repositioned",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "PICC",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "tip",
+                "label": "Observation::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "mild",
+                "label": "Observation::definitely absent",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": []
+            },
+            "7": {
+                "tokens": "edema",
+                "label": "Observation::definitely absent",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "pneumonia",
+                "label": "Observation::definitely absent",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

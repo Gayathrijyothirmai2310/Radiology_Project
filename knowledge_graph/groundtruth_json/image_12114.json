@@ -1,0 +1,91 @@
+{
+    "0": {
+        "text": "Endotracheal tube and transesophageal tube are in adequate position . Progressive basilar opacities may represent atelectasis , though infiltrate is not excluded .",
+        "entities": {
+            "1": {
+                "tokens": "Endotracheal",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "Endotracheal tube",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "transesophageal",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "tube",
+                "label": "Observation::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": []
+            },
+            "5": {
+                "tokens": "Progressive",
+                "label": "Observation::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "basilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": []
+            },
+            "7": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ],
+                    [
+                        "suggestive_of",
+                        "8"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": []
+            },
+            "9": {
+                "tokens": "infiltrate",
+                "label": "Observation::uncertain",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

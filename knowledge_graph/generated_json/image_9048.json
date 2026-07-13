@@ -1,0 +1,51 @@
+{
+    "0": {
+        "text": "Left retrocardiac opacity may represent atelectasis .",
+        "entities": {
+            "1": {
+                "tokens": "Left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "retrocardiac",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "suggestive_of",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

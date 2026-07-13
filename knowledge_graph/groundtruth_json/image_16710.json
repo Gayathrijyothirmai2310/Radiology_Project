@@ -1,0 +1,68 @@
+{
+    "0": {
+        "text": "Volume loss with bilateral lower lobe atelectasis , progressed when compared to the prior study . Superimposed infection cannot be excluded .",
+        "entities": {
+            "1": {
+                "tokens": "Volume",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "loss",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "bilateral",
+                "label": "Anatomy::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            },
+            "4": {
+                "tokens": "lower lobe",
+                "label": "Anatomy::definitely present",
+                "start_ix": 4,
+                "end_ix": 5,
+                "relations": []
+            },
+            "5": {
+                "tokens": "atelectasis",
+                "label": "Observation::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": []
+            },
+            "6": {
+                "tokens": "progressed",
+                "label": "Observation::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "Superimposed infection",
+                "label": "Observation::uncertain",
+                "start_ix": 16,
+                "end_ix": 17,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

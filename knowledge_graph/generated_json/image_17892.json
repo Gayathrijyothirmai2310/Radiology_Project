@@ -1,0 +1,35 @@
+{
+    "0": {
+        "text": "Small right pneumothorax",
+        "entities": {
+            "1": {
+                "tokens": "Small",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

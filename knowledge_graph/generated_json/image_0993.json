@@ -1,0 +1,28 @@
+{
+    "0": {
+        "text": "The endotracheal tube tip is located over the mid thoracic trachea .",
+        "entities": {
+            "1": {
+                "tokens": "tip",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "mid thoracic trachea",
+                "label": "Anatomy::definitely present",
+                "start_ix": 8,
+                "end_ix": 10,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

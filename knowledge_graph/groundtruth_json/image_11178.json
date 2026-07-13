@@ -1,0 +1,75 @@
+{
+    "0": {
+        "text": "Increased prominence of right basilar opacity may represent developing consolidation .",
+        "entities": {
+            "1": {
+                "tokens": "Increased",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "prominence",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "basilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": []
+            },
+            "5": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ],
+                    [
+                        "suggestive_of",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "consolidation",
+                "label": "Observation::uncertain",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

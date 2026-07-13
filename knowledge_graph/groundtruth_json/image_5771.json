@@ -1,0 +1,40 @@
+{
+    "0": {
+        "text": "Marked pulmonary edema . Follow up CXR after diuresis may be helpful to exclude underlying pneumonia in right middle lobe .",
+        "entities": {
+            "1": {
+                "tokens": "Marked",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "edema",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

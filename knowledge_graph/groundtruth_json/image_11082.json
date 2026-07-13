@@ -1,0 +1,81 @@
+{
+    "0": {
+        "text": "Left basilar opacity may reflect pleural fluid or atelectasis . However , an infectious process cannot be excluded . PA and lateral chest radiographs would be helpful for further evaluation , if patient can tolerate it .",
+        "entities": {
+            "1": {
+                "tokens": "Left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "basilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "suggestive_of",
+                        "5"
+                    ],
+                    [
+                        "suggestive_of",
+                        "6"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            },
+            "5": {
+                "tokens": "fluid",
+                "label": "Observation::uncertain",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": []
+            },
+            "7": {
+                "tokens": "infectious",
+                "label": "Observation::uncertain",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

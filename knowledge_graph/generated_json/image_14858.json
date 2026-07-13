@@ -1,0 +1,47 @@
+{
+    "0": {
+        "text": "Possible small right pleural effusion .",
+        "entities": {
+            "1": {
+                "tokens": "small",
+                "label": "Observation::uncertain",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "2": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            },
+            "4": {
+                "tokens": "effusion",
+                "label": "Observation::uncertain",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

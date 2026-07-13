@@ -1,0 +1,54 @@
+{
+    "0": {
+        "text": "Successful placement of chest tube and PleurX tube , small right basal loculated pneumothorax replaces area of successful pleural drainage .",
+        "entities": {
+            "1": {
+                "tokens": "chest tube",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 4,
+                "relations": []
+            },
+            "2": {
+                "tokens": "PleurX tube",
+                "label": "Observation::definitely present",
+                "start_ix": 6,
+                "end_ix": 7,
+                "relations": []
+            },
+            "3": {
+                "tokens": "small",
+                "label": "Observation::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "loculated",
+                "label": "Observation::definitely present",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely present",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

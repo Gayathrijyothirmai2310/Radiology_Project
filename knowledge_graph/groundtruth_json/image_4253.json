@@ -1,0 +1,58 @@
+{
+    "0": {
+        "text": "No convincing radiographic evidence for pneumonia is identified . Mild bibasilar opacities are likely atelectasis .",
+        "entities": {
+            "1": {
+                "tokens": "pneumonia",
+                "label": "Observation::uncertain",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            },
+            "2": {
+                "tokens": "Mild",
+                "label": "Observation::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "bibasilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": []
+            },
+            "4": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ],
+                    [
+                        "suggestive_of",
+                        "5"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "0": {
+        "text": "Left basilar opacity silhouetting the hemidiaphragm , potentially atelectasis noting that infection is not excluded .",
+        "entities": {
+            "1": {
+                "tokens": "Left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "basilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "suggestive_of",
+                        "6"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "silhouetting",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ],
+                    [
+                        "located_at",
+                        "5"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "hemidiaphragm",
+                "label": "Anatomy::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            },
+            "6": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": []
+            },
+            "7": {
+                "tokens": "infection",
+                "label": "Observation::uncertain",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

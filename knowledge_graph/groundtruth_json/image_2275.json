@@ -1,0 +1,47 @@
+{
+    "0": {
+        "text": "Limited evaluation of the right lung due to patient rotation . No evidence of pneumonia on the left . Known pulmonary nodules are better assessed on the recent chest CT .",
+        "entities": {
+            "1": {
+                "tokens": "pneumonia",
+                "label": "Observation::definitely absent",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": []
+            },
+            "3": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": []
+            },
+            "4": {
+                "tokens": "nodules",
+                "label": "Observation::definitely present",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

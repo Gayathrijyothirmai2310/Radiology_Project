@@ -1,0 +1,17 @@
+{
+    "image_id": "image_23555",
+    "entity_metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+    },
+    "relation_metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+    },
+    "graph_score": 1.0,
+    "hallucinated_nodes": [],
+    "missing_nodes": [],
+    "wrong_relations": []
+}

@@ -1,0 +1,54 @@
+{
+    "0": {
+        "text": "Mild cardiomegaly . No acute cardiopulmonary process .",
+        "entities": {
+            "1": {
+                "tokens": "Mild",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "cardiomegaly",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "acute",
+                "label": "Observation::definitely absent",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "cardiopulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            },
+            "5": {
+                "tokens": "process",
+                "label": "Observation::definitely absent",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

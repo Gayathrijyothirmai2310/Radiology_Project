@@ -1,0 +1,90 @@
+{
+    "0": {
+        "text": "Mild pulmonary edema with small left pleural effusion . No pneumothorax . Results were conveyed via telephone by Dr . to Dr .",
+        "entities": {
+            "1": {
+                "tokens": "Mild",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "edema",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "small",
+                "label": "Observation::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": []
+            },
+            "7": {
+                "tokens": "effusion",
+                "label": "Observation::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely absent",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

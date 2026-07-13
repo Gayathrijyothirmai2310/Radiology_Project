@@ -1,0 +1,102 @@
+{
+    "0": {
+        "text": "1 . Mild pulmonary edema . 2 . Small right pleural effusion . 3 . Moderate cardiomegaly .",
+        "entities": {
+            "1": {
+                "tokens": "Mild",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            },
+            "3": {
+                "tokens": "edema",
+                "label": "Observation::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "Small",
+                "label": "Observation::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": []
+            },
+            "7": {
+                "tokens": "effusion",
+                "label": "Observation::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "Moderate",
+                "label": "Observation::definitely present",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "cardiomegaly",
+                "label": "Observation::definitely present",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

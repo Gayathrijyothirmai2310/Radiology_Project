@@ -1,0 +1,155 @@
+{
+    "0": {
+        "text": "Diffuse bilateral interstitial and airspace disease , with more confluent opacities at the lung bases , which may represent pulmonary edema , aspiration , or infection .",
+        "entities": {
+            "1": {
+                "tokens": "Diffuse",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "bilateral",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "interstitial",
+                "label": "Anatomy::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "4": {
+                "tokens": "airspace",
+                "label": "Anatomy::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": []
+            },
+            "5": {
+                "tokens": "disease",
+                "label": "Observation::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ],
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "confluent",
+                "label": "Observation::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "located_at",
+                        "8"
+                    ],
+                    [
+                        "located_at",
+                        "9"
+                    ],
+                    [
+                        "suggestive_of",
+                        "11"
+                    ],
+                    [
+                        "suggestive_of",
+                        "12"
+                    ],
+                    [
+                        "suggestive_of",
+                        "13"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": []
+            },
+            "9": {
+                "tokens": "bases",
+                "label": "Anatomy::definitely present",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": []
+            },
+            "11": {
+                "tokens": "edema",
+                "label": "Observation::uncertain",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "located_at",
+                        "10"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "aspiration",
+                "label": "Observation::uncertain",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": []
+            },
+            "13": {
+                "tokens": "infection",
+                "label": "Observation::uncertain",
+                "start_ix": 25,
+                "end_ix": 25,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

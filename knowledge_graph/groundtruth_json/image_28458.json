@@ -1,0 +1,49 @@
+{
+    "0": {
+        "text": "Expected postoperative appearance of the chest with possible , residual small pneumopericardium .",
+        "entities": {
+            "1": {
+                "tokens": "Expected postoperative appearance",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "chest",
+                "label": "Anatomy::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            },
+            "3": {
+                "tokens": "residual small",
+                "label": "Observation::uncertain",
+                "start_ix": 9,
+                "end_ix": 10,
+                "relations": []
+            },
+            "4": {
+                "tokens": "residual small pneumopericardium",
+                "label": "Observation::uncertain",
+                "start_ix": 9,
+                "end_ix": 11,
+                "relations": []
+            },
+            "5": {
+                "tokens": "pneumopericardium",
+                "label": "Observation::uncertain",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "image_id": "image_21001",
+    "entity_metrics": {
+        "precision": 1.0,
+        "recall": 0.3846,
+        "f1": 0.5556
+    },
+    "relation_metrics": {
+        "precision": 1.0,
+        "recall": 0.1111,
+        "f1": 0.2
+    },
+    "graph_score": 0.3778,
+    "hallucinated_nodes": [],
+    "missing_nodes": [
+        "",
+        "bronchovascular",
+        "cardiogenic",
+        "crowding",
+        "low",
+        "lung",
+        "moderate",
+        "volumes"
+    ],
+    "wrong_relations": []
+}

@@ -1,0 +1,138 @@
+{
+    "0": {
+        "text": "Endotracheal and enteric tubes in appropriate position . Small right pleural effusion with increased underlying atelectasis compared to the most recent prior study .",
+        "entities": {
+            "1": {
+                "tokens": "Endotracheal",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "enteric",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "tubes",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            },
+            "4": {
+                "tokens": "appropriate",
+                "label": "Observation::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "position",
+                "label": "Observation::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "Small",
+                "label": "Observation::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": []
+            },
+            "9": {
+                "tokens": "effusion",
+                "label": "Observation::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "located_at",
+                        "8"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "increased",
+                "label": "Observation::definitely present",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "modify",
+                        "12"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "underlying",
+                "label": "Observation::definitely present",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "modify",
+                        "12"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "atelectasis",
+                "label": "Observation::definitely present",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

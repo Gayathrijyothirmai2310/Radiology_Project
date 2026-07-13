@@ -1,0 +1,78 @@
+{
+    "0": {
+        "text": "No substantial change compared to the prior examination . Deviation of the trachea to the right has increased since and may be due to a dilated aorta .",
+        "entities": {
+            "1": {
+                "tokens": "substantial",
+                "label": "Observation::definitely absent",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "change",
+                "label": "Observation::definitely absent",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "3": {
+                "tokens": "Deviation",
+                "label": "Observation::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "trachea",
+                "label": "Anatomy::definitely present",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": []
+            },
+            "5": {
+                "tokens": "increased",
+                "label": "Observation::definitely present",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "dilated",
+                "label": "Observation::definitely present",
+                "start_ix": 25,
+                "end_ix": 25,
+                "relations": [
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "aorta",
+                "label": "Anatomy::definitely present",
+                "start_ix": 26,
+                "end_ix": 26,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

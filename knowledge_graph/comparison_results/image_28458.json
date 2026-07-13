@@ -1,0 +1,25 @@
+{
+    "image_id": "image_28458",
+    "entity_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "relation_metrics": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "graph_score": 0.0,
+    "hallucinated_nodes": [
+        "pneumothorax"
+    ],
+    "missing_nodes": [
+        "chest",
+        "expected postoperative appearance",
+        "pneumopericardium",
+        "residual",
+        "residual pneumopericardium"
+    ],
+    "wrong_relations": []
+}

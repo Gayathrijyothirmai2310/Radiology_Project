@@ -1,0 +1,143 @@
+{
+    "0": {
+        "text": "1 . Low position of the endotracheal tube . 2 . Small right pneumothorax . 3 . Right basilar opacity , likely atelectasis . 4 . Left basilar opacity , likely atelectasis .",
+        "entities": {
+            "1": {
+                "tokens": "position",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "endotracheal tube",
+                "label": "Observation::definitely present",
+                "start_ix": 6,
+                "end_ix": 7,
+                "relations": []
+            },
+            "3": {
+                "tokens": "Small",
+                "label": "Observation::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": []
+            },
+            "5": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely present",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "Right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "basilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": []
+            },
+            "8": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "located_at",
+                        "7"
+                    ],
+                    [
+                        "suggestive_of",
+                        "9"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": []
+            },
+            "10": {
+                "tokens": "Left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 26,
+                "end_ix": 26,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "basilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 27,
+                "end_ix": 27,
+                "relations": []
+            },
+            "12": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 28,
+                "end_ix": 28,
+                "relations": [
+                    [
+                        "located_at",
+                        "11"
+                    ],
+                    [
+                        "suggestive_of",
+                        "13"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 31,
+                "end_ix": 31,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

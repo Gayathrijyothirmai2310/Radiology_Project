@@ -1,0 +1,107 @@
+{
+    "0": {
+        "text": "1 . Diffuse interstitial lung disease . 2 . Small amount of free air under the left hemidiaphragm .",
+        "entities": {
+            "1": {
+                "tokens": "Diffuse",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "interstitial",
+                "label": "Anatomy::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": []
+            },
+            "4": {
+                "tokens": "disease",
+                "label": "Observation::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "Small",
+                "label": "Observation::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "free air",
+                "label": "Observation::definitely present",
+                "start_ix": 12,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "under",
+                "label": "Anatomy::definitely present",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "hemidiaphragm",
+                "label": "Anatomy::definitely present",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

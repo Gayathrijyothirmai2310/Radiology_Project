@@ -1,0 +1,85 @@
+{
+    "0": {
+        "text": "The new endotracheal tube has been placed into the right mainstem bronchus , and should be withdrawn for optimal placement . Persistent pulmonary edema , right lung opacities , and bilateral effusions . to Dr .",
+        "entities": {
+            "1": {
+                "tokens": "new endotracheal tube",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "right mainstem bronchus",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 11,
+                "relations": []
+            },
+            "3": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": []
+            },
+            "4": {
+                "tokens": "edema",
+                "label": "Observation::definitely present",
+                "start_ix": 23,
+                "end_ix": 23,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "right lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 25,
+                "end_ix": 26,
+                "relations": []
+            },
+            "6": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 27,
+                "end_ix": 27,
+                "relations": [
+                    [
+                        "located_at",
+                        "5"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "bilateral",
+                "label": "Anatomy::definitely present",
+                "start_ix": 30,
+                "end_ix": 30,
+                "relations": []
+            },
+            "8": {
+                "tokens": "effusions",
+                "label": "Observation::definitely present",
+                "start_ix": 31,
+                "end_ix": 31,
+                "relations": [
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d1" for="node" attr.name="label" attr.type="string" />
+  <key id="d0" for="node" attr.name="token" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="1">
+      <data key="d0">Left</data>
+      <data key="d1">Anatomy::definitely present</data>
+    </node>
+    <node id="2">
+      <data key="d0">basilar</data>
+      <data key="d1">Anatomy::definitely present</data>
+    </node>
+    <node id="3">
+      <data key="d0">opacity</data>
+      <data key="d1">Observation::definitely present</data>
+    </node>
+    <node id="4">
+      <data key="d0">silhouetting</data>
+      <data key="d1">Observation::definitely present</data>
+    </node>
+    <node id="5">
+      <data key="d0">hemidiaphragm</data>
+      <data key="d1">Anatomy::definitely present</data>
+    </node>
+    <node id="6">
+      <data key="d0">atelectasis</data>
+      <data key="d1">Observation::uncertain</data>
+    </node>
+    <node id="7">
+      <data key="d0">infection</data>
+      <data key="d1">Observation::uncertain</data>
+    </node>
+    <edge source="1" target="2">
+      <data key="d2">modify</data>
+    </edge>
+    <edge source="3" target="2">
+      <data key="d2">located_at</data>
+    </edge>
+    <edge source="3" target="6">
+      <data key="d2">suggestive_of</data>
+    </edge>
+    <edge source="4" target="3">
+      <data key="d2">modify</data>
+    </edge>
+    <edge source="4" target="5">
+      <data key="d2">located_at</data>
+    </edge>
+  </graph>
+</graphml>

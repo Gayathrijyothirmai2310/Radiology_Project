@@ -1,0 +1,111 @@
+{
+    "0": {
+        "text": "Interval resolution of loculated pneumothorax associated with a left base chest tube . No recurrent pleural effusion or pneumothorax .",
+        "entities": {
+            "1": {
+                "tokens": "Interval",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "resolution",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "loculated",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": []
+            },
+            "5": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "base",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "chest",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": []
+            },
+            "8": {
+                "tokens": "tube",
+                "label": "Observation::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": []
+            },
+            "10": {
+                "tokens": "effusion",
+                "label": "Observation::definitely absent",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely absent",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "0": {
+        "text": "The ET tube in good position .",
+        "entities": {
+            "1": {
+                "tokens": "ET tube",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 2,
+                "relations": []
+            },
+            "2": {
+                "tokens": "good position",
+                "label": "Observation::definitely present",
+                "start_ix": 4,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "0": {
+        "text": "Density projecting over the right hilus correlates with right hilar adenopathy and bronchial thickening as seen on the subsequent CT .",
+        "entities": {
+            "1": {
+                "tokens": "Density",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "suggestive_of",
+                        "5"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "right hilus",
+                "label": "Anatomy::definitely present",
+                "start_ix": 4,
+                "end_ix": 5,
+                "relations": []
+            },
+            "3": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "hilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": []
+            },
+            "5": {
+                "tokens": "adenopathy",
+                "label": "Observation::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "bronchial",
+                "label": "Anatomy::definitely present",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": []
+            },
+            "7": {
+                "tokens": "thickening",
+                "label": "Observation::definitely present",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

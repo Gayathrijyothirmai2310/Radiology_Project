@@ -1,0 +1,135 @@
+{
+    "0": {
+        "text": "There is persistent rounded mass like opacity at the lung base with small right pleural effusion . Left lung interstitial edema and atelectasis is slightly increased .",
+        "entities": {
+            "1": {
+                "tokens": "rounded",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            },
+            "2": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": []
+            },
+            "4": {
+                "tokens": "base",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "small",
+                "label": "Observation::definitely present",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": []
+            },
+            "8": {
+                "tokens": "effusion",
+                "label": "Observation::definitely present",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": [
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "Left lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 17,
+                "end_ix": 18,
+                "relations": []
+            },
+            "10": {
+                "tokens": "lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": []
+            },
+            "11": {
+                "tokens": "interstitial",
+                "label": "Anatomy::definitely present",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "edema",
+                "label": "Observation::definitely present",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "located_at",
+                        "11"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "atelectasis",
+                "label": "Observation::definitely present",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

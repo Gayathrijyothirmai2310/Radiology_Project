@@ -1,0 +1,128 @@
+{
+    "0": {
+        "text": "Bilateral diffuse pulmonary opacity may be due to severe pulmonary edema or hemorrhage , in the correct setting . Retrocardiac opacification may also be due to a component of underlying atelectasis .",
+        "entities": {
+            "1": {
+                "tokens": "Bilateral",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "diffuse",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "4": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ],
+                    [
+                        "suggestive_of",
+                        "7"
+                    ],
+                    [
+                        "suggestive_of",
+                        "8"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "severe",
+                "label": "Observation::uncertain",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": []
+            },
+            "7": {
+                "tokens": "edema",
+                "label": "Observation::uncertain",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "hemorrhage",
+                "label": "Observation::uncertain",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": []
+            },
+            "9": {
+                "tokens": "Retrocardiac",
+                "label": "Anatomy::definitely present",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": []
+            },
+            "10": {
+                "tokens": "opacification",
+                "label": "Observation::definitely present",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ],
+                    [
+                        "suggestive_of",
+                        "11"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "atelectasis",
+                "label": "Observation::definitely present",
+                "start_ix": 30,
+                "end_ix": 30,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

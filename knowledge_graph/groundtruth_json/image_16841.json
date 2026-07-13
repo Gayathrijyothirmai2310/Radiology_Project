@@ -1,0 +1,81 @@
+{
+    "0": {
+        "text": "Slight interval improvement in the right basal consolidation . Persistent visualization of a a stellate mass in the right upper lung , this may reflect scarring in distortion related the underlying COPD but a neoplasm cannot be excluded and a CT chest is recommended to further evaluate .",
+        "entities": {
+            "1": {
+                "tokens": "improvement",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "right basal",
+                "label": "Anatomy::definitely present",
+                "start_ix": 5,
+                "end_ix": 6,
+                "relations": []
+            },
+            "3": {
+                "tokens": "consolidation",
+                "label": "Observation::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "stellate mass",
+                "label": "Observation::definitely present",
+                "start_ix": 14,
+                "end_ix": 15,
+                "relations": [
+                    [
+                        "located_at",
+                        "5"
+                    ],
+                    [
+                        "suggestive_of",
+                        "6"
+                    ],
+                    [
+                        "suggestive_of",
+                        "7"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "right upper lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 18,
+                "end_ix": 20,
+                "relations": []
+            },
+            "6": {
+                "tokens": "scarring",
+                "label": "Observation::uncertain",
+                "start_ix": 25,
+                "end_ix": 25,
+                "relations": []
+            },
+            "7": {
+                "tokens": "neoplasm",
+                "label": "Observation::uncertain",
+                "start_ix": 34,
+                "end_ix": 34,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

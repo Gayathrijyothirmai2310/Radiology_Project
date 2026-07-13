@@ -1,0 +1,26 @@
+{
+    "image_id": "image_22336",
+    "entity_metrics": {
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.3333
+    },
+    "relation_metrics": {
+        "precision": 1.0,
+        "recall": 0.1111,
+        "f1": 0.2
+    },
+    "graph_score": 0.2666,
+    "hallucinated_nodes": [],
+    "missing_nodes": [
+        "atelectasis",
+        "bilateral",
+        "diffuse",
+        "hemorrhage",
+        "opacification",
+        "opacity",
+        "retrocardiac",
+        "severe"
+    ],
+    "wrong_relations": []
+}

@@ -1,0 +1,91 @@
+{
+    "0": {
+        "text": "Moderate right and small left pleural effusions with mild pulmonary edema .",
+        "entities": {
+            "1": {
+                "tokens": "Moderate",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "small",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ],
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": []
+            },
+            "5": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            },
+            "6": {
+                "tokens": "effusions",
+                "label": "Observation::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": []
+            },
+            "7": {
+                "tokens": "mild",
+                "label": "Observation::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": []
+            },
+            "9": {
+                "tokens": "edema",
+                "label": "Observation::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

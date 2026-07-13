@@ -1,0 +1,23 @@
+{
+    "0": {
+        "text": "Multifocal pneumonia",
+        "entities": {
+            "1": {
+                "tokens": "Multifocal",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "pneumonia",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

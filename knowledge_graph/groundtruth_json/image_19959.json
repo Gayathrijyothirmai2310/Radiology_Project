@@ -1,0 +1,56 @@
+{
+    "0": {
+        "text": "Stable right hydropneumothorax . Mild increase in pulmonary vascular congestion .",
+        "entities": {
+            "1": {
+                "tokens": "Stable",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "hydropneumothorax",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "4": {
+                "tokens": "increase",
+                "label": "Observation::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "vascular",
+                "label": "Anatomy::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": []
+            },
+            "6": {
+                "tokens": "congestion",
+                "label": "Observation::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

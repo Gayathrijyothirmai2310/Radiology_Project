@@ -1,0 +1,58 @@
+{
+    "0": {
+        "text": "Lower lung opacities could represent pneumonia with effusion . Would recommend dedicated PA and lateral views to more clearly assess .",
+        "entities": {
+            "1": {
+                "tokens": "Lower",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "suggestive_of",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "pneumonia",
+                "label": "Observation::uncertain",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            },
+            "5": {
+                "tokens": "effusion",
+                "label": "Observation::uncertain",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

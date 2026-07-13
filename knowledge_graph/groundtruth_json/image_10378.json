@@ -1,0 +1,51 @@
+{
+    "0": {
+        "text": "Persisting left basilar opacities , concerning for pneumonia .",
+        "entities": {
+            "1": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "basilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "3": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "suggestive_of",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "pneumonia",
+                "label": "Observation::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

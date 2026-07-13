@@ -1,0 +1,16 @@
+{
+    "0": {
+        "text": "No change .",
+        "entities": {
+            "1": {
+                "tokens": "change",
+                "label": "Observation::definitely absent",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

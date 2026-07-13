@@ -1,0 +1,35 @@
+{
+    "0": {
+        "text": "Mild cardiomegaly . No pneumonia .",
+        "entities": {
+            "1": {
+                "tokens": "Mild",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "cardiomegaly",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "pneumonia",
+                "label": "Observation::definitely absent",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

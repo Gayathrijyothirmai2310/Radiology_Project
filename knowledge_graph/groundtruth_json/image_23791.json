@@ -1,0 +1,62 @@
+{
+    "0": {
+        "text": "Left basal opacity concerning for effusion and atelectasis . Please refer to subsequent CT chest for further details .",
+        "entities": {
+            "1": {
+                "tokens": "Left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "basal",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "suggestive_of",
+                        "4"
+                    ],
+                    [
+                        "suggestive_of",
+                        "5"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "effusion",
+                "label": "Observation::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            },
+            "5": {
+                "tokens": "atelectasis",
+                "label": "Observation::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

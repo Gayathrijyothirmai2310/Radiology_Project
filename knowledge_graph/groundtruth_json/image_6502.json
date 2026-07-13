@@ -1,0 +1,73 @@
+{
+    "0": {
+        "text": "Postsurgical changes without evidence of pneumothorax . Left chest tube in place .",
+        "entities": {
+            "1": {
+                "tokens": "Postsurgical",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "changes",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely absent",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            },
+            "4": {
+                "tokens": "Left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "chest",
+                "label": "Anatomy::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": []
+            },
+            "6": {
+                "tokens": "tube",
+                "label": "Observation::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": []
+            },
+            "7": {
+                "tokens": "in place",
+                "label": "Observation::definitely present",
+                "start_ix": 10,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

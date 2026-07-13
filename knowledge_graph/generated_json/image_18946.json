@@ -1,0 +1,54 @@
+{
+    "0": {
+        "text": "Slight decrease in size of left pneumothorax",
+        "entities": {
+            "1": {
+                "tokens": "Slight",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "decrease",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "size",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            },
+            "4": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            },
+            "5": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

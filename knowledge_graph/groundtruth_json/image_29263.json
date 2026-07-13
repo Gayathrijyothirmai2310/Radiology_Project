@@ -1,0 +1,122 @@
+{
+    "0": {
+        "text": "Extensive opacification involving much of the right hemithorax is grossly unchanged , and likely represents a combination of asymmetric pulmonary edema and pneumonia .",
+        "entities": {
+            "1": {
+                "tokens": "Extensive",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "opacification",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ],
+                    [
+                        "suggestive_of",
+                        "9"
+                    ],
+                    [
+                        "suggestive_of",
+                        "10"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "hemithorax",
+                "label": "Anatomy::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": []
+            },
+            "5": {
+                "tokens": "grossly",
+                "label": "Observation::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "unchanged",
+                "label": "Observation::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "asymmetric",
+                "label": "Observation::uncertain",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": []
+            },
+            "9": {
+                "tokens": "edema",
+                "label": "Observation::uncertain",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "located_at",
+                        "8"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "pneumonia",
+                "label": "Observation::uncertain",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

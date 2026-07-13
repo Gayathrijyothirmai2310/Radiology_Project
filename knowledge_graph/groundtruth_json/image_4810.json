@@ -1,0 +1,110 @@
+{
+    "0": {
+        "text": "Pacemaker with single lead in the right ventricle , without pneumothorax or evidence of other complication . Possible increase in severe cardiomegaly , but pulmonary vascular engorgement has improved and there is no edema .",
+        "entities": {
+            "1": {
+                "tokens": "Pacemaker",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "single lead",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ],
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "right ventricle",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 7,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely absent",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": []
+            },
+            "5": {
+                "tokens": "severe",
+                "label": "Observation::definitely present",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "cardiomegaly",
+                "label": "Observation::uncertain",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": []
+            },
+            "7": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 24,
+                "end_ix": 24,
+                "relations": []
+            },
+            "8": {
+                "tokens": "vascular",
+                "label": "Anatomy::definitely present",
+                "start_ix": 25,
+                "end_ix": 25,
+                "relations": []
+            },
+            "9": {
+                "tokens": "engorgement",
+                "label": "Observation::definitely present",
+                "start_ix": 26,
+                "end_ix": 26,
+                "relations": [
+                    [
+                        "located_at",
+                        "8"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "improved",
+                "label": "Observation::definitely present",
+                "start_ix": 28,
+                "end_ix": 28,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "edema",
+                "label": "Observation::definitely absent",
+                "start_ix": 33,
+                "end_ix": 33,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

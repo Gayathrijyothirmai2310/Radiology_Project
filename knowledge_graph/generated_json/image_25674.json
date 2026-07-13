@@ -1,0 +1,87 @@
+{
+    "0": {
+        "text": "Right upper lobe opacity with associated volume loss may represent post - obstructive pneumonia .",
+        "entities": {
+            "1": {
+                "tokens": "upper",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "lobe",
+                "label": "Anatomy::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "3": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "suggestive_of",
+                        "7"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "volume",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "loss",
+                "label": "Observation::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "post - obstructive",
+                "label": "Observation::uncertain",
+                "start_ix": 10,
+                "end_ix": 12,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "pneumonia",
+                "label": "Observation::uncertain",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

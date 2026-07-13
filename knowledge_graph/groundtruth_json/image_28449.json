@@ -1,0 +1,61 @@
+{
+    "0": {
+        "text": "No pneumothorax . Atelectasis at the right base and low lung volumes .",
+        "entities": {
+            "1": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely absent",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "2": {
+                "tokens": "Atelectasis",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            },
+            "3": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": []
+            },
+            "4": {
+                "tokens": "low",
+                "label": "Observation::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "located_at",
+                        "5"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": []
+            },
+            "6": {
+                "tokens": "volumes",
+                "label": "Anatomy::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

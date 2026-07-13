@@ -1,0 +1,108 @@
+{
+    "0": {
+        "text": "Interval placement of a Dobhoff tube with tip terminating in the stomach . Overall unchanged appearance otherwise with low lung volumes and mild bibasilar atelectasis .",
+        "entities": {
+            "1": {
+                "tokens": "Dobhoff tube",
+                "label": "Observation::definitely present",
+                "start_ix": 4,
+                "end_ix": 5,
+                "relations": []
+            },
+            "2": {
+                "tokens": "tip",
+                "label": "Observation::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ],
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "stomach",
+                "label": "Anatomy::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": []
+            },
+            "4": {
+                "tokens": "unchanged",
+                "label": "Observation::definitely present",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": []
+            },
+            "5": {
+                "tokens": "low",
+                "label": "Observation::definitely present",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": []
+            },
+            "7": {
+                "tokens": "volumes",
+                "label": "Anatomy::definitely present",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "mild",
+                "label": "Observation::definitely present",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "bibasilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 23,
+                "end_ix": 23,
+                "relations": []
+            },
+            "10": {
+                "tokens": "atelectasis",
+                "label": "Observation::definitely present",
+                "start_ix": 24,
+                "end_ix": 24,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

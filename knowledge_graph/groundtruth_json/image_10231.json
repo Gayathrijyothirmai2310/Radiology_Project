@@ -1,0 +1,39 @@
+{
+    "0": {
+        "text": "Bibasilar opacities , potentially due to atelectasis ; however , clinical correlation regarding infection is suggested .",
+        "entities": {
+            "1": {
+                "tokens": "Bibasilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ],
+                    [
+                        "suggestive_of",
+                        "3"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

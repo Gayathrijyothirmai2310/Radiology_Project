@@ -1,0 +1,167 @@
+{
+    "0": {
+        "text": "Endotracheal and enteric tubes in standard positions . Moderate pulmonary edema with trace bilateral pleural effusions . These findings may relate to ARDS . Lucency about the mediastinum concerning for pneumomediastinum .",
+        "entities": {
+            "1": {
+                "tokens": "Endotracheal",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "enteric",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "tubes",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            },
+            "4": {
+                "tokens": "standard positions",
+                "label": "Observation::definitely present",
+                "start_ix": 5,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "Moderate",
+                "label": "Observation::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": []
+            },
+            "7": {
+                "tokens": "edema",
+                "label": "Observation::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "trace",
+                "label": "Observation::definitely present",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "bilateral",
+                "label": "Anatomy::definitely present",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": []
+            },
+            "11": {
+                "tokens": "effusions",
+                "label": "Observation::definitely present",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": [
+                    [
+                        "located_at",
+                        "10"
+                    ],
+                    [
+                        "suggestive_of",
+                        "12"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "ARDS",
+                "label": "Observation::uncertain",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": []
+            },
+            "13": {
+                "tokens": "Lucency",
+                "label": "Observation::definitely present",
+                "start_ix": 24,
+                "end_ix": 24,
+                "relations": [
+                    [
+                        "located_at",
+                        "14"
+                    ],
+                    [
+                        "suggestive_of",
+                        "15"
+                    ]
+                ]
+            },
+            "14": {
+                "tokens": "mediastinum",
+                "label": "Anatomy::definitely present",
+                "start_ix": 27,
+                "end_ix": 27,
+                "relations": []
+            },
+            "15": {
+                "tokens": "pneumomediastinum",
+                "label": "Observation::definitely present",
+                "start_ix": 30,
+                "end_ix": 30,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

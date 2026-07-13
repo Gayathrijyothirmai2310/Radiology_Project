@@ -1,0 +1,51 @@
+{
+    "0": {
+        "text": "Nasogastric tube tip within the stomach .",
+        "entities": {
+            "1": {
+                "tokens": "Nasogastric",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "tube",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "tip",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ],
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "stomach",
+                "label": "Anatomy::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

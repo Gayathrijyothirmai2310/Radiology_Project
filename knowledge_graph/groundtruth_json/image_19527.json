@@ -1,0 +1,28 @@
+{
+    "0": {
+        "text": "Single view portable chest examination demonstrates findings compatible with left - sided CHF .",
+        "entities": {
+            "1": {
+                "tokens": "left - sided",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 11,
+                "relations": []
+            },
+            "2": {
+                "tokens": "CHF",
+                "label": "Observation::definitely present",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

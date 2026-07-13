@@ -1,0 +1,96 @@
+{
+    "0": {
+        "text": "Intervally improved pulmonary edema . Persistent lower lung opacities which could represent pneumonia or aspiration .",
+        "entities": {
+            "1": {
+                "tokens": "Intervally",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "improved",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "4": {
+                "tokens": "edema",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "lower",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": []
+            },
+            "6": {
+                "tokens": "lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": []
+            },
+            "7": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "8"
+                    ],
+                    [
+                        "suggestive_of",
+                        "9"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "pneumonia",
+                "label": "Observation::uncertain",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": []
+            },
+            "9": {
+                "tokens": "aspiration",
+                "label": "Observation::uncertain",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

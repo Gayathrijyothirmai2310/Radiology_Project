@@ -1,0 +1,16 @@
+{
+    "0": {
+        "text": "No evidence of pneumothorax .",
+        "entities": {
+            "1": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely absent",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

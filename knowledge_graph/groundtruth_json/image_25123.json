@@ -1,0 +1,149 @@
+{
+    "0": {
+        "text": "Right internal jugular central venous line tip terminates in the lower SVC . No pneumothorax . Endotracheal tube is too high and should be advanced slightly for more appropriate positioning . was paged at 433pm by Dr . .",
+        "entities": {
+            "1": {
+                "tokens": "Right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "internal",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "jugular",
+                "label": "Anatomy::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "central",
+                "label": "Anatomy::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "venous",
+                "label": "Anatomy::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": []
+            },
+            "6": {
+                "tokens": "line",
+                "label": "Observation::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "located_at",
+                        "5"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "tip",
+                "label": "Observation::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ],
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "lower",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "SVC",
+                "label": "Anatomy::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": []
+            },
+            "10": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely absent",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": []
+            },
+            "11": {
+                "tokens": "Endotracheal",
+                "label": "Observation::definitely present",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "modify",
+                        "12"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "tube",
+                "label": "Observation::definitely present",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": [
+                    [
+                        "located_at",
+                        "11"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "high",
+                "label": "Observation::definitely present",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "modify",
+                        "12"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

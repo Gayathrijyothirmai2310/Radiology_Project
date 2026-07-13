@@ -1,0 +1,59 @@
+{
+    "0": {
+        "text": "Right basilar atelectasis and / or small effusion .",
+        "entities": {
+            "1": {
+                "tokens": "Right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "basilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "small",
+                "label": "Observation::uncertain",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "effusion",
+                "label": "Observation::uncertain",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

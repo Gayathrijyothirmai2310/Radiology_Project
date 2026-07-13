@@ -1,0 +1,38 @@
+{
+    "image_id": "image_25123",
+    "entity_metrics": {
+        "precision": 0.125,
+        "recall": 0.0769,
+        "f1": 0.0952
+    },
+    "relation_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "graph_score": 0.0476,
+    "hallucinated_nodes": [
+        "",
+        "edema",
+        "effusions",
+        "left",
+        "moderate",
+        "pleural",
+        "pulmonary"
+    ],
+    "missing_nodes": [
+        "central",
+        "endotracheal",
+        "high",
+        "internal",
+        "jugular",
+        "line",
+        "lower",
+        "pneumothorax",
+        "svc",
+        "tip",
+        "tube",
+        "venous"
+    ],
+    "wrong_relations": []
+}

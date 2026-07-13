@@ -1,0 +1,100 @@
+{
+    "0": {
+        "text": "PICC line is in good position . Linear changes in the left base probably reflect atelectasis . There is increased opacification of the right base which might represent infection .",
+        "entities": {
+            "1": {
+                "tokens": "PICC line",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 1,
+                "relations": []
+            },
+            "2": {
+                "tokens": "good position",
+                "label": "Observation::definitely present",
+                "start_ix": 4,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "Linear changes",
+                "label": "Observation::definitely present",
+                "start_ix": 7,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "located_at",
+                        "5"
+                    ],
+                    [
+                        "suggestive_of",
+                        "6"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "base",
+                "label": "Anatomy::definitely present",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": []
+            },
+            "6": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": []
+            },
+            "7": {
+                "tokens": "increased opacification",
+                "label": "Observation::definitely present",
+                "start_ix": 19,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "located_at",
+                        "8"
+                    ],
+                    [
+                        "suggestive_of",
+                        "9"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "right base",
+                "label": "Anatomy::definitely present",
+                "start_ix": 23,
+                "end_ix": 24,
+                "relations": []
+            },
+            "9": {
+                "tokens": "infection",
+                "label": "Observation::uncertain",
+                "start_ix": 28,
+                "end_ix": 28,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

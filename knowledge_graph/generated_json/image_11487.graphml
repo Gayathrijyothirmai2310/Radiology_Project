@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d1" for="node" attr.name="label" attr.type="string" />
+  <key id="d0" for="node" attr.name="token" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="1">
+      <data key="d0">endotracheal tube</data>
+      <data key="d1">Observation::definitely present</data>
+    </node>
+    <node id="2">
+      <data key="d0">good position</data>
+      <data key="d1">Observation::definitely present</data>
+    </node>
+    <node id="3">
+      <data key="d0">improvement</data>
+      <data key="d1">Observation::definitely present</data>
+    </node>
+    <node id="4">
+      <data key="d0">aeration</data>
+      <data key="d1">Observation::definitely present</data>
+    </node>
+    <node id="5">
+      <data key="d0">left lung base</data>
+      <data key="d1">Anatomy::definitely present</data>
+    </node>
+    <edge source="2" target="1">
+      <data key="d2">modify</data>
+    </edge>
+    <edge source="3" target="4">
+      <data key="d2">modify</data>
+    </edge>
+    <edge source="4" target="5">
+      <data key="d2">located_at</data>
+    </edge>
+  </graph>
+</graphml>

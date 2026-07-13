@@ -1,0 +1,66 @@
+{
+    "0": {
+        "text": "1 . The endotracheal tube is positioned high , ending 7 . 5 cm above the carina . 2 . The lungs are clear .",
+        "entities": {
+            "1": {
+                "tokens": "endotracheal tube",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 4,
+                "relations": []
+            },
+            "2": {
+                "tokens": "high",
+                "label": "Observation::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "7 . 5 cm above",
+                "label": "Anatomy::measurement::definitely present",
+                "start_ix": 10,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "carina",
+                "label": "Anatomy::definitely present",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": []
+            },
+            "5": {
+                "tokens": "lungs",
+                "label": "Anatomy::definitely present",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": []
+            },
+            "6": {
+                "tokens": "clear",
+                "label": "Observation::definitely present",
+                "start_ix": 23,
+                "end_ix": 23,
+                "relations": [
+                    [
+                        "located_at",
+                        "5"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

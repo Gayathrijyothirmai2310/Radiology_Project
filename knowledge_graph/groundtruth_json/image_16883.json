@@ -1,0 +1,100 @@
+{
+    "0": {
+        "text": "Unchanged large bilateral pleural effusions . Right lung opacity and left lung consolidation may be due to pneumonia .",
+        "entities": {
+            "1": {
+                "tokens": "Unchanged",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "large",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "bilateral pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 2,
+                "end_ix": 3,
+                "relations": []
+            },
+            "4": {
+                "tokens": "effusions",
+                "label": "Observation::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": []
+            },
+            "5": {
+                "tokens": "Right lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 7,
+                "relations": []
+            },
+            "6": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "located_at",
+                        "5"
+                    ],
+                    [
+                        "suggestive_of",
+                        "9"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "left lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 11,
+                "relations": []
+            },
+            "8": {
+                "tokens": "consolidation",
+                "label": "Observation::definitely present",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": [
+                    [
+                        "located_at",
+                        "7"
+                    ],
+                    [
+                        "suggestive_of",
+                        "9"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "pneumonia",
+                "label": "Observation::uncertain",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

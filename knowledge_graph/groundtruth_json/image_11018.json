@@ -1,0 +1,63 @@
+{
+    "0": {
+        "text": "Bilateral airspace opacities most likely due to severe CHF .",
+        "entities": {
+            "1": {
+                "tokens": "Bilateral",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "airspace",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "suggestive_of",
+                        "5"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "severe",
+                "label": "Observation::uncertain",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "CHF",
+                "label": "Observation::uncertain",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

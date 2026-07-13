@@ -1,0 +1,89 @@
+{
+    "0": {
+        "text": "Worsening of the patient ' s pulmonary edema , more severe on the right than on the left . Bibasilar pleural effusions with compressive atelectasis .",
+        "entities": {
+            "1": {
+                "tokens": "Worsening",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": []
+            },
+            "3": {
+                "tokens": "edema",
+                "label": "Observation::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "severe",
+                "label": "Observation::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ],
+                    [
+                        "located_at",
+                        "5"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": []
+            },
+            "6": {
+                "tokens": "Bibasilar pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 19,
+                "end_ix": 20,
+                "relations": []
+            },
+            "7": {
+                "tokens": "effusions",
+                "label": "Observation::definitely present",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "compressive atelectasis",
+                "label": "Observation::definitely present",
+                "start_ix": 23,
+                "end_ix": 24,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

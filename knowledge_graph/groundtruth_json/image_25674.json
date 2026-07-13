@@ -1,0 +1,85 @@
+{
+    "0": {
+        "text": "Chronic bilateral parenchymal opacities without convincing evidence for superimposed acute cardiopulmonary process .",
+        "entities": {
+            "1": {
+                "tokens": "Chronic",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "bilateral",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "parenchymal",
+                "label": "Anatomy::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "4": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            },
+            "5": {
+                "tokens": "superimposed",
+                "label": "Observation::definitely absent",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "acute",
+                "label": "Observation::definitely absent",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "cardiopulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": []
+            },
+            "8": {
+                "tokens": "process",
+                "label": "Observation::definitely absent",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

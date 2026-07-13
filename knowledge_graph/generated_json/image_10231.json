@@ -1,0 +1,114 @@
+{
+    "0": {
+        "text": "Mild bibasilar atelectasis . Slight blunting of the right costophrenic angle may be due to a trace pleural effusion .",
+        "entities": {
+            "1": {
+                "tokens": "Mild",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "bibasilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "atelectasis",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "Slight blunting",
+                "label": "Observation::definitely present",
+                "start_ix": 4,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "suggestive_of",
+                        "10"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "costophrenic",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": []
+            },
+            "7": {
+                "tokens": "angle",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "trace",
+                "label": "Observation::uncertain",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": []
+            },
+            "10": {
+                "tokens": "effusion",
+                "label": "Observation::uncertain",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

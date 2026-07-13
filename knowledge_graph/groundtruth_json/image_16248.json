@@ -1,0 +1,78 @@
+{
+    "0": {
+        "text": "Nasogastric tube tip ends at the GE junction and should be advanced prior to use . Mild bibasilar atelectasis .",
+        "entities": {
+            "1": {
+                "tokens": "Nasogastric",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "tube",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "tip",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "GE",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": []
+            },
+            "5": {
+                "tokens": "Mild",
+                "label": "Observation::definitely present",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "bibasilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": []
+            },
+            "7": {
+                "tokens": "atelectasis",
+                "label": "Observation::definitely present",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "0": {
+        "text": "Moderate right apical pneumothorax . Interval placement of right chest tube with a small amount of associated atelectasis . with Dr .",
+        "entities": {
+            "1": {
+                "tokens": "Moderate",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "apical",
+                "label": "Anatomy::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "3": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "Interval placement",
+                "label": "Observation::definitely present",
+                "start_ix": 5,
+                "end_ix": 6,
+                "relations": []
+            },
+            "5": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "chest",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": []
+            },
+            "7": {
+                "tokens": "tube",
+                "label": "Observation::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "small amount",
+                "label": "Observation::definitely present",
+                "start_ix": 13,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "atelectasis",
+                "label": "Observation::definitely present",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

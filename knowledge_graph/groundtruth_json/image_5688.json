@@ -1,0 +1,140 @@
+{
+    "0": {
+        "text": "ET tube which terminates at the origin of the left mainstem bronchus , and should be retracted . New left lung opacification , which may represent atelectasis , edema , or layering pleural effusion . D . by , M . D .",
+        "entities": {
+            "1": {
+                "tokens": "ET tube",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "origin",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "left mainstem bronchus",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 11,
+                "relations": []
+            },
+            "4": {
+                "tokens": "New",
+                "label": "Observation::definitely present",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": []
+            },
+            "7": {
+                "tokens": "opacification",
+                "label": "Observation::definitely present",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ],
+                    [
+                        "suggestive_of",
+                        "8"
+                    ],
+                    [
+                        "suggestive_of",
+                        "9"
+                    ],
+                    [
+                        "suggestive_of",
+                        "12"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 26,
+                "end_ix": 26,
+                "relations": []
+            },
+            "9": {
+                "tokens": "edema",
+                "label": "Observation::uncertain",
+                "start_ix": 28,
+                "end_ix": 28,
+                "relations": []
+            },
+            "10": {
+                "tokens": "layering",
+                "label": "Observation::uncertain",
+                "start_ix": 31,
+                "end_ix": 31,
+                "relations": [
+                    [
+                        "modify",
+                        "12"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 32,
+                "end_ix": 32,
+                "relations": []
+            },
+            "12": {
+                "tokens": "effusion",
+                "label": "Observation::uncertain",
+                "start_ix": 33,
+                "end_ix": 33,
+                "relations": [
+                    [
+                        "located_at",
+                        "11"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

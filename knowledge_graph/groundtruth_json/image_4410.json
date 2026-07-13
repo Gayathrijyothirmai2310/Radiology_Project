@@ -1,0 +1,66 @@
+{
+    "0": {
+        "text": "Improved aeration of the right lower lobe with persistent left basal pleural effusion and atelectasis .",
+        "entities": {
+            "1": {
+                "tokens": "Improved",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "aeration",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "right lower lobe",
+                "label": "Anatomy::definitely present",
+                "start_ix": 4,
+                "end_ix": 6,
+                "relations": []
+            },
+            "4": {
+                "tokens": "left basal pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 11,
+                "relations": []
+            },
+            "5": {
+                "tokens": "effusion",
+                "label": "Observation::definitely present",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "atelectasis",
+                "label": "Observation::definitely present",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

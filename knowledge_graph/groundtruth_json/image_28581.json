@@ -1,0 +1,121 @@
+{
+    "0": {
+        "text": "ETT in good position . Mild pulmonary vascular congestion . Worsening bibasilar opacities can be worsening atelectasis or aspiration .",
+        "entities": {
+            "1": {
+                "tokens": "ETT",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "good",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "3": {
+                "tokens": "position",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            },
+            "4": {
+                "tokens": "Mild",
+                "label": "Observation::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": []
+            },
+            "6": {
+                "tokens": "vascular",
+                "label": "Anatomy::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": []
+            },
+            "7": {
+                "tokens": "congestion",
+                "label": "Observation::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "Worsening",
+                "label": "Observation::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "bibasilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": []
+            },
+            "10": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ],
+                    [
+                        "suggestive_of",
+                        "11"
+                    ],
+                    [
+                        "suggestive_of",
+                        "12"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": []
+            },
+            "12": {
+                "tokens": "aspiration",
+                "label": "Observation::uncertain",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

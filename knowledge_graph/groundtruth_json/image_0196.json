@@ -1,0 +1,138 @@
+{
+    "0": {
+        "text": "Minimally displaced fracture of the right sixth posterior rib without underlying pneumothorax on this chest radiograph . Possible fracture of the fifth lateral rib as well .",
+        "entities": {
+            "1": {
+                "tokens": "Minimally",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "displaced",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "fracture",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "sixth",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "posterior",
+                "label": "Anatomy::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "rib",
+                "label": "Anatomy::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": []
+            },
+            "8": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely absent",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": []
+            },
+            "9": {
+                "tokens": "fracture",
+                "label": "Observation::uncertain",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "located_at",
+                        "12"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "fifth",
+                "label": "Anatomy::definitely present",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": [
+                    [
+                        "modify",
+                        "12"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "lateral",
+                "label": "Anatomy::definitely present",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": [
+                    [
+                        "modify",
+                        "12"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "rib",
+                "label": "Anatomy::definitely present",
+                "start_ix": 23,
+                "end_ix": 23,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

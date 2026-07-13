@@ -1,0 +1,78 @@
+{
+    "0": {
+        "text": "1 . No acute cardiopulmonary process . 2 . Free air under the diaphragm , likely related to the patient ' s known large hiatal hernia .",
+        "entities": {
+            "1": {
+                "tokens": "acute",
+                "label": "Observation::definitely absent",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "cardiopulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": []
+            },
+            "3": {
+                "tokens": "process",
+                "label": "Observation::definitely absent",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "Free air",
+                "label": "Observation::definitely present",
+                "start_ix": 9,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "under",
+                "label": "Anatomy::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "diaphragm",
+                "label": "Anatomy::definitely present",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": []
+            },
+            "7": {
+                "tokens": "hiatal hernia",
+                "label": "Observation::definitely present",
+                "start_ix": 24,
+                "end_ix": 25,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

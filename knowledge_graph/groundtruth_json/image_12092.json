@@ -1,0 +1,28 @@
+{
+    "0": {
+        "text": "No acute findings .",
+        "entities": {
+            "1": {
+                "tokens": "acute",
+                "label": "Observation::definitely absent",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "findings",
+                "label": "Observation::definitely absent",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

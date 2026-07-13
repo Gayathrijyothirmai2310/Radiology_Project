@@ -1,0 +1,78 @@
+{
+    "0": {
+        "text": "Atelectasis of the left lower lobe is new compared to the prior study . Pulmonary vascular congestion without frank pulmonary edema .",
+        "entities": {
+            "1": {
+                "tokens": "Atelectasis",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "left lower lobe",
+                "label": "Anatomy::definitely present",
+                "start_ix": 3,
+                "end_ix": 5,
+                "relations": []
+            },
+            "3": {
+                "tokens": "new",
+                "label": "Observation::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "vascular",
+                "label": "Anatomy::definitely present",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": []
+            },
+            "5": {
+                "tokens": "congestion",
+                "label": "Observation::definitely present",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": []
+            },
+            "7": {
+                "tokens": "edema",
+                "label": "Observation::definitely absent",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

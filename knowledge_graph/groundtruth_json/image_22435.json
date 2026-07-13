@@ -1,0 +1,66 @@
+{
+    "0": {
+        "text": "No evidence of infection or pulmonary edema . A subpleural irregular opacity appreciated on recent CT dated is beyond the resolution of chest radiograph .",
+        "entities": {
+            "1": {
+                "tokens": "infection",
+                "label": "Observation::definitely absent",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            },
+            "2": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            },
+            "3": {
+                "tokens": "edema",
+                "label": "Observation::definitely absent",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "subpleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": []
+            },
+            "5": {
+                "tokens": "irregular",
+                "label": "Observation::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

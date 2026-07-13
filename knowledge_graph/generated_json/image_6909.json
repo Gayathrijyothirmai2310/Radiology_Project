@@ -1,0 +1,84 @@
+{
+    "0": {
+        "text": "1 . Low position of the endotracheal tube , terminating 1 . 5 cm above the carina . 2 . Right basilar opacity , likely atelectasis .",
+        "entities": {
+            "1": {
+                "tokens": "position",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            },
+            "2": {
+                "tokens": "endotracheal tube",
+                "label": "Observation::definitely present",
+                "start_ix": 6,
+                "end_ix": 7,
+                "relations": []
+            },
+            "3": {
+                "tokens": "1 . 5 cm above",
+                "label": "Anatomy::measurement::definitely present",
+                "start_ix": 10,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "carina",
+                "label": "Anatomy::definitely present",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": []
+            },
+            "5": {
+                "tokens": "Right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "basilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": []
+            },
+            "7": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ],
+                    [
+                        "suggestive_of",
+                        "8"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 25,
+                "end_ix": 25,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

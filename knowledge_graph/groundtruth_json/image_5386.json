@@ -1,0 +1,28 @@
+{
+    "0": {
+        "text": "Early pneumonia .",
+        "entities": {
+            "1": {
+                "tokens": "Early",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "pneumonia",
+                "label": "Observation::definitely absent",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

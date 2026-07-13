@@ -1,0 +1,167 @@
+{
+    "0": {
+        "text": "Mild cardiomegaly with mild pulmonary vascular congestion . Small bilateral pleural effusions with bibasilar patchy opacities , likely compressive atelectasis , though infection is not excluded in the correct clinical setting . Correlation with nonemergent CT is recommended for further assessment .",
+        "entities": {
+            "1": {
+                "tokens": "Mild",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "cardiomegaly",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "mild",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": []
+            },
+            "5": {
+                "tokens": "vascular",
+                "label": "Anatomy::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "congestion",
+                "label": "Observation::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": [
+                    [
+                        "located_at",
+                        "5"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "Small",
+                "label": "Observation::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "bilateral",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": []
+            },
+            "10": {
+                "tokens": "effusions",
+                "label": "Observation::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "bibasilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": []
+            },
+            "12": {
+                "tokens": "patchy",
+                "label": "Observation::definitely present",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "modify",
+                        "13"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": [
+                    [
+                        "located_at",
+                        "11"
+                    ],
+                    [
+                        "suggestive_of",
+                        "14"
+                    ],
+                    [
+                        "suggestive_of",
+                        "15"
+                    ]
+                ]
+            },
+            "14": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": []
+            },
+            "15": {
+                "tokens": "infection",
+                "label": "Observation::uncertain",
+                "start_ix": 22,
+                "end_ix": 22,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

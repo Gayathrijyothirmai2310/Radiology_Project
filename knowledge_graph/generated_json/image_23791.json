@@ -1,0 +1,105 @@
+{
+    "0": {
+        "text": "Left retrocardiac opacity , likely atelectasis , although pneumonia cannot be excluded . Small left - sided pleural effusion .",
+        "entities": {
+            "1": {
+                "tokens": "Left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "retrocardiac",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "suggestive_of",
+                        "4"
+                    ],
+                    [
+                        "suggestive_of",
+                        "5"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": []
+            },
+            "5": {
+                "tokens": "pneumonia",
+                "label": "Observation::uncertain",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": []
+            },
+            "6": {
+                "tokens": "Small",
+                "label": "Observation::definitely present",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "modify",
+                        "9"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "left - sided",
+                "label": "Anatomy::definitely present",
+                "start_ix": 14,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": []
+            },
+            "9": {
+                "tokens": "effusion",
+                "label": "Observation::definitely present",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "located_at",
+                        "8"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

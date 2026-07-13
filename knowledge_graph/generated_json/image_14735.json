@@ -1,0 +1,147 @@
+{
+    "0": {
+        "text": "Right lower lobe consolidation and left retrocardiac opacity are concerning for multifocal pneumonia . Mild pulmonary edema and small bilateral pleural effusions are present .",
+        "entities": {
+            "1": {
+                "tokens": "Right lower lobe",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 2,
+                "relations": []
+            },
+            "2": {
+                "tokens": "consolidation",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "retrocardiac",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": []
+            },
+            "5": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "located_at",
+                        "4"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "multifocal",
+                "label": "Observation::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": []
+            },
+            "7": {
+                "tokens": "pneumonia",
+                "label": "Observation::definitely present",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": []
+            },
+            "8": {
+                "tokens": "Mild",
+                "label": "Observation::definitely present",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": []
+            },
+            "10": {
+                "tokens": "edema",
+                "label": "Observation::definitely present",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "located_at",
+                        "9"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "small",
+                "label": "Observation::definitely present",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "modify",
+                        "14"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "bilateral",
+                "label": "Anatomy::definitely present",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "modify",
+                        "13"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": []
+            },
+            "14": {
+                "tokens": "effusions",
+                "label": "Observation::definitely present",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": [
+                    [
+                        "located_at",
+                        "13"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

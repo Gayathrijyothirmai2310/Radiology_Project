@@ -1,0 +1,28 @@
+{
+    "image_id": "image_22435",
+    "entity_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "relation_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "graph_score": 0.0,
+    "hallucinated_nodes": [
+        "",
+        "cardiopulmonary",
+        "process"
+    ],
+    "missing_nodes": [
+        "edema",
+        "infection",
+        "irregular",
+        "opacity",
+        "pulmonary",
+        "subpleural"
+    ],
+    "wrong_relations": []
+}

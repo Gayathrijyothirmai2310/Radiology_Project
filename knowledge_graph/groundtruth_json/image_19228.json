@@ -1,0 +1,131 @@
+{
+    "0": {
+        "text": "No displaced rib fracture . Indistinct airspace opacity in the right lung base may be related to atelectasis from low lung volumes or early consolidation , depending upon the clinical setting .",
+        "entities": {
+            "1": {
+                "tokens": "displaced",
+                "label": "Observation::definitely absent",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "3"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "rib",
+                "label": "Anatomy::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "3": {
+                "tokens": "fracture",
+                "label": "Observation::definitely absent",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "Indistinct",
+                "label": "Observation::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "airspace",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": []
+            },
+            "6": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "located_at",
+                        "5"
+                    ],
+                    [
+                        "suggestive_of",
+                        "8"
+                    ],
+                    [
+                        "suggestive_of",
+                        "12"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "right lung base",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 12,
+                "relations": []
+            },
+            "8": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": []
+            },
+            "9": {
+                "tokens": "low",
+                "label": "Observation::uncertain",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "located_at",
+                        "11"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "lung",
+                "label": "Anatomy::definitely present",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": []
+            },
+            "11": {
+                "tokens": "volumes",
+                "label": "Anatomy::definitely present",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "consolidation",
+                "label": "Observation::uncertain",
+                "start_ix": 24,
+                "end_ix": 24,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "0": {
+        "text": "Interval increase in the moderate left - sided pneumothorax compared to the prior exam with slightly increased deviation of trachea to the right . New small left pleural effusion These findings were discussed with Dr . by Dr . by phone at : a . m . on the day of the exam .",
+        "entities": {
+            "1": {
+                "tokens": "increase",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "moderate",
+                "label": "Observation::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "left - sided",
+                "label": "Anatomy::definitely present",
+                "start_ix": 5,
+                "end_ix": 7,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely present",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "increased",
+                "label": "Observation::definitely present",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "deviation",
+                "label": "Observation::definitely present",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": [
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "trachea",
+                "label": "Anatomy::definitely present",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": []
+            },
+            "8": {
+                "tokens": "New",
+                "label": "Observation::definitely present",
+                "start_ix": 24,
+                "end_ix": 24,
+                "relations": [
+                    [
+                        "modify",
+                        "12"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "small",
+                "label": "Observation::definitely present",
+                "start_ix": 25,
+                "end_ix": 25,
+                "relations": [
+                    [
+                        "modify",
+                        "12"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 26,
+                "end_ix": 26,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 27,
+                "end_ix": 27,
+                "relations": []
+            },
+            "12": {
+                "tokens": "effusion",
+                "label": "Observation::definitely present",
+                "start_ix": 28,
+                "end_ix": 28,
+                "relations": [
+                    [
+                        "located_at",
+                        "11"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

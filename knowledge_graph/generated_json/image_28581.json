@@ -1,0 +1,52 @@
+{
+    "0": {
+        "text": "Slight increase in extent of the pre - existing bilateral parenchymal opacities .",
+        "entities": {
+            "1": {
+                "tokens": "pre - existing",
+                "label": "Observation::definitely present",
+                "start_ix": 6,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "bilateral",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": []
+            },
+            "3": {
+                "tokens": "parenchymal",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

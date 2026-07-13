@@ -1,0 +1,16 @@
+{
+    "0": {
+        "text": "No overt evidence of infectious process .",
+        "entities": {
+            "1": {
+                "tokens": "infectious",
+                "label": "Observation::definitely absent",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

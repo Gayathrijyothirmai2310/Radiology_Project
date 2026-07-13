@@ -1,0 +1,152 @@
+{
+    "0": {
+        "text": "Status post right thoracentesis and interval placement of a right - sided pigtail catheter , with a now resolved right pleural effusion . No evidence of pneumothorax . Stable , moderate left pleural effusion .",
+        "entities": {
+            "1": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "2": {
+                "tokens": "thoracentesis",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "right - sided",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 11,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pigtail catheter",
+                "label": "Observation::definitely present",
+                "start_ix": 12,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "resolved",
+                "label": "Observation::definitely present",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 19,
+                "end_ix": 19,
+                "relations": [
+                    [
+                        "modify",
+                        "7"
+                    ]
+                ]
+            },
+            "7": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 20,
+                "end_ix": 20,
+                "relations": []
+            },
+            "8": {
+                "tokens": "effusion",
+                "label": "Observation::definitely present",
+                "start_ix": 21,
+                "end_ix": 21,
+                "relations": [
+                    [
+                        "located_at",
+                        "7"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely absent",
+                "start_ix": 26,
+                "end_ix": 26,
+                "relations": []
+            },
+            "10": {
+                "tokens": "Stable",
+                "label": "Observation::definitely present",
+                "start_ix": 28,
+                "end_ix": 28,
+                "relations": [
+                    [
+                        "modify",
+                        "14"
+                    ]
+                ]
+            },
+            "11": {
+                "tokens": "moderate",
+                "label": "Observation::definitely present",
+                "start_ix": 30,
+                "end_ix": 30,
+                "relations": [
+                    [
+                        "modify",
+                        "14"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 31,
+                "end_ix": 31,
+                "relations": [
+                    [
+                        "modify",
+                        "13"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "pleural",
+                "label": "Anatomy::definitely present",
+                "start_ix": 32,
+                "end_ix": 32,
+                "relations": []
+            },
+            "14": {
+                "tokens": "effusion",
+                "label": "Observation::definitely present",
+                "start_ix": 33,
+                "end_ix": 33,
+                "relations": [
+                    [
+                        "located_at",
+                        "13"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

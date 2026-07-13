@@ -1,0 +1,85 @@
+{
+    "0": {
+        "text": "Bibasilar opacities , left greater than right , could represent atelectasis or aspiration .",
+        "entities": {
+            "1": {
+                "tokens": "Bibasilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ],
+                    [
+                        "suggestive_of",
+                        "6"
+                    ],
+                    [
+                        "suggestive_of",
+                        "7"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "greater",
+                "label": "Observation::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": [
+                    [
+                        "modify",
+                        "2"
+                    ],
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": []
+            },
+            "6": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": []
+            },
+            "7": {
+                "tokens": "aspiration",
+                "label": "Observation::uncertain",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

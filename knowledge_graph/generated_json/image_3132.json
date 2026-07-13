@@ -1,0 +1,116 @@
+{
+    "0": {
+        "text": "Slight increase in extent of the pre - existing right basal parenchymal opacity . Unchanged retrocardiac atelectasis .",
+        "entities": {
+            "1": {
+                "tokens": "Slight",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "increase",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": []
+            },
+            "3": {
+                "tokens": "increase in extent",
+                "label": "Observation::definitely present",
+                "start_ix": 1,
+                "end_ix": 3,
+                "relations": []
+            },
+            "4": {
+                "tokens": "pre - existing",
+                "label": "Observation::definitely present",
+                "start_ix": 6,
+                "end_ix": 8,
+                "relations": [
+                    [
+                        "modify",
+                        "8"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "basal",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 10,
+                "relations": []
+            },
+            "7": {
+                "tokens": "parenchymal",
+                "label": "Anatomy::definitely present",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": [
+                    [
+                        "modify",
+                        "6"
+                    ]
+                ]
+            },
+            "8": {
+                "tokens": "opacity",
+                "label": "Observation::definitely present",
+                "start_ix": 12,
+                "end_ix": 12,
+                "relations": [
+                    [
+                        "located_at",
+                        "6"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "Unchanged",
+                "label": "Observation::definitely present",
+                "start_ix": 14,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "retrocardiac",
+                "label": "Anatomy::definitely present",
+                "start_ix": 15,
+                "end_ix": 15,
+                "relations": []
+            },
+            "11": {
+                "tokens": "atelectasis",
+                "label": "Observation::definitely present",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "located_at",
+                        "10"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "0": {
+        "text": "No change in small left right basilar hydropneumothorax and adjacent right lower lobe consolidation .",
+        "entities": {
+            "1": {
+                "tokens": "No change",
+                "label": "Observation::definitely present",
+                "start_ix": 0,
+                "end_ix": 1,
+                "relations": []
+            },
+            "2": {
+                "tokens": "small",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "left right basilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 4,
+                "end_ix": 6,
+                "relations": []
+            },
+            "4": {
+                "tokens": "hydropneumothorax",
+                "label": "Observation::definitely present",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": [
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "right lower lobe",
+                "label": "Anatomy::definitely present",
+                "start_ix": 10,
+                "end_ix": 12,
+                "relations": []
+            },
+            "6": {
+                "tokens": "consolidation",
+                "label": "Observation::definitely present",
+                "start_ix": 13,
+                "end_ix": 13,
+                "relations": [
+                    [
+                        "located_at",
+                        "5"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

@@ -1,0 +1,164 @@
+{
+    "0": {
+        "text": "Bibasilar right greater than left opacities could represent either atelectasis or aspiration . Suboptimal positioning of right chest tube along with small pneumothorax inferior to chest tube entry site .",
+        "entities": {
+            "1": {
+                "tokens": "Bibasilar",
+                "label": "Anatomy::definitely present",
+                "start_ix": 0,
+                "end_ix": 0,
+                "relations": []
+            },
+            "2": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            },
+            "3": {
+                "tokens": "greater",
+                "label": "Observation::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "modify",
+                        "5"
+                    ]
+                ]
+            },
+            "4": {
+                "tokens": "left",
+                "label": "Anatomy::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": [
+                    [
+                        "modify",
+                        "1"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "opacities",
+                "label": "Observation::definitely present",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "located_at",
+                        "1"
+                    ],
+                    [
+                        "suggestive_of",
+                        "6"
+                    ],
+                    [
+                        "suggestive_of",
+                        "7"
+                    ]
+                ]
+            },
+            "6": {
+                "tokens": "atelectasis",
+                "label": "Observation::uncertain",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": []
+            },
+            "7": {
+                "tokens": "aspiration",
+                "label": "Observation::uncertain",
+                "start_ix": 11,
+                "end_ix": 11,
+                "relations": []
+            },
+            "8": {
+                "tokens": "Suboptimal positioning",
+                "label": "Observation::definitely present",
+                "start_ix": 13,
+                "end_ix": 14,
+                "relations": [
+                    [
+                        "modify",
+                        "11"
+                    ]
+                ]
+            },
+            "9": {
+                "tokens": "right",
+                "label": "Anatomy::definitely present",
+                "start_ix": 16,
+                "end_ix": 16,
+                "relations": [
+                    [
+                        "modify",
+                        "10"
+                    ]
+                ]
+            },
+            "10": {
+                "tokens": "chest",
+                "label": "Anatomy::definitely present",
+                "start_ix": 17,
+                "end_ix": 17,
+                "relations": []
+            },
+            "11": {
+                "tokens": "tube",
+                "label": "Observation::definitely present",
+                "start_ix": 18,
+                "end_ix": 18,
+                "relations": [
+                    [
+                        "located_at",
+                        "10"
+                    ]
+                ]
+            },
+            "12": {
+                "tokens": "inferior",
+                "label": "Anatomy::definitely present",
+                "start_ix": 23,
+                "end_ix": 23,
+                "relations": [
+                    [
+                        "modify",
+                        "13"
+                    ]
+                ]
+            },
+            "13": {
+                "tokens": "chest",
+                "label": "Anatomy::definitely present",
+                "start_ix": 25,
+                "end_ix": 25,
+                "relations": []
+            },
+            "14": {
+                "tokens": "tube",
+                "label": "Observation::definitely present",
+                "start_ix": 26,
+                "end_ix": 26,
+                "relations": [
+                    [
+                        "located_at",
+                        "13"
+                    ]
+                ]
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

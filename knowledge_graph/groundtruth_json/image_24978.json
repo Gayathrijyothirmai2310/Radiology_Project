@@ -1,0 +1,30 @@
+{
+    "0": {
+        "text": "Continuous evidence of pneumoperitoneum . No pneumothorax or pneumomediastinum .",
+        "entities": {
+            "1": {
+                "tokens": "pneumoperitoneum",
+                "label": "Observation::definitely present",
+                "start_ix": 3,
+                "end_ix": 3,
+                "relations": []
+            },
+            "2": {
+                "tokens": "pneumothorax",
+                "label": "Observation::definitely absent",
+                "start_ix": 6,
+                "end_ix": 6,
+                "relations": []
+            },
+            "3": {
+                "tokens": "pneumomediastinum",
+                "label": "Observation::definitely absent",
+                "start_ix": 8,
+                "end_ix": 8,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "image_id": "image_5688",
+    "entity_metrics": {
+        "precision": 0.2,
+        "recall": 0.1667,
+        "f1": 0.1818
+    },
+    "relation_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "graph_score": 0.0909,
+    "hallucinated_nodes": [
+        "",
+        "apical",
+        "bronchus",
+        "intubation",
+        "mainstem",
+        "pneumothorax",
+        "pulmonary",
+        "right"
+    ],
+    "missing_nodes": [
+        "atelectasis",
+        "effusion",
+        "et tube",
+        "layering",
+        "left mainstem bronchus",
+        "lung",
+        "new",
+        "opacification",
+        "origin",
+        "pleural"
+    ],
+    "wrong_relations": [
+        {
+            "finding": "left",
+            "relation": "modify",
+            "expected_target": "lung",
+            "generated_target": "apical"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "0": {
+        "text": "No acute cardiac or pulmonary process . Pneumomediastinum and pneumoperitoneum are not necessarily unexpected findings in a patient status post recent hiatal hernia repair .",
+        "entities": {
+            "1": {
+                "tokens": "acute",
+                "label": "Observation::definitely absent",
+                "start_ix": 1,
+                "end_ix": 1,
+                "relations": [
+                    [
+                        "modify",
+                        "4"
+                    ]
+                ]
+            },
+            "2": {
+                "tokens": "cardiac",
+                "label": "Anatomy::definitely present",
+                "start_ix": 2,
+                "end_ix": 2,
+                "relations": []
+            },
+            "3": {
+                "tokens": "pulmonary",
+                "label": "Anatomy::definitely present",
+                "start_ix": 4,
+                "end_ix": 4,
+                "relations": []
+            },
+            "4": {
+                "tokens": "process",
+                "label": "Observation::definitely absent",
+                "start_ix": 5,
+                "end_ix": 5,
+                "relations": [
+                    [
+                        "located_at",
+                        "2"
+                    ],
+                    [
+                        "located_at",
+                        "3"
+                    ]
+                ]
+            },
+            "5": {
+                "tokens": "Pneumomediastinum",
+                "label": "Observation::uncertain",
+                "start_ix": 7,
+                "end_ix": 7,
+                "relations": []
+            },
+            "6": {
+                "tokens": "pneumoperitoneum",
+                "label": "Observation::definitely present",
+                "start_ix": 9,
+                "end_ix": 9,
+                "relations": []
+            },
+            "7": {
+                "tokens": "hiatal hernia",
+                "label": "Observation::definitely present",
+                "start_ix": 21,
+                "end_ix": 22,
+                "relations": []
+            }
+        },
+        "data_source": null,
+        "data_split": "inference"
+    }
+}
