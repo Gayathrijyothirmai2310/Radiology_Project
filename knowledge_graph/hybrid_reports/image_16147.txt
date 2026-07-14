@@ -6,15 +6,20 @@ Left basilar opacity silhouetting the hemidiaphragm, potentially atelectasis not
 KNOWLEDGE GRAPH REVIEW
 ============================================================
 
-Potential Missing Findings
+Clinical Interpretation
+-----------------------------------
+• Possible rib fracture requiring further clinical review.
+
+Additional Findings Requiring Review
 -----------------------------------
 • Bibasilar
 • Greater
 • Opacities
-• Right
 
 Potential Unsupported Findings
 -----------------------------------
+The following concepts were generated but were not supported by the reference Knowledge Graph:
+
 • basilar
 • hemidiaphragm
 • opacity
@@ -30,8 +35,8 @@ Unsupported relations detected: 5
 Clinical Recommendation
 -----------------------------------
 • Review the potentially missing findings before finalizing the report.
-• Verify unsupported findings against the chest X-ray.
-• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+• Verify unsupported findings against the chest X-ray before including them in the final report.
+• The Knowledge Graph serves as a decision-support tool and should be interpreted together with image review.
 
 ============================================================
 End of Knowledge Graph Review

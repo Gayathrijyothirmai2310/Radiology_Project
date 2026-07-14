@@ -6,8 +6,14 @@ Right lower lobe consolidation and left retrocardiac opacity are concerning for 
 KNOWLEDGE GRAPH REVIEW
 ============================================================
 
+Clinical Interpretation
+-----------------------------------
+• No major clinically significant missing findings were identified.
+
 Potential Unsupported Findings
 -----------------------------------
+The following concepts were generated but were not supported by the reference Knowledge Graph:
+
 • bilateral
 • consolidation
 • edema
@@ -32,8 +38,8 @@ Unsupported relations detected: 8
 
 Clinical Recommendation
 -----------------------------------
-• Verify unsupported findings against the chest X-ray.
-• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+• Verify unsupported findings against the chest X-ray before including them in the final report.
+• The Knowledge Graph serves as a decision-support tool and should be interpreted together with image review.
 
 ============================================================
 End of Knowledge Graph Review

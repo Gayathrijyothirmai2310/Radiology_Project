@@ -6,10 +6,13 @@ Mild pulmonary vascular congestion and bibasilar atelectasis.
 KNOWLEDGE GRAPH REVIEW
 ============================================================
 
-Potential Missing Findings
+Clinical Interpretation
 -----------------------------------
+• Possible rib fracture requiring further clinical review.
 • Evaluate for pulmonary edema.
-• Left
+
+Additional Findings Requiring Review
+-----------------------------------
 • Picc
 • Pneumonia
 • Repositioned
@@ -17,6 +20,8 @@ Potential Missing Findings
 
 Potential Unsupported Findings
 -----------------------------------
+The following concepts were generated but were not supported by the reference Knowledge Graph:
+
 • atelectasis
 • bibasilar
 • congestion
@@ -32,8 +37,8 @@ Unsupported relations detected: 1
 Clinical Recommendation
 -----------------------------------
 • Review the potentially missing findings before finalizing the report.
-• Verify unsupported findings against the chest X-ray.
-• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+• Verify unsupported findings against the chest X-ray before including them in the final report.
+• The Knowledge Graph serves as a decision-support tool and should be interpreted together with image review.
 
 ============================================================
 End of Knowledge Graph Review

@@ -6,19 +6,24 @@ CHEXAGENT REPORT
 KNOWLEDGE GRAPH REVIEW
 ============================================================
 
-Potential Missing Findings
+Clinical Interpretation
 -----------------------------------
 • Consider aspiration if clinically appropriate.
+
+Additional Findings Requiring Review
+-----------------------------------
 • Bibasilar
-• Review the chest region carefully.
+• Chest
 • Greater
 • Inferior
 • Opacities
 • Suboptimal positioning
-• Review support device positioning.
+• Tube
 
 Potential Unsupported Findings
 -----------------------------------
+The following concepts were generated but were not supported by the reference Knowledge Graph:
+
 • basilar
 • endotracheal tube
 • opacity
@@ -36,8 +41,8 @@ Unsupported relations detected: 7
 Clinical Recommendation
 -----------------------------------
 • Review the potentially missing findings before finalizing the report.
-• Verify unsupported findings against the chest X-ray.
-• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+• Verify unsupported findings against the chest X-ray before including them in the final report.
+• The Knowledge Graph serves as a decision-support tool and should be interpreted together with image review.
 
 ============================================================
 End of Knowledge Graph Review

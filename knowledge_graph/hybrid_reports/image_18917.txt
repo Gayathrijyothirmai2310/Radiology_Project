@@ -6,12 +6,18 @@ Mild cardiomegaly and mild pulmonary edema.
 KNOWLEDGE GRAPH REVIEW
 ============================================================
 
-Potential Missing Findings
+Clinical Interpretation
+-----------------------------------
+• No major clinically significant missing findings were identified.
+
+Additional Findings Requiring Review
 -----------------------------------
 • New
 
 Potential Unsupported Findings
 -----------------------------------
+The following concepts were generated but were not supported by the reference Knowledge Graph:
+
 • cardiomegaly
 
 Knowledge Graph Summary
@@ -24,8 +30,8 @@ Unsupported relations detected: 2
 Clinical Recommendation
 -----------------------------------
 • Review the potentially missing findings before finalizing the report.
-• Verify unsupported findings against the chest X-ray.
-• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+• Verify unsupported findings against the chest X-ray before including them in the final report.
+• The Knowledge Graph serves as a decision-support tool and should be interpreted together with image review.
 
 ============================================================
 End of Knowledge Graph Review

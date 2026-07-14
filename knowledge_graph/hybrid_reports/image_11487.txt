@@ -6,14 +6,19 @@ The endotracheal tube is in a good position. There is a slight improvement in th
 KNOWLEDGE GRAPH REVIEW
 ============================================================
 
-Potential Missing Findings
+Clinical Interpretation
 -----------------------------------
 • Evaluate for pulmonary edema.
+
+Additional Findings Requiring Review
+-----------------------------------
 • Infection
 • Residual
 
 Potential Unsupported Findings
 -----------------------------------
+The following concepts were generated but were not supported by the reference Knowledge Graph:
+
 • aeration
 • endotracheal tube
 • good position
@@ -29,8 +34,8 @@ Unsupported relations detected: 3
 Clinical Recommendation
 -----------------------------------
 • Review the potentially missing findings before finalizing the report.
-• Verify unsupported findings against the chest X-ray.
-• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+• Verify unsupported findings against the chest X-ray before including them in the final report.
+• The Knowledge Graph serves as a decision-support tool and should be interpreted together with image review.
 
 ============================================================
 End of Knowledge Graph Review

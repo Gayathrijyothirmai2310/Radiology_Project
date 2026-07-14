@@ -6,13 +6,20 @@ Mild pulmonary edema.
 KNOWLEDGE GRAPH REVIEW
 ============================================================
 
-Potential Missing Findings
+Clinical Interpretation
 -----------------------------------
-• Review for pleural effusion.
-• Left
-• Pleural
+• Possible rib fracture requiring further clinical review.
 • Evaluate for possible pneumothorax.
+
+Additional Findings Requiring Review
+-----------------------------------
+• Effusion
+• Pleural
 • Small
+
+Potential Unsupported Findings
+-----------------------------------
+No unsupported findings detected.
 
 Knowledge Graph Summary
 -----------------------------------
@@ -24,7 +31,7 @@ Unsupported relations detected: 0
 Clinical Recommendation
 -----------------------------------
 • Review the potentially missing findings before finalizing the report.
-• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+• The Knowledge Graph serves as a decision-support tool and should be interpreted together with image review.
 
 ============================================================
 End of Knowledge Graph Review

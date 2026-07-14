@@ -6,7 +6,11 @@ Pulmonary edema with bilateral pleural effusions.
 KNOWLEDGE GRAPH REVIEW
 ============================================================
 
-Potential Missing Findings
+Clinical Interpretation
+-----------------------------------
+• No major clinically significant missing findings were identified.
+
+Additional Findings Requiring Review
 -----------------------------------
 • Bronchovascular
 • Cardiogenic
@@ -16,6 +20,10 @@ Potential Missing Findings
 • Moderate
 • Small
 • Volumes
+
+Potential Unsupported Findings
+-----------------------------------
+No unsupported findings detected.
 
 Knowledge Graph Summary
 -----------------------------------
@@ -27,7 +35,7 @@ Unsupported relations detected: 0
 Clinical Recommendation
 -----------------------------------
 • Review the potentially missing findings before finalizing the report.
-• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+• The Knowledge Graph serves as a decision-support tool and should be interpreted together with image review.
 
 ============================================================
 End of Knowledge Graph Review

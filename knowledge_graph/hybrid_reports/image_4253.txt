@@ -6,9 +6,12 @@ No acute intrathoracic process.
 KNOWLEDGE GRAPH REVIEW
 ============================================================
 
-Potential Missing Findings
+Clinical Interpretation
 -----------------------------------
 • Evaluate for possible atelectasis.
+
+Additional Findings Requiring Review
+-----------------------------------
 • Bibasilar
 • Mild
 • Opacities
@@ -16,6 +19,8 @@ Potential Missing Findings
 
 Potential Unsupported Findings
 -----------------------------------
+The following concepts were generated but were not supported by the reference Knowledge Graph:
+
 • acute
 • intrathoracic
 • process
@@ -30,8 +35,8 @@ Unsupported relations detected: 2
 Clinical Recommendation
 -----------------------------------
 • Review the potentially missing findings before finalizing the report.
-• Verify unsupported findings against the chest X-ray.
-• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+• Verify unsupported findings against the chest X-ray before including them in the final report.
+• The Knowledge Graph serves as a decision-support tool and should be interpreted together with image review.
 
 ============================================================
 End of Knowledge Graph Review

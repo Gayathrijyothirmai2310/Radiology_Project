@@ -6,16 +6,23 @@ Pulmonary edema.
 KNOWLEDGE GRAPH REVIEW
 ============================================================
 
-Potential Missing Findings
+Clinical Interpretation
 -----------------------------------
+• Assess for pulmonary opacity.
 • Evaluate for possible atelectasis.
+
+Additional Findings Requiring Review
+-----------------------------------
 • Bilateral
 • Diffuse
 • Hemorrhage
 • Opacification
-• Assess for pulmonary opacity.
 • Retrocardiac
 • Severe
+
+Potential Unsupported Findings
+-----------------------------------
+No unsupported findings detected.
 
 Knowledge Graph Summary
 -----------------------------------
@@ -27,7 +34,7 @@ Unsupported relations detected: 0
 Clinical Recommendation
 -----------------------------------
 • Review the potentially missing findings before finalizing the report.
-• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+• The Knowledge Graph serves as a decision-support tool and should be interpreted together with image review.
 
 ============================================================
 End of Knowledge Graph Review

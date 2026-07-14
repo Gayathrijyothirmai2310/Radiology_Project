@@ -6,6 +6,14 @@ Mild pulmonary vascular congestion.
 KNOWLEDGE GRAPH REVIEW
 ============================================================
 
+Clinical Interpretation
+-----------------------------------
+• No major clinically significant missing findings were identified.
+
+Potential Unsupported Findings
+-----------------------------------
+No unsupported findings detected.
+
 Knowledge Graph Summary
 -----------------------------------
 Missing findings detected      : 0
@@ -15,7 +23,8 @@ Unsupported relations detected: 0
 
 Clinical Recommendation
 -----------------------------------
-The AI-generated report is fully consistent with the Knowledge Graph.
+• The generated report is well aligned with the reference Knowledge Graph.
+• No additional review is required beyond routine clinical verification.
 
 ============================================================
 End of Knowledge Graph Review

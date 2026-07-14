@@ -6,9 +6,12 @@ No significant changes were observed.
 KNOWLEDGE GRAPH REVIEW
 ============================================================
 
-Potential Missing Findings
+Clinical Interpretation
 -----------------------------------
-• Assess for pulmonary consolidation.
+• Evaluate for pulmonary consolidation.
+
+Additional Findings Requiring Review
+-----------------------------------
 • Hydropneumothorax
 • Left right basilar
 • No change
@@ -17,6 +20,8 @@ Potential Missing Findings
 
 Potential Unsupported Findings
 -----------------------------------
+The following concepts were generated but were not supported by the reference Knowledge Graph:
+
 • changes
 
 Knowledge Graph Summary
@@ -29,8 +34,8 @@ Unsupported relations detected: 0
 Clinical Recommendation
 -----------------------------------
 • Review the potentially missing findings before finalizing the report.
-• Verify unsupported findings against the chest X-ray.
-• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+• Verify unsupported findings against the chest X-ray before including them in the final report.
+• The Knowledge Graph serves as a decision-support tool and should be interpreted together with image review.
 
 ============================================================
 End of Knowledge Graph Review
