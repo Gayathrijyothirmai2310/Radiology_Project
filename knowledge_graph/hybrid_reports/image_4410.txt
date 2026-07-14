@@ -1,0 +1,40 @@
+CHEXAGENT REPORT
+============================================================
+
+Mild pulmonary edema. Small left pleural effusion.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Aeration
+• Evaluate for possible atelectasis.
+• Improved
+• Left basal pleural
+• Right lower lobe
+
+Potential Unsupported Findings
+-----------------------------------
+• edema
+• left
+• mild
+• pleural
+• pulmonary
+• small
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 5
+Unsupported findings detected : 6
+Missing relations detected    : 3
+Unsupported relations detected: 3
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

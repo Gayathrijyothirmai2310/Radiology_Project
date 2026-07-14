@@ -1,0 +1,49 @@
+CHEXAGENT REPORT
+============================================================
+
+Moderate right and small left pleural effusions with mild pulmonary edema.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Central
+• Endotracheal
+• High
+• Internal
+• Jugular
+• Line
+• Lower
+• Evaluate for possible pneumothorax.
+• Svc
+• Tip
+• Review support device positioning.
+• Venous
+
+Potential Unsupported Findings
+-----------------------------------
+• edema
+• effusions
+• left
+• mild
+• moderate
+• pleural
+• pulmonary
+• small
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 12
+Unsupported findings detected : 8
+Missing relations detected    : 10
+Unsupported relations detected: 4
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

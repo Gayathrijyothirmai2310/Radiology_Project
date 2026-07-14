@@ -1,0 +1,35 @@
+CHEXAGENT REPORT
+============================================================
+
+Small left pneumothorax
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Changes
+• Review the chest region carefully.
+• In place
+• Postsurgical
+• Review support device positioning.
+
+Potential Unsupported Findings
+-----------------------------------
+• small
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 5
+Unsupported findings detected : 1
+Missing relations detected    : 3
+Unsupported relations detected: 1
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

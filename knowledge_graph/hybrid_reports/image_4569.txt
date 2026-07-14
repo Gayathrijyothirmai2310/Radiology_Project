@@ -1,0 +1,27 @@
+CHEXAGENT REPORT
+============================================================
+
+No acute cardiopulmonary process.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Cardiomegaly
+• Mild
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 2
+Unsupported findings detected : 0
+Missing relations detected    : 0
+Unsupported relations detected: 0
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

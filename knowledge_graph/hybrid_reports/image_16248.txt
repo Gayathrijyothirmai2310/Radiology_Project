@@ -1,0 +1,42 @@
+CHEXAGENT REPORT
+============================================================
+
+1. The endotracheal tube is positioned high, ending 7.5 cm above the carina. 2. The lungs are clear.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Evaluate for possible atelectasis.
+• Bibasilar
+• Ge
+• Mild
+• Nasogastric
+• Tip
+• Review support device positioning.
+
+Potential Unsupported Findings
+-----------------------------------
+• 7  5 cm above
+• carina
+• clear
+• endotracheal tube
+• high
+• lungs
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 7
+Unsupported findings detected : 6
+Missing relations detected    : 4
+Unsupported relations detected: 3
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

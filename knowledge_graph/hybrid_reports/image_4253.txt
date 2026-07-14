@@ -1,0 +1,37 @@
+CHEXAGENT REPORT
+============================================================
+
+No acute intrathoracic process.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Evaluate for possible atelectasis.
+• Bibasilar
+• Mild
+• Opacities
+• Pneumonia
+
+Potential Unsupported Findings
+-----------------------------------
+• acute
+• intrathoracic
+• process
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 5
+Unsupported findings detected : 3
+Missing relations detected    : 3
+Unsupported relations detected: 2
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

@@ -1,0 +1,16 @@
+Original Report
+---------------
+Mild cardiomegaly and mild pulmonary edema.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- new
+
+Potential unsupported findings:
+- cardiomegaly
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

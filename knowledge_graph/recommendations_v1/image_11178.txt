@@ -1,0 +1,22 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: basilar.
+• Consider evaluating for consolidation.
+• Review finding: increased.
+• Review the reported pulmonary opacity.
+• Review finding: prominence.
+
+Unsupported Findings
+--------------------
+• 'infiltrate' is not supported by the reference graph.
+• 'lobe' is not supported by the reference graph.
+• 'lower' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

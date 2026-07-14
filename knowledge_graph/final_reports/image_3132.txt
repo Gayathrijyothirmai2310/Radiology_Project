@@ -1,0 +1,32 @@
+Original Report
+---------------
+Slight increase in extent of the pre-existing right basal parenchymal opacity. Unchanged retrocardiac atelectasis.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- base
+- good position
+- increased opacification
+- infection
+- left
+- linear changes
+- picc line
+- right base
+
+Potential unsupported findings:
+- basal
+- increase
+- increase in extent
+- opacity
+- parenchymal
+- pre  existing
+- retrocardiac
+- right
+- slight
+- unchanged
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

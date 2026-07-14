@@ -1,0 +1,31 @@
+Original Report
+---------------
+Diffuse bilateral pulmonary opacification, worse on the right, is consistent with asymmetric pulmonary edema.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- ards
+- effusions
+- endotracheal
+- enteric
+- lucency
+- mediastinum
+- moderate
+- pleural
+- pneumomediastinum
+- standard positions
+- trace
+- tubes
+
+Potential unsupported findings:
+- asymmetric
+- diffuse
+- opacification
+- right
+- worse
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

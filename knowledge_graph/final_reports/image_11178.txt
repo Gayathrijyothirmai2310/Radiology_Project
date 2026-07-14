@@ -1,0 +1,22 @@
+Original Report
+---------------
+Right lower lobe infiltrate
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- basilar
+- consolidation
+- increased
+- opacity
+- prominence
+
+Potential unsupported findings:
+- infiltrate
+- lobe
+- lower
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

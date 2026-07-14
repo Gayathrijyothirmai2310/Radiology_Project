@@ -1,0 +1,34 @@
+CHEXAGENT REPORT
+============================================================
+
+Mild pulmonary edema.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Left
+• Nodules
+• Pneumonia
+
+Potential Unsupported Findings
+-----------------------------------
+• edema
+• mild
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 3
+Unsupported findings detected : 2
+Missing relations detected    : 2
+Unsupported relations detected: 0
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

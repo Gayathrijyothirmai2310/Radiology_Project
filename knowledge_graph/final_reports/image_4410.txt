@@ -1,0 +1,25 @@
+Original Report
+---------------
+Mild pulmonary edema. Small left pleural effusion.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- aeration
+- atelectasis
+- improved
+- left basal pleural
+- right lower lobe
+
+Potential unsupported findings:
+- edema
+- left
+- mild
+- pleural
+- pulmonary
+- small
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

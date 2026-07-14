@@ -1,0 +1,19 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: bronchovascular.
+• Review finding: cardiogenic.
+• Review finding: crowding.
+• Review finding: low.
+• Review finding: lung.
+• Review finding: moderate.
+• Review finding: small.
+• Review finding: volumes.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

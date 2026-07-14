@@ -1,0 +1,42 @@
+CHEXAGENT REPORT
+============================================================
+
+1. Diffuse interstitial lung disease. 2. Small amount of free air under the left hemidiaphragm.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Cardiopulmonary
+• Findings
+• Pneumoperitoneum
+• Stable
+
+Potential Unsupported Findings
+-----------------------------------
+• diffuse
+• disease
+• free air
+• hemidiaphragm
+• interstitial
+• left
+• lung
+• small
+• under
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 4
+Unsupported findings detected : 9
+Missing relations detected    : 2
+Unsupported relations detected: 7
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

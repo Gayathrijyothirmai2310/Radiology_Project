@@ -1,0 +1,20 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: chest.
+• Review finding: expected postoperative appearance.
+• Review finding: pneumopericardium.
+• Review finding: residual small.
+• Review finding: residual small pneumopericardium.
+
+Unsupported Findings
+--------------------
+• 'pneumothorax' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

@@ -1,0 +1,37 @@
+CHEXAGENT REPORT
+============================================================
+
+1. No acute cardiopulmonary process. 2. Free air under the diaphragm, likely related to the patient's known large hiatal hernia.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Cardiac
+• Pneumomediastinum
+• Pneumoperitoneum
+• Pulmonary
+
+Potential Unsupported Findings
+-----------------------------------
+• cardiopulmonary
+• diaphragm
+• free air
+• under
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 4
+Unsupported findings detected : 4
+Missing relations detected    : 2
+Unsupported relations detected: 3
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

@@ -1,0 +1,18 @@
+Original Report
+---------------
+No significant changes are observed.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- atelectasis
+- bibasilar
+- improved
+
+Potential unsupported findings:
+- changes
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

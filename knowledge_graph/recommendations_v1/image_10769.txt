@@ -1,0 +1,26 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Consider evaluating for pleural effusion.
+• Review finding: left.
+• Review finding: moderate.
+• Review finding: pigtail catheter.
+• Review pleural findings.
+• Consider evaluating for pneumothorax.
+• Review finding: resolved.
+• Review finding: right.
+• Review finding: right  sided.
+• Review finding: stable.
+• Review finding: thoracentesis.
+
+Unsupported Findings
+--------------------
+• 'changes' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

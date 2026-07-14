@@ -1,0 +1,27 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: deviation.
+• Consider evaluating for pleural effusion.
+• Review finding: increase.
+• Review finding: increased.
+• Review finding: left  sided.
+• Review finding: moderate.
+• Review finding: new.
+• Review pleural findings.
+• Review finding: small.
+• Review finding: trachea.
+
+Unsupported Findings
+--------------------
+• 'decrease' is not supported by the reference graph.
+• 'size' is not supported by the reference graph.
+• 'slight' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

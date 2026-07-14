@@ -1,0 +1,39 @@
+CHEXAGENT REPORT
+============================================================
+
+The endotracheal tube tip is located over the mid thoracic trachea.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Bilateral
+• Evaluate for pulmonary edema.
+• Effusions
+• New endotracheal tube
+• Opacities
+• Pulmonary
+• Right lung
+• Right mainstem bronchus
+
+Potential Unsupported Findings
+-----------------------------------
+• mid thoracic trachea
+• tip
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 8
+Unsupported findings detected : 2
+Missing relations detected    : 4
+Unsupported relations detected: 1
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

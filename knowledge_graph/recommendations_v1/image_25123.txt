@@ -1,0 +1,34 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: central.
+• Review finding: endotracheal.
+• Review finding: high.
+• Review finding: internal.
+• Review finding: jugular.
+• Verify line placement.
+• Review finding: lower.
+• Consider evaluating for pneumothorax.
+• Review finding: svc.
+• Review finding: tip.
+• Verify tube placement.
+• Review finding: venous.
+
+Unsupported Findings
+--------------------
+• 'edema' is not supported by the reference graph.
+• 'effusions' is not supported by the reference graph.
+• 'left' is not supported by the reference graph.
+• 'mild' is not supported by the reference graph.
+• 'moderate' is not supported by the reference graph.
+• 'pleural' is not supported by the reference graph.
+• 'pulmonary' is not supported by the reference graph.
+• 'small' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

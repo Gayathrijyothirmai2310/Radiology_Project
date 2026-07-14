@@ -1,0 +1,22 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Verify line placement.
+• Review finding: proximal.
+• Review finding: right  sided.
+• Review finding: svc.
+• Review finding: tip.
+
+Unsupported Findings
+--------------------
+• 'acute' is not supported by the reference graph.
+• 'focal' is not supported by the reference graph.
+• 'pneumonia' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

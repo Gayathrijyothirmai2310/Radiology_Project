@@ -1,0 +1,26 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: chf.
+• Review finding: severe.
+
+Unsupported Findings
+--------------------
+• 'aspiration' is not supported by the reference graph.
+• 'bases' is not supported by the reference graph.
+• 'confluent' is not supported by the reference graph.
+• 'diffuse' is not supported by the reference graph.
+• 'disease' is not supported by the reference graph.
+• 'edema' is not supported by the reference graph.
+• 'infection' is not supported by the reference graph.
+• 'interstitial' is not supported by the reference graph.
+• 'lung' is not supported by the reference graph.
+• 'pulmonary' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

@@ -1,0 +1,29 @@
+Original Report
+---------------
+Right upper lobe opacity with associated volume loss may represent post-obstructive pneumonia.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- acute
+- bilateral
+- cardiopulmonary
+- chronic
+- opacities
+- parenchymal
+- process
+- superimposed
+
+Potential unsupported findings:
+- lobe
+- loss
+- opacity
+- pneumonia
+- post  obstructive
+- upper
+- volume
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

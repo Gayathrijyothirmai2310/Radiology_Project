@@ -1,0 +1,40 @@
+CHEXAGENT REPORT
+============================================================
+
+Left retrocardiac opacity may represent atelectasis.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Aorta
+• Change
+• Deviation
+• Dilated
+• Increased
+• Substantial
+• Trachea
+
+Potential Unsupported Findings
+-----------------------------------
+• atelectasis
+• left
+• opacity
+• retrocardiac
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 7
+Unsupported findings detected : 4
+Missing relations detected    : 4
+Unsupported relations detected: 3
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

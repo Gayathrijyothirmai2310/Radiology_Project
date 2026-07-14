@@ -1,0 +1,28 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: aspiration.
+• Review finding: bibasilar.
+• Review finding: chest.
+• Review finding: greater.
+• Review finding: inferior.
+• Review finding: opacities.
+• Review finding: suboptimal positioning.
+• Verify tube placement.
+
+Unsupported Findings
+--------------------
+• 'basilar' is not supported by the reference graph.
+• 'endotracheal tube' is not supported by the reference graph.
+• 'opacity' is not supported by the reference graph.
+• 'pneumothorax' is not supported by the reference graph.
+• 'position' is not supported by the reference graph.
+• 'small' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

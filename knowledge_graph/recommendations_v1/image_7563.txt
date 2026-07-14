@@ -1,0 +1,18 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review for possible atelectasis.
+• Review finding: bibasilar.
+• Review finding: improved.
+
+Unsupported Findings
+--------------------
+• 'changes' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

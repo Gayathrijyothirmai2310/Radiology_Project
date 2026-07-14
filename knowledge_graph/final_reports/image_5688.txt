@@ -1,0 +1,33 @@
+Original Report
+---------------
+1. Right mainstem bronchus intubation. 2. Small left apical pneumothorax. 3. Mild pulmonary edema.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- atelectasis
+- effusion
+- et tube
+- layering
+- left mainstem bronchus
+- lung
+- new
+- opacification
+- origin
+- pleural
+
+Potential unsupported findings:
+- apical
+- bronchus
+- intubation
+- mainstem
+- mild
+- pneumothorax
+- pulmonary
+- right
+- small
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

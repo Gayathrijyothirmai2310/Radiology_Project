@@ -1,0 +1,27 @@
+Original Report
+---------------
+Mild pulmonary edema. Bilateral pleural effusions, left greater than right.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- atelectasis
+- bibasilar
+- cardiomegaly
+- congestion
+- infection
+- opacities
+- patchy
+- small
+- vascular
+
+Potential unsupported findings:
+- edema
+- greater
+- left
+- right
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

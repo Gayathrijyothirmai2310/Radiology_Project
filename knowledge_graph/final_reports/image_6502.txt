@@ -1,0 +1,20 @@
+Original Report
+---------------
+Small left pneumothorax
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- changes
+- chest
+- in place
+- postsurgical
+- tube
+
+Potential unsupported findings:
+- small
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

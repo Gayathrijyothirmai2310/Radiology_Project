@@ -1,0 +1,25 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review for possible atelectasis.
+• Review finding: bibasilar.
+• Review finding: bilateral.
+• Consider evaluating for pleural effusion.
+• Review finding: no change.
+
+Unsupported Findings
+--------------------
+• 'cardiomegaly' is not supported by the reference graph.
+• 'effusion' is not supported by the reference graph.
+• 'mild' is not supported by the reference graph.
+• 'moderate' is not supported by the reference graph.
+• 'right' is not supported by the reference graph.
+• 'small' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

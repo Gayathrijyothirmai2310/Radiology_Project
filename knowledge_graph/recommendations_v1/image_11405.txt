@@ -1,0 +1,23 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: aeration.
+• Review finding: bases.
+• Review finding: bilateral.
+• Review finding: improved.
+• Review finding: infrahilar.
+• Review finding: lung.
+• Review finding: opacities.
+
+Unsupported Findings
+--------------------
+• 'improvement' is not supported by the reference graph.
+• 'slight' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

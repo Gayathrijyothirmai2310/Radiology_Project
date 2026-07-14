@@ -1,0 +1,41 @@
+CHEXAGENT REPORT
+============================================================
+
+Diffuse bilateral interstitial and airspace disease, with more confluent opacities at the lung bases, which may represent pulmonary edema, aspiration, or infection.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Chf
+• Severe
+
+Potential Unsupported Findings
+-----------------------------------
+• aspiration
+• bases
+• confluent
+• diffuse
+• disease
+• edema
+• infection
+• interstitial
+• lung
+• pulmonary
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 2
+Unsupported findings detected : 10
+Missing relations detected    : 4
+Unsupported relations detected: 12
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

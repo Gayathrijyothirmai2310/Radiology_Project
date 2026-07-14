@@ -1,0 +1,43 @@
+CHEXAGENT REPORT
+============================================================
+
+1. Low position of the endotracheal tube. 2. Small right pneumothorax. 3. Right basilar opacity, likely atelectasis. 4. Left basilar opacity, likely atelectasis.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Consider aspiration if clinically appropriate.
+• Bibasilar
+• Review the chest region carefully.
+• Greater
+• Inferior
+• Opacities
+• Suboptimal positioning
+• Review support device positioning.
+
+Potential Unsupported Findings
+-----------------------------------
+• basilar
+• endotracheal tube
+• opacity
+• pneumothorax
+• position
+• small
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 8
+Unsupported findings detected : 6
+Missing relations detected    : 11
+Unsupported relations detected: 7
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

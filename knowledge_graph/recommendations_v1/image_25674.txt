@@ -1,0 +1,29 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: acute.
+• Review finding: bilateral.
+• Review finding: cardiopulmonary.
+• Review finding: chronic.
+• Review finding: opacities.
+• Review finding: parenchymal.
+• Review finding: process.
+• Review finding: superimposed.
+
+Unsupported Findings
+--------------------
+• 'lobe' is not supported by the reference graph.
+• 'loss' is not supported by the reference graph.
+• 'opacity' is not supported by the reference graph.
+• 'pneumonia' is not supported by the reference graph.
+• 'post  obstructive' is not supported by the reference graph.
+• 'upper' is not supported by the reference graph.
+• 'volume' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

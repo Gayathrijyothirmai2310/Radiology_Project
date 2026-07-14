@@ -1,0 +1,28 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: aspiration.
+• Review for possible atelectasis.
+• Review finding: bibasilar.
+• Review finding: congestion.
+• Review finding: ett.
+• Review finding: good.
+• Review finding: mild.
+• Review finding: position.
+• Review finding: pulmonary.
+• Review finding: vascular.
+• Review finding: worsening.
+
+Unsupported Findings
+--------------------
+• 'bilateral' is not supported by the reference graph.
+• 'parenchymal' is not supported by the reference graph.
+• 'pre  existing' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

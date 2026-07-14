@@ -1,0 +1,21 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review for pulmonary edema.
+• Review finding: infection.
+• Review finding: residual.
+
+Unsupported Findings
+--------------------
+• 'aeration' is not supported by the reference graph.
+• 'endotracheal tube' is not supported by the reference graph.
+• 'good position' is not supported by the reference graph.
+• 'left lung base' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

@@ -1,0 +1,16 @@
+Original Report
+---------------
+No significant changes were observed.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- change
+
+Potential unsupported findings:
+- changes
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

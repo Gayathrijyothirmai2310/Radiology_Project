@@ -1,0 +1,39 @@
+CHEXAGENT REPORT
+============================================================
+
+Small left apical pneumothorax
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Base
+• Review the chest region carefully.
+• Review for pleural effusion.
+• Interval
+• Loculated
+• Pleural
+• Resolution
+• Review support device positioning.
+
+Potential Unsupported Findings
+-----------------------------------
+• apical
+• small
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 8
+Unsupported findings detected : 2
+Missing relations detected    : 5
+Unsupported relations detected: 1
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

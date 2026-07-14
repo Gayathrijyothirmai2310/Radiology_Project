@@ -1,0 +1,44 @@
+CHEXAGENT REPORT
+============================================================
+
+Large right lower lobe consolidation and small bilateral pleural effusions.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Evaluate for possible atelectasis.
+• Base
+• Evaluate for pulmonary edema.
+• Review for pleural effusion.
+• Interstitial
+• Left lung
+• Lung
+• Assess for pulmonary opacity.
+• Right
+• Rounded
+
+Potential Unsupported Findings
+-----------------------------------
+• bilateral
+• consolidation
+• effusions
+• large
+• right lower lobe
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 10
+Unsupported findings detected : 5
+Missing relations detected    : 7
+Unsupported relations detected: 4
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

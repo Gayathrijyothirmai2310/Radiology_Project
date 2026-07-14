@@ -1,0 +1,37 @@
+CHEXAGENT REPORT
+============================================================
+
+Right-sided hydropneumothorax with collapse of the right middle lobe.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Congestion
+• Increase
+• Right
+• Stable
+• Vascular
+
+Potential Unsupported Findings
+-----------------------------------
+• collapse
+• right  sided
+• right middle lobe
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 5
+Unsupported findings detected : 3
+Missing relations detected    : 1
+Unsupported relations detected: 2
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

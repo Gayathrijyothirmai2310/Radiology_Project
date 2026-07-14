@@ -1,0 +1,24 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review pleural findings.
+• Consider evaluating for consolidation.
+• Consider evaluating for pleural effusion.
+• Review finding: large.
+• Review finding: left lung.
+• Review the reported pulmonary opacity.
+• Consider evaluating for pneumonia.
+• Review finding: right lung.
+• Review finding: unchanged.
+
+Unsupported Findings
+--------------------
+• 'changes' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

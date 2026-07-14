@@ -1,0 +1,42 @@
+CHEXAGENT REPORT
+============================================================
+
+Mild pulmonary edema. Bilateral pleural effusions, left greater than right.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Evaluate for possible atelectasis.
+• Bibasilar
+• Cardiomegaly
+• Congestion
+• Infection
+• Opacities
+• Patchy
+• Small
+• Vascular
+
+Potential Unsupported Findings
+-----------------------------------
+• edema
+• greater
+• left
+• right
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 9
+Unsupported findings detected : 4
+Missing relations detected    : 10
+Unsupported relations detected: 5
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

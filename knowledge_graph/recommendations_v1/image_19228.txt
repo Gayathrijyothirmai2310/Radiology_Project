@@ -1,0 +1,29 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: airspace.
+• Review for possible atelectasis.
+• Consider evaluating for consolidation.
+• Review finding: displaced.
+• Possible fracture detected. Review the affected bone carefully.
+• Review finding: indistinct.
+• Review finding: low.
+• Review finding: lung.
+• Review the reported pulmonary opacity.
+• Review the rib region carefully.
+• Review finding: right lung base.
+• Review finding: volumes.
+
+Unsupported Findings
+--------------------
+• 'acute' is not supported by the reference graph.
+• 'cardiopulmonary' is not supported by the reference graph.
+• 'process' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

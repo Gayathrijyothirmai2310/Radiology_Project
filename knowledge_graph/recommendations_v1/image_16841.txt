@@ -1,0 +1,23 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Consider evaluating for consolidation.
+• Review finding: improvement.
+• Review finding: neoplasm.
+• Review finding: right basal.
+• Review finding: right upper lung.
+• Review finding: scarring.
+• Review for pulmonary mass.
+
+Unsupported Findings
+--------------------
+• 'multifocal' is not supported by the reference graph.
+• 'pneumonia' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

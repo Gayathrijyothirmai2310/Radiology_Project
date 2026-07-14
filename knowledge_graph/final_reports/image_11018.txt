@@ -1,0 +1,26 @@
+Original Report
+---------------
+Diffuse bilateral interstitial and airspace disease, with more confluent opacities at the lung bases, which may represent pulmonary edema, aspiration, or infection.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- chf
+- severe
+
+Potential unsupported findings:
+- aspiration
+- bases
+- confluent
+- diffuse
+- disease
+- edema
+- infection
+- interstitial
+- lung
+- pulmonary
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

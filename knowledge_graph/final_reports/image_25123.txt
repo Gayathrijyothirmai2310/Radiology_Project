@@ -1,0 +1,34 @@
+Original Report
+---------------
+Moderate right and small left pleural effusions with mild pulmonary edema.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- central
+- endotracheal
+- high
+- internal
+- jugular
+- line
+- lower
+- pneumothorax
+- svc
+- tip
+- tube
+- venous
+
+Potential unsupported findings:
+- edema
+- effusions
+- left
+- mild
+- moderate
+- pleural
+- pulmonary
+- small
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

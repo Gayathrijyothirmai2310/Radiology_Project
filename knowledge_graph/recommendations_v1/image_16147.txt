@@ -1,0 +1,22 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: bibasilar.
+• Review finding: greater.
+• Review finding: opacities.
+• Review finding: right.
+
+Unsupported Findings
+--------------------
+• 'basilar' is not supported by the reference graph.
+• 'hemidiaphragm' is not supported by the reference graph.
+• 'opacity' is not supported by the reference graph.
+• 'silhouetting' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

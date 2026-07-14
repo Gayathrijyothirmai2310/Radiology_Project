@@ -1,0 +1,23 @@
+Original Report
+---------------
+Multifocal pneumonia
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- consolidation
+- improvement
+- neoplasm
+- right basal
+- right upper lung
+- scarring
+- stellate mass
+
+Potential unsupported findings:
+- multifocal
+- pneumonia
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

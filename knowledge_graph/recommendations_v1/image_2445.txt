@@ -1,0 +1,23 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: bilateral.
+• Evaluate cardiac silhouette for cardiomegaly.
+• Consider evaluating for pleural effusion.
+• Review pleural findings.
+• Review finding: small.
+
+Unsupported Findings
+--------------------
+• 'hilum' is not supported by the reference graph.
+• 'mild' is not supported by the reference graph.
+• 'prominent' is not supported by the reference graph.
+• 'right' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

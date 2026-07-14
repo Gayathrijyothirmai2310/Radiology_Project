@@ -1,0 +1,24 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review for pulmonary edema.
+• Review finding: left.
+• Review finding: picc.
+• Consider evaluating for pneumonia.
+• Review finding: repositioned.
+• Review finding: tip.
+
+Unsupported Findings
+--------------------
+• 'atelectasis' is not supported by the reference graph.
+• 'bibasilar' is not supported by the reference graph.
+• 'congestion' is not supported by the reference graph.
+• 'vascular' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

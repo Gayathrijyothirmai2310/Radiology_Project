@@ -1,0 +1,31 @@
+CHEXAGENT REPORT
+============================================================
+
+Mild cardiomegaly and mild pulmonary edema.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• New
+
+Potential Unsupported Findings
+-----------------------------------
+• cardiomegaly
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 1
+Unsupported findings detected : 1
+Missing relations detected    : 0
+Unsupported relations detected: 2
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

@@ -1,0 +1,22 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review for possible atelectasis.
+• Review finding: basilar.
+• Consider evaluating for pleural effusion.
+• Review finding: right.
+• Review finding: small.
+
+Unsupported Findings
+--------------------
+• 'acute' is not supported by the reference graph.
+• 'cardiopulmonary' is not supported by the reference graph.
+• 'process' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

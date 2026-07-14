@@ -1,0 +1,27 @@
+Original Report
+---------------
+Increased opacification at the bases is consistent with layering effusions and compressive atelectasis.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- bibasilar pleural
+- compressive atelectasis
+- edema
+- pulmonary
+- right
+- severe
+- worsening
+
+Potential unsupported findings:
+- atelectasis
+- bases
+- compressive
+- increased
+- layering
+- opacification
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

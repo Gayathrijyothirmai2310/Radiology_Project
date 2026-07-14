@@ -1,0 +1,33 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review for possible atelectasis.
+• Consider evaluating for pleural effusion.
+• Verify tube placement.
+• Review finding: layering.
+• Review finding: left mainstem bronchus.
+• Review finding: lung.
+• Review finding: new.
+• Review finding: opacification.
+• Review finding: origin.
+• Review pleural findings.
+
+Unsupported Findings
+--------------------
+• 'apical' is not supported by the reference graph.
+• 'bronchus' is not supported by the reference graph.
+• 'intubation' is not supported by the reference graph.
+• 'mainstem' is not supported by the reference graph.
+• 'mild' is not supported by the reference graph.
+• 'pneumothorax' is not supported by the reference graph.
+• 'pulmonary' is not supported by the reference graph.
+• 'right' is not supported by the reference graph.
+• 'small' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

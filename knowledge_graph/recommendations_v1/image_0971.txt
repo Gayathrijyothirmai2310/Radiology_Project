@@ -1,0 +1,24 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Consider evaluating for pleural effusion.
+• Review finding: lower.
+• Review finding: lung.
+
+Unsupported Findings
+--------------------
+• 'aspiration' is not supported by the reference graph.
+• 'atelectasis' is not supported by the reference graph.
+• 'bibasilar' is not supported by the reference graph.
+• 'bilateral' is not supported by the reference graph.
+• 'effusions' is not supported by the reference graph.
+• 'pleural' is not supported by the reference graph.
+• 'small' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

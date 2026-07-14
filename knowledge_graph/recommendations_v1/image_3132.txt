@@ -1,0 +1,32 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: base.
+• Review finding: good position.
+• Review finding: increased opacification.
+• Review finding: infection.
+• Review finding: left.
+• Verify line placement.
+• Verify line placement.
+• Review finding: right base.
+
+Unsupported Findings
+--------------------
+• 'basal' is not supported by the reference graph.
+• 'increase' is not supported by the reference graph.
+• 'increase in extent' is not supported by the reference graph.
+• 'opacity' is not supported by the reference graph.
+• 'parenchymal' is not supported by the reference graph.
+• 'pre  existing' is not supported by the reference graph.
+• 'retrocardiac' is not supported by the reference graph.
+• 'right' is not supported by the reference graph.
+• 'slight' is not supported by the reference graph.
+• 'unchanged' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

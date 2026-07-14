@@ -1,0 +1,31 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: ards.
+• Consider evaluating for pleural effusion.
+• Review finding: endotracheal.
+• Review finding: enteric.
+• Review finding: lucency.
+• Review finding: mediastinum.
+• Review finding: moderate.
+• Review pleural findings.
+• Review finding: pneumomediastinum.
+• Review finding: standard positions.
+• Review finding: trace.
+• Verify tube placement.
+
+Unsupported Findings
+--------------------
+• 'asymmetric' is not supported by the reference graph.
+• 'diffuse' is not supported by the reference graph.
+• 'opacification' is not supported by the reference graph.
+• 'right' is not supported by the reference graph.
+• 'worse' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

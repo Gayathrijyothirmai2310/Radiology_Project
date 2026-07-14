@@ -1,0 +1,36 @@
+CHEXAGENT REPORT
+============================================================
+
+The endotracheal tube is in a good position. There is a slight improvement in the aeration of the left lung base.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Missing Findings
+-----------------------------------
+• Evaluate for pulmonary edema.
+• Infection
+• Residual
+
+Potential Unsupported Findings
+-----------------------------------
+• aeration
+• endotracheal tube
+• good position
+• left lung base
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 3
+Unsupported findings detected : 4
+Missing relations detected    : 2
+Unsupported relations detected: 3
+
+Clinical Recommendation
+-----------------------------------
+• Review the potentially missing findings before finalizing the report.
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

@@ -1,0 +1,21 @@
+CHEXAGENT REPORT
+============================================================
+
+Mild pulmonary vascular congestion.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 0
+Unsupported findings detected : 0
+Missing relations detected    : 0
+Unsupported relations detected: 0
+
+Clinical Recommendation
+-----------------------------------
+The AI-generated report is fully consistent with the Knowledge Graph.
+
+============================================================
+End of Knowledge Graph Review

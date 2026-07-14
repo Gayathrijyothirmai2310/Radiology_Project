@@ -1,0 +1,28 @@
+Original Report
+---------------
+Slight increase in extent of the pre-existing bilateral parenchymal opacities.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- aspiration
+- atelectasis
+- bibasilar
+- congestion
+- ett
+- good
+- mild
+- position
+- pulmonary
+- vascular
+- worsening
+
+Potential unsupported findings:
+- bilateral
+- parenchymal
+- pre  existing
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

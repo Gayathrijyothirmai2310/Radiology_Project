@@ -1,0 +1,31 @@
+CHEXAGENT REPORT
+============================================================
+
+The nasogastric tube is in a normal position with its tip located in the middle of the stomach.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Unsupported Findings
+-----------------------------------
+• middle
+• nasogastric
+• normal position
+• stomach
+• tip
+• tube
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 0
+Unsupported findings detected : 6
+Missing relations detected    : 0
+Unsupported relations detected: 5
+
+Clinical Recommendation
+-----------------------------------
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

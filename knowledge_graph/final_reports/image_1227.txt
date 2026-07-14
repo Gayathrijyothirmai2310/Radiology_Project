@@ -1,0 +1,29 @@
+Original Report
+---------------
+Large right lower lobe consolidation and small bilateral pleural effusions.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- atelectasis
+- base
+- edema
+- effusion
+- interstitial
+- left lung
+- lung
+- opacity
+- right
+- rounded
+
+Potential unsupported findings:
+- bilateral
+- consolidation
+- effusions
+- large
+- right lower lobe
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

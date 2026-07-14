@@ -1,0 +1,23 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: bilateral.
+• Review finding: diffusely.
+• Review finding: increased.
+• Review finding: infection.
+• Review finding: interstitial.
+• Review finding: lungs.
+• Review finding: markings.
+
+Unsupported Findings
+--------------------
+• 'mild' is not supported by the reference graph.
+• 'pulmonary' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

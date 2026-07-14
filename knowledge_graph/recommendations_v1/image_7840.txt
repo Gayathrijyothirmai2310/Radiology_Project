@@ -1,0 +1,21 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: congestive.
+• Review finding: failure.
+• Review finding: heart.
+
+Unsupported Findings
+--------------------
+• 'atelectasis' is not supported by the reference graph.
+• 'bibasilar' is not supported by the reference graph.
+• 'edema' is not supported by the reference graph.
+• 'pulmonary' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

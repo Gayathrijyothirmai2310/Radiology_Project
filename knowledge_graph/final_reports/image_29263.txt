@@ -1,0 +1,29 @@
+Original Report
+---------------
+Calcifications of the tracheobronchial tree are noted. There is a moderate right pleural effusion. There is a left retrocardiac opacity. There is mild pulmonary edema.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- asymmetric
+- extensive
+- grossly
+- hemithorax
+- opacification
+- pneumonia
+- unchanged
+
+Potential unsupported findings:
+- calcifications
+- effusion
+- left retrocardiac
+- mild
+- moderate
+- opacity
+- pleural
+- tracheobronchial tree
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

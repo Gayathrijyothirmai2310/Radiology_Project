@@ -1,0 +1,29 @@
+Knowledge Graph Recommendations
+========================================
+
+Missing Findings
+----------------
+• Review finding: asymmetric.
+• Review finding: extensive.
+• Review finding: grossly.
+• Review finding: hemithorax.
+• Review finding: opacification.
+• Consider evaluating for pneumonia.
+• Review finding: unchanged.
+
+Unsupported Findings
+--------------------
+• 'calcifications' is not supported by the reference graph.
+• 'effusion' is not supported by the reference graph.
+• 'left retrocardiac' is not supported by the reference graph.
+• 'mild' is not supported by the reference graph.
+• 'moderate' is not supported by the reference graph.
+• 'opacity' is not supported by the reference graph.
+• 'pleural' is not supported by the reference graph.
+• 'tracheobronchial tree' is not supported by the reference graph.
+
+Clinical Recommendation
+-----------------------
+Review the above findings before finalizing the report.
+Remove unsupported observations if they are clinically inappropriate.
+Consider incorporating clinically relevant missing findings.

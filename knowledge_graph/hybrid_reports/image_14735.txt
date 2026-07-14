@@ -1,0 +1,39 @@
+CHEXAGENT REPORT
+============================================================
+
+Right lower lobe consolidation and left retrocardiac opacity are concerning for multifocal pneumonia. Mild pulmonary edema and small bilateral pleural effusions are present.
+
+KNOWLEDGE GRAPH REVIEW
+============================================================
+
+Potential Unsupported Findings
+-----------------------------------
+• bilateral
+• consolidation
+• edema
+• effusions
+• left
+• mild
+• multifocal
+• opacity
+• pleural
+• pneumonia
+• pulmonary
+• retrocardiac
+• right lower lobe
+• small
+
+Knowledge Graph Summary
+-----------------------------------
+Missing findings detected      : 0
+Unsupported findings detected : 14
+Missing relations detected    : 0
+Unsupported relations detected: 8
+
+Clinical Recommendation
+-----------------------------------
+• Verify unsupported findings against the chest X-ray.
+• The Knowledge Graph provides decision support only and should be interpreted together with image review.
+
+============================================================
+End of Knowledge Graph Review

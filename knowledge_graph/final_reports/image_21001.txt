@@ -1,0 +1,20 @@
+Original Report
+---------------
+Pulmonary edema with bilateral pleural effusions.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- bronchovascular
+- cardiogenic
+- crowding
+- low
+- lung
+- moderate
+- small
+- volumes
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

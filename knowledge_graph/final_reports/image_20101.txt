@@ -1,0 +1,9 @@
+Original Report
+---------------
+Mild pulmonary vascular congestion.
+
+Knowledge Graph Review
+----------------------
+No discrepancies were detected between the generated report and the reference knowledge graph.
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.

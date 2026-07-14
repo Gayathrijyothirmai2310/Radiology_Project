@@ -1,0 +1,24 @@
+Original Report
+---------------
+The endotracheal tube tip is located over the mid thoracic trachea.
+
+Knowledge Graph Review
+----------------------
+The knowledge graph comparison identified findings that may require review before finalizing the report.
+
+Possible missing findings:
+- bilateral
+- edema
+- effusions
+- new endotracheal tube
+- opacities
+- pulmonary
+- right lung
+- right mainstem bronchus
+
+Potential unsupported findings:
+- mid thoracic trachea
+- tip
+
+Recommendation:
+Review the above findings against the chest X-ray before finalizing the report.
