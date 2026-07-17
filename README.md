@@ -1,42 +1,38 @@
 # 🩻 Radiology Project
 
-## AI-Assisted Chest X-Ray Report Generation and Evaluation using Vision-Language Models
+## AI-Assisted Chest X-Ray Report Generation and Knowledge Graph-Guided Evaluation using Vision-Language Models
 
-This research project focuses on **AI-assisted chest X-ray report generation and comprehensive evaluation** using Large Vision-Language Models (LVLMs). The study investigates the gap between AI-generated radiology reports and expert-written reports through automated evaluation, hallucination analysis, clinical consistency checking, and future Knowledge Graph-based reasoning.
+This research project focuses on **AI-assisted chest X-ray report generation and clinical evaluation using Vision-Language Models (VLMs)**.
+
+The study investigates the reliability of AI-generated radiology reports by comparing them with expert-written reports using automated evaluation techniques, clinical consistency analysis, hallucination detection, and Knowledge Graph-based reasoning.
+
+The primary objective of this research is to identify limitations in AI-generated radiology reports and develop a reliable evaluation framework that improves factual accuracy, reduces hallucinations, and enhances clinical interpretability.
 
 ---
 
-# 👥 Authors
+# 👩‍💻 Student
 
-Dharmavarapu Gayathri Jyothirmai
-
-Anvesh Reddy Lankala
+**Gayathri Jyothirmai**
 
 Under the guidance of
 
-Dr. P. Krishna Reddy
+**Dr. P. Krishna Reddy**
 
 ---
 
 # 📌 Project Overview
 
-The objective of this project is to generate radiology reports from chest X-ray images using advanced Vision-Language Models and evaluate their accuracy, reliability, and clinical relevance compared with expert-written reports.
+The objective of this project is to generate chest X-ray radiology reports using advanced Vision-Language Models and evaluate their accuracy, reliability, and clinical relevance compared with expert-written radiologist reports.
 
 The current research workflow includes:
 
-- Chest X-ray report generation using CheXagent
-
-- Automated evaluation using traditional NLP metrics
-
+- Chest X-ray report generation using **CheXagent**
+- Automated evaluation using NLP-based metrics
 - Semantic similarity evaluation
-
-- Clinical finding comparison using CheXbert
-
+- Clinical abnormality comparison using CheXbert
 - Hallucination detection using GREEN model
-
-- Counterfactual analysis for reliability assessment
-
-- Future Knowledge Graph-based clinical reasoning and evaluation
+- Knowledge Graph-based clinical reasoning
+- Analysis of AI-generated report limitations
 
 ---
 
@@ -47,10 +43,11 @@ Radiology_Project/
 │
 ├── scripts/                  # Python scripts for report generation and evaluation
 ├── notebooks/                # Jupyter notebooks for experiments
-├── outputs/                  # AI-generated reports and predictions
+├── outputs/                  # AI-generated reports
 ├── evaluation/               # Evaluation metrics and analysis results
-├── logs/                     # Execution and experiment logs
-├── models/                   # Model references and configurations
+├── logs/                     # Experiment execution logs
+├── models/                   # Model configurations and references
+├── knowledge_graph/          # Knowledge Graph-based analysis modules
 ├── data/                     # Dataset files (excluded from GitHub)
 │
 ├── check_dataset.py          # Dataset verification script
@@ -62,13 +59,13 @@ Radiology_Project/
 
 # 📂 Dataset
 
-This project uses a processed version of the **MIMIC-CXR dataset**.
+This project uses a processed version of the **MIMIC-CXR dataset** containing chest X-ray images and corresponding radiology reports.
 
-Due to dataset size and storage limitations, the dataset files are not included in this GitHub repository.
+Due to dataset size and storage limitations, dataset files are not included in this GitHub repository.
 
-## Original Processed Dataset
+## Processed Dataset
 
-Dataset:
+Hugging Face Dataset:
 
 ```
 https://huggingface.co/datasets/Anvesh-Lankala/Radiology_Project
@@ -76,9 +73,7 @@ https://huggingface.co/datasets/Anvesh-Lankala/Radiology_Project
 
 ## Annotated Dataset
 
-An additional annotated dataset has been created for enhanced evaluation and future research.
-
-Dataset:
+An additional annotated dataset was created for enhanced clinical evaluation and future Knowledge Graph-based research.
 
 ```
 https://huggingface.co/datasets/Anvesh-Lankala/Radiology_Project_Annotated
@@ -90,49 +85,64 @@ The GitHub repository intentionally excludes datasets because of storage limitat
 
 # 🔬 Research Workflow
 
-The current experimental pipeline consists of:
+The experimental pipeline consists of the following stages:
 
-1. Dataset preparation and preprocessing
+## 1. Dataset Preparation
 
-2. Chest X-ray report generation using CheXagent
+- Chest X-ray image preprocessing
+- Radiology report extraction
+- Dataset organization into evaluation splits
 
-3. Storage of AI-generated reports
+## 2. AI Report Generation
 
-4. Evaluation using BLEU score
+Chest X-ray reports are generated using:
 
-5. Evaluation using ROUGE metrics
+**CheXagent-2-3B Vision-Language Model**
 
-6. Semantic similarity evaluation using BERTScore
+The model generates radiologist-style:
 
-7. Clinical abnormality comparison using CheXbert
+- Findings
+- Impression
 
-8. Hallucination detection analysis using GREEN model
+sections from chest X-ray images.
 
-9. Counterfactual analysis for model reliability
+## 3. Automated Report Evaluation
 
-10. Knowledge Graph-based evaluation framework development (ongoing)
+Generated reports are evaluated using:
+
+- BLEU score
+- ROUGE metrics
+- BERTScore semantic similarity
+- CheXbert clinical finding comparison
+- GREEN hallucination evaluation
+
+## 4. Knowledge Graph-Based Evaluation
+
+A Knowledge Graph framework is developed to:
+
+- Represent clinical findings
+- Identify inconsistent observations
+- Detect possible hallucinated findings
+- Improve report reliability
+- Provide explainable clinical reasoning
 
 ---
 
 # 📈 Evaluation Metrics
-
-The project evaluates generated reports using multiple complementary metrics:
 
 | Metric | Purpose |
 |--------|---------|
 | BLEU | Measures n-gram similarity between generated and reference reports |
 | ROUGE | Evaluates overlap of important clinical information |
 | BERTScore | Measures semantic similarity using contextual embeddings |
-| CheXbert | Compares clinical observations and abnormalities |
+| CheXbert | Compares clinical abnormalities extracted from reports |
 | GREEN | Evaluates hallucination and factual consistency |
-
-Additional evaluation methods will be integrated as the research progresses.
 
 ---
 
 # 📊 Results and Outputs
 
-Generated reports are stored in:
+Generated CheXagent reports are stored in:
 
 ```
 outputs/
@@ -142,6 +152,12 @@ Evaluation results are stored in:
 
 ```
 evaluation/
+```
+
+Knowledge Graph analysis results are stored in:
+
+```
+knowledge_graph/
 ```
 
 Experiment execution logs are stored in:
@@ -174,7 +190,7 @@ GPU:
 NVIDIA RTX 6000 Ada Generation
 ```
 
-Platform:
+Computing Platform:
 
 ```
 Turing HPC Cluster
@@ -208,27 +224,38 @@ python scripts/evaluate_bertscore.py
 python scripts/evaluate_chexbert.py
 ```
 
+## Knowledge Graph Evaluation
+
+```bash
+python knowledge_graph/<evaluation_script>.py
+```
+
 ---
 
-# 🧬 Research Direction
+# 🧬 Research Contributions
 
-The goal of this research is to develop a clinically meaningful evaluation framework that goes beyond traditional text similarity metrics.
+This research aims to develop an improved evaluation framework for AI-generated radiology reports by integrating:
 
-Future research directions include:
+- Vision-Language Models
+- Clinical information extraction
+- Hallucination detection
+- Knowledge Graph reasoning
+- Explainable AI evaluation
 
-- Hallucination detection and reduction using GREEN model
+The framework focuses on identifying gaps between AI-generated reports and expert radiologist reports.
 
-- Counterfactual Contrastive Learning (CCL) for improving report reliability
+---
 
-- Temporal comparison of longitudinal radiology reports
+# 🔭 Future Research Directions
 
-- Knowledge Graph construction for clinical reasoning
+Future extensions include:
 
-- Automatic error detection in AI-generated reports
-
+- Knowledge Graph-guided report refinement
+- Temporal reasoning using longitudinal radiology information
+- Automated clinical error detection
 - Radiology report quality scoring dashboard
-
-- Explainable AI-based evaluation methods
+- Explainable AI-based evaluation
+- Reduction of hallucinated findings in generated reports
 
 ---
 
@@ -256,28 +283,24 @@ https://huggingface.co/datasets/Anvesh-Lankala/Radiology_Project_Annotated
 
 # 🌟 Future Vision
 
-The long-term objective of this research is to develop a reliable and transparent evaluation framework for AI-generated radiology reports by integrating:
+The long-term goal of this research is to build a reliable and transparent evaluation framework for AI-assisted radiology reporting.
+
+By combining:
 
 - Vision-Language Models
+- Clinical Knowledge Graphs
+- Hallucination detection
+- Clinical reasoning
+- Explainable evaluation methods
 
-- Clinical Knowledge Representation
-
-- Knowledge Graph Reasoning
-
-- Hallucination Detection
-
-- Counterfactual Learning
-
-This framework aims to improve the reliability, interpretability, and clinical usefulness of AI-assisted radiology systems.
+this framework aims to improve the accuracy, reliability, and clinical usefulness of AI-generated radiology reports.
 
 ---
 
-# 👩‍💻 Authors
+# 👩‍💻 Student
 
-Dharmavarapu Gayathri Jyothirmai
-
-Anvesh Reddy Lankala
+**Gayathri Jyothirmai**
 
 Under the guidance of
 
-Dr. P. Krishna Reddy
+**Dr. P. Krishna Reddy**
