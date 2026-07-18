@@ -1,0 +1,162 @@
+================================================================================
+        KNOWLEDGE GRAPH GUIDED RADIOLOGY REPORT GENERATION
+================================================================================
+
+Image ID
+--------------------------------------------------------------------------------
+image_0196.png
+
+================================================================================
+STEP 1 : INITIAL CHEXAGENT REPORT (BEFORE KNOWLEDGE GRAPH)
+================================================================================
+
+FINDINGS
+--------------------------------------------------------------------------------
+The hilar contours are normal. The lungs are clear. There is no pneumothorax. The heart size is normal. The costophrenic angles are sharp. The aorta is calcified and tortuous.
+
+IMPRESSION
+--------------------------------------------------------------------------------
+No acute cardiopulmonary process.
+
+================================================================================
+STEP 2 : KNOWLEDGE GRAPH ANALYSIS
+================================================================================
+
+Extracted Clinical Entities
+--------------------------------------------------------------------------------
+Anatomical Structures
+• None
+
+Clinical Findings
+• None
+
+Clinical Attributes
+• None
+
+Knowledge Graph Relationships
+--------------------------------------------------------------------------------
+Not Available
+
+Clinical Reasoning
+--------------------------------------------------------------------------------
+Supported Findings
+✓ None
+
+Missing Findings
+⚠ None
+
+Hallucinated Findings
+✓ None
+
+Corrections Suggested
+• No corrections required
+
+================================================================================
+STEP 3 : KNOWLEDGE GRAPH GUIDED REPORT (AFTER KNOWLEDGE GRAPH)
+================================================================================
+
+FINAL FINDINGS
+--------------------------------------------------------------------------------
+
+
+FINAL IMPRESSION
+--------------------------------------------------------------------------------
+Minimally displaced fracture of the right sixth posterior rib.
+Possible fracture of the fifth lateral rib.
+No underlying pneumothorax identified.
+
+================================================================================
+STEP 4 : REPORT IMPROVEMENT SUMMARY
+================================================================================
+
+Before Knowledge Graph
+--------------------------------------------------------------------------------
+Model
+CheXAgent
+
+Clinical Findings
+0
+
+Hallucinated Findings
+0
+
+Missing Findings
+0
+
+Clinical Consistency
+Moderate
+
+After Knowledge Graph
+--------------------------------------------------------------------------------
+Model
+CheXAgent + Knowledge Graph
+
+Clinical Findings
+0
+
+Hallucinated Findings
+0
+
+Missing Findings
+0
+
+Clinical Consistency
+High
+
+Corrections Applied
+--------------------------------------------------------------------------------
+
+✓ Missing findings added
+
+✓ Anatomical locations corrected
+
+✓ Unsupported findings removed
+
+✓ Clinical terminology standardized
+
+✓ Impression refined
+
+✓ Report clinically validated
+
+================================================================================
+STEP 5 : FINAL EVALUATION
+================================================================================
+
+BLEU
+--------------------------------------------------------------------------------
+Before KG : 0.0270612995621543
+After KG  : 0.0270612995621543
+
+ROUGE-1
+--------------------------------------------------------------------------------
+Before KG : 0.3428571428571428
+After KG  : 0.3428571428571428
+
+ROUGE-2
+--------------------------------------------------------------------------------
+Before KG : 0.088235294117647
+After KG  : 0.088235294117647
+
+ROUGE-L
+--------------------------------------------------------------------------------
+Before KG : 0.2571428571428571
+After KG  : 0.2571428571428571
+
+GREEN
+--------------------------------------------------------------------------------
+Before KG : 0.0
+After KG  : 0.0
+
+Hallucination Score
+--------------------------------------------------------------------------------
+Before KG : 1.0
+After KG  : 1.0
+
+Knowledge Graph Score
+--------------------------------------------------------------------------------
+Before KG : 0.0
+After KG  : 1.000
+
+================================================================================
+END OF REPORT
+================================================================================
