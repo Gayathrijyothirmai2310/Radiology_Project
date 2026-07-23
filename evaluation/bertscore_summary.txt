@@ -1,0 +1,8 @@
+BERTScore Evaluation
+====================
+
+Images Evaluated : 100
+
+Precision : 0.8809
+Recall    : 0.8668
+F1        : 0.8737

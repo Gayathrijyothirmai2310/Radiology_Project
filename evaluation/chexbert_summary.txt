@@ -1,4 +1,4 @@
-micro_precision: 0.8864
-micro_recall: 0.8864
-micro_f1: 0.8864
-macro_f1: 0.2476
+micro_precision: 0.8636
+micro_recall: 0.8636
+micro_f1: 0.8636
+macro_f1: 0.1968

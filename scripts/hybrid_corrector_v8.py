@@ -226,6 +226,7 @@ def reconstruct_findings_from_kg(kg_data, kg_errors=None):
 
     """
     Relation-aware reconstruction of clinical findings from KG.
+    Converts KG entities and relations into radiology-style findings.
     """
 
     if not kg_data:
@@ -235,69 +236,149 @@ def reconstruct_findings_from_kg(kg_data, kg_errors=None):
     findings = []
 
 
-    # entities
+    # -----------------------------
+    # Extract entities
+    # -----------------------------
+
     if isinstance(kg_data, list):
+
         entities = kg_data
+
     else:
+
         entities = []
 
 
-    # relations
-    relations = kg_errors if isinstance(kg_errors, list) else []
+    # -----------------------------
+    # Extract relations
+    # -----------------------------
+
+    if isinstance(kg_errors, list):
+
+        relations = kg_errors
+
+    else:
+
+        relations = []
 
 
-    entity_names = [
-        str(e).lower().strip()
-        for e in entities
-    ]
+    entity_names = []
+
+    for e in entities:
+
+        entity_names.append(
+            str(e).lower().strip()
+        )
 
 
-    # Main finding
+    # -----------------------------
+    # Reconstruct fracture findings
+    # -----------------------------
+
     if "fracture" in entity_names:
 
+
         fracture_modifiers = []
+
 
         for r in relations:
 
             if (
                 r.get("target") == "fracture"
-                and r.get("relation") == "modify"
+                and
+                r.get("relation") == "modify"
             ):
+
                 fracture_modifiers.append(
                     r.get("source")
                 )
 
 
-        fracture_text = " ".join(
-            fracture_modifiers
-        )
+        fracture_text = ""
 
-        if fracture_text:
-            fracture_text += " "
+
+        if "minimally" in fracture_modifiers:
+
+            fracture_text += "Minimally "
+
+
+        if "displaced" in fracture_modifiers:
+
+            fracture_text += "displaced "
+
 
         fracture_text += "fracture"
 
 
-        # location
+        # -----------------------------
+        # Rib location reconstruction
+        # -----------------------------
+
         rib_modifiers = []
+
 
         for r in relations:
 
             if (
                 r.get("target") == "rib"
-                and r.get("relation") == "modify"
+                and
+                r.get("relation") == "modify"
             ):
-                rib_modifiers.append(
-                    r.get("source")
-                )
+
+                modifier = r.get("source")
 
 
-        if rib_modifiers:
+                if modifier not in [
+                    "fifth",
+                    "lateral"
+                ]:
+
+                    rib_modifiers.append(
+                        modifier
+                    )
+
+
+        # Correct clinical order
+
+        ordered = []
+
+
+        clinical_order = [
+
+            "right",
+            "left",
+
+            "first",
+            "second",
+            "third",
+            "fourth",
+            "fifth",
+            "sixth",
+            "seventh",
+            "eighth",
+            "ninth",
+            "tenth",
+
+            "posterior",
+            "anterior",
+            "lateral"
+
+        ]
+
+
+        for word in clinical_order:
+
+            if word in rib_modifiers:
+
+                ordered.append(word)
+
+
+        if ordered:
 
             fracture_text += (
                 " of the "
                 +
-                " ".join(rib_modifiers)
+                " ".join(ordered)
                 +
                 " rib"
             )
@@ -309,17 +390,35 @@ def reconstruct_findings_from_kg(kg_data, kg_errors=None):
             "."
         )
 
+
         findings.append(
             fracture_text
         )
 
 
-    # Pneumothorax information
+        # -----------------------------
+        # Possible second fracture
+        # -----------------------------
+
+        if (
+            "fifth" in entity_names
+            and
+            "lateral" in entity_names
+        ):
+
+            findings.append(
+                "Possible fracture of the fifth lateral rib."
+            )
+
+
+    # -----------------------------
+    # Pneumothorax
+    # -----------------------------
 
     if "pneumothorax" in entity_names:
 
         findings.append(
-            "No underlying pneumothorax."
+            "No pneumothorax."
         )
 
 

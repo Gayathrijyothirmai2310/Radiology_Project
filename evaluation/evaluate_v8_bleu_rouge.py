@@ -8,10 +8,10 @@ from rouge_score import rouge_scorer
 PROJECT_ROOT = Path.home() / "Radiology_Project"
 
 
-V6_CSV = (
+V8_CSV = (
     PROJECT_ROOT /
     "evaluation" /
-    "v6_reports.csv"
+    "v8_reports.csv"
 )
 
 
@@ -37,13 +37,13 @@ summary_file = OUTPUT_DIR / "v8_bleu_rouge_summary.txt"
 # Load Data
 # ----------------------------
 
-v6 = pd.read_csv(V6_CSV)
+v8 = pd.read_csv(V8_CSV)
 
 gt = pd.read_csv(GROUND_TRUTH)
 
 
 
-merged = v6.merge(
+merged = v8.merge(
     gt[
         [
             "image_id",
@@ -154,7 +154,7 @@ df.to_csv(
 # ----------------------------
 
 summary = f"""
-V6 Knowledge Graph Report Evaluation
+V8 Knowledge Graph Report Evaluation
 ====================================
 
 Images Evaluated : {len(df)}
