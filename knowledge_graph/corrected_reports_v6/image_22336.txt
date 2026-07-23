@@ -1,12 +1,122 @@
 FINDINGS:
 
-Pulmonary opacity is present.
+opacity.
+atelectasis.
+bilateral.
+diffuse.
+hemorrhage.
+opacification.
+retrocardiac.
+severe.
 The endotracheal tube is in a satisfactory position.
 There is diffuse bilateral pulmonary opacification, consistent with pulmonary edema.
 The heart is enlarged.
-The left costophrenic angle is not included in this radiograph.
-A right subclavian central venous catheter is seen with its tip in the mid SVC.
 
 IMPRESSION:
 
-1. Pulmonary opacity is present.
+1. o
+2. p
+3. a
+4. c
+5. i
+6. t
+7. y
+8. .
+9.  
+10. a
+11. t
+12. e
+13. l
+14. e
+15. c
+16. t
+17. a
+18. s
+19. i
+20. s
+21. .
+22.  
+23. T
+24. h
+25. e
+26. r
+27. e
+28.  
+29. i
+30. s
+31.  
+32. d
+33. i
+34. f
+35. f
+36. u
+37. s
+38. e
+39.  
+40. b
+41. i
+42. l
+43. a
+44. t
+45. e
+46. r
+47. a
+48. l
+49.  
+50. p
+51. u
+52. l
+53. m
+54. o
+55. n
+56. a
+57. r
+58. y
+59.  
+60. o
+61. p
+62. a
+63. c
+64. i
+65. f
+66. i
+67. c
+68. a
+69. t
+70. i
+71. o
+72. n
+73. ,
+74.  
+75. c
+76. o
+77. n
+78. s
+79. i
+80. s
+81. t
+82. e
+83. n
+84. t
+85.  
+86. w
+87. i
+88. t
+89. h
+90.  
+91. p
+92. u
+93. l
+94. m
+95. o
+96. n
+97. a
+98. r
+99. y
+100.  
+101. e
+102. d
+103. e
+104. m
+105. a
+106. .

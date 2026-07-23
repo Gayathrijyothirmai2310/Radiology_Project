@@ -1,15 +1,167 @@
 FINDINGS:
 
+effusion.
 No pneumothorax.
 There is blunting of the left costophrenic angle, which may represent a small pleural effusion.
-Pleural effusion is present.
+left.
+pleural.
+small.
 The hilar contours are normal.
 There is mild pulmonary edema.
 The heart is moderately enlarged.
-The mediastinal contours are normal.
 
 IMPRESSION:
 
-1. No pneumothorax.
-2. There is blunting of the left costophrenic angle, which may represent a small pleural effusion.
-3. Pleural effusion is present.
+1. e
+2. f
+3. f
+4. u
+5. s
+6. i
+7. o
+8. n
+9. .
+10.  
+11. N
+12. o
+13.  
+14. p
+15. n
+16. e
+17. u
+18. m
+19. o
+20. t
+21. h
+22. o
+23. r
+24. a
+25. x
+26. .
+27.  
+28. T
+29. h
+30. e
+31. r
+32. e
+33.  
+34. i
+35. s
+36.  
+37. b
+38. l
+39. u
+40. n
+41. t
+42. i
+43. n
+44. g
+45.  
+46. o
+47. f
+48.  
+49. t
+50. h
+51. e
+52.  
+53. l
+54. e
+55. f
+56. t
+57.  
+58. c
+59. o
+60. s
+61. t
+62. o
+63. p
+64. h
+65. r
+66. e
+67. n
+68. i
+69. c
+70.  
+71. a
+72. n
+73. g
+74. l
+75. e
+76. ,
+77.  
+78. w
+79. h
+80. i
+81. c
+82. h
+83.  
+84. m
+85. a
+86. y
+87.  
+88. r
+89. e
+90. p
+91. r
+92. e
+93. s
+94. e
+95. n
+96. t
+97.  
+98. a
+99.  
+100. s
+101. m
+102. a
+103. l
+104. l
+105.  
+106. p
+107. l
+108. e
+109. u
+110. r
+111. a
+112. l
+113.  
+114. e
+115. f
+116. f
+117. u
+118. s
+119. i
+120. o
+121. n
+122. .
+123.  
+124. T
+125. h
+126. e
+127. r
+128. e
+129.  
+130. i
+131. s
+132.  
+133. m
+134. i
+135. l
+136. d
+137.  
+138. p
+139. u
+140. l
+141. m
+142. o
+143. n
+144. a
+145. r
+146. y
+147.  
+148. e
+149. d
+150. e
+151. m
+152. a
+153. .

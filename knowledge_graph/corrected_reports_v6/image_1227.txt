@@ -1,21 +1,115 @@
 FINDINGS:
 
+effusion.
+opacity.
 There is a small right pleural effusion.
-There is a small left pleural effusion.
 No pneumothorax.
-There is blunting of the right costophrenic angle, which may be due to a small pleural effusion.
-Pleural effusion is present.
-Pulmonary opacity is present.
+atelectasis.
+base.
+edema.
+interstitial.
+left lung.
+lung.
+right.
+rounded.
 The endotracheal tube is in a standard position.
 The cardiomediastinal silhouette is unchanged.
-The NG tube tip is in the stomach.
-The right PICC line tip is in the SVC.
 
 IMPRESSION:
 
-1. There is a small right pleural effusion.
-2. There is a small left pleural effusion.
-3. No pneumothorax.
-4. There is blunting of the right costophrenic angle, which may be due to a small pleural effusion.
-5. Pleural effusion is present.
-6. Pulmonary opacity is present.
+1. e
+2. f
+3. f
+4. u
+5. s
+6. i
+7. o
+8. n
+9. .
+10.  
+11. o
+12. p
+13. a
+14. c
+15. i
+16. t
+17. y
+18. .
+19.  
+20. T
+21. h
+22. e
+23. r
+24. e
+25.  
+26. i
+27. s
+28.  
+29. a
+30.  
+31. s
+32. m
+33. a
+34. l
+35. l
+36.  
+37. r
+38. i
+39. g
+40. h
+41. t
+42.  
+43. p
+44. l
+45. e
+46. u
+47. r
+48. a
+49. l
+50.  
+51. e
+52. f
+53. f
+54. u
+55. s
+56. i
+57. o
+58. n
+59. .
+60.  
+61. N
+62. o
+63.  
+64. p
+65. n
+66. e
+67. u
+68. m
+69. o
+70. t
+71. h
+72. o
+73. r
+74. a
+75. x
+76. .
+77.  
+78. a
+79. t
+80. e
+81. l
+82. e
+83. c
+84. t
+85. a
+86. s
+87. i
+88. s
+89. .
+90.  
+91. e
+92. d
+93. e
+94. m
+95. a
+96. .

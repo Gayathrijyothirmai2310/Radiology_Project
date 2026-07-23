@@ -1,13 +1,21 @@
 FINDINGS:
 
-There is blunting of the left costophrenic angle, suggestive of a small pleural effusion.
-Pulmonary opacity is present.
+bilateral.
+edema.
+opacities.
+parenchymal.
+pulmonary.
+severe.
+stable.
 The endotracheal tube is in a satisfactory position.
 Diffuse bilateral pulmonary opacifications persist.
 The heart is mildly enlarged.
-The nasogastric tube is in the same position.
 
 IMPRESSION:
 
-1. There is blunting of the left costophrenic angle, suggestive of a small pleural effusion.
-2. Pulmonary opacity is present.
+1. e
+2. d
+3. e
+4. m
+5. a
+6. .

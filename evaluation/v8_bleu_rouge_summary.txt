@@ -1,0 +1,14 @@
+
+V6 Knowledge Graph Report Evaluation
+====================================
+
+Images Evaluated : 100
+
+Average BLEU     : 0.0194
+
+Average ROUGE-1  : 0.3360
+
+Average ROUGE-2  : 0.1045
+
+Average ROUGE-L  : 0.2073
+

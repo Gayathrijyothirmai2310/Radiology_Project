@@ -1,6 +1,13 @@
 FINDINGS:
 
 No pneumothorax.
+adenopathy.
+bronchial.
+density.
+hilar.
+right.
+right hilus.
+thickening.
 The hilar contours are normal.
 The lungs are clear.
 The heart size is normal.
@@ -9,4 +16,19 @@ The aorta is tortuous.
 
 IMPRESSION:
 
-1. No pneumothorax.
+1. N
+2. o
+3.  
+4. p
+5. n
+6. e
+7. u
+8. m
+9. o
+10. t
+11. h
+12. o
+13. r
+14. a
+15. x
+16. .

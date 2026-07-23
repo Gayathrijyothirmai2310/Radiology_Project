@@ -1,15 +1,66 @@
 FINDINGS:
 
+effusion.
 There is a left pleural effusion.
-Pleural effusion is present.
+cuff.
+et tube.
+hyperinflated.
+layering.
+left.
+lower.
+lung.
+minimal worsening.
+pleural.
+slightly hyperinflated.
+volumes.
 The endotracheal tube is in a good position.
 There is volume loss at both bases.
 The cardiomediastinal silhouette is unchanged.
 The right hemidiaphragm is elevated.
-The right IJ central line tip is in the right atrium.
 The ET tube and NG tube are unchanged.
 
 IMPRESSION:
 
-1. There is a left pleural effusion.
-2. Pleural effusion is present.
+1. e
+2. f
+3. f
+4. u
+5. s
+6. i
+7. o
+8. n
+9. .
+10.  
+11. T
+12. h
+13. e
+14. r
+15. e
+16.  
+17. i
+18. s
+19.  
+20. a
+21.  
+22. l
+23. e
+24. f
+25. t
+26.  
+27. p
+28. l
+29. e
+30. u
+31. r
+32. a
+33. l
+34.  
+35. e
+36. f
+37. f
+38. u
+39. s
+40. i
+41. o
+42. n
+43. .

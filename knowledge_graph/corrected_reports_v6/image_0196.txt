@@ -1,8 +1,15 @@
 FINDINGS:
 
+fracture.
 No pneumothorax.
-Minimally displaced fracture of the right sixth posterior rib.
-Possible fracture of the right fifth lateral rib.
+displaced.
+fifth.
+lateral.
+minimally.
+posterior.
+rib.
+right.
+sixth.
 The hilar contours are normal.
 The lungs are clear.
 The heart size is normal.
@@ -11,6 +18,29 @@ The aorta is calcified and tortuous.
 
 IMPRESSION:
 
-1. No pneumothorax.
-2. Minimally displaced fracture of the right sixth posterior rib.
-3. Possible fracture of the right fifth lateral rib.
+1. f
+2. r
+3. a
+4. c
+5. t
+6. u
+7. r
+8. e
+9. .
+10.  
+11. N
+12. o
+13.  
+14. p
+15. n
+16. e
+17. u
+18. m
+19. o
+20. t
+21. h
+22. o
+23. r
+24. a
+25. x
+26. .

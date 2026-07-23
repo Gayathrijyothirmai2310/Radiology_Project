@@ -1,7 +1,14 @@
 FINDINGS:
 
 There are bilateral pleural effusions.
-The costophrenic angles are obscured, suggestive of small pleural effusions.
+bronchovascular.
+cardiogenic.
+crowding.
+low.
+lung.
+moderate.
+small.
+volumes.
 The trachea is midline.
 There is pulmonary edema.
 The heart is enlarged.
@@ -9,5 +16,67 @@ The mediastinal contours are normal.
 
 IMPRESSION:
 
-1. There are bilateral pleural effusions.
-2. The costophrenic angles are obscured, suggestive of small pleural effusions.
+1. T
+2. h
+3. e
+4. r
+5. e
+6.  
+7. a
+8. r
+9. e
+10.  
+11. b
+12. i
+13. l
+14. a
+15. t
+16. e
+17. r
+18. a
+19. l
+20.  
+21. p
+22. l
+23. e
+24. u
+25. r
+26. a
+27. l
+28.  
+29. e
+30. f
+31. f
+32. u
+33. s
+34. i
+35. o
+36. n
+37. s
+38. .
+39.  
+40. T
+41. h
+42. e
+43. r
+44. e
+45.  
+46. i
+47. s
+48.  
+49. p
+50. u
+51. l
+52. m
+53. o
+54. n
+55. a
+56. r
+57. y
+58.  
+59. e
+60. d
+61. e
+62. m
+63. a
+64. .

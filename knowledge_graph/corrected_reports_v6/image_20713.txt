@@ -1,6 +1,13 @@
 FINDINGS:
 
-Pleural effusion is present.
+effusion.
+base.
+chest.
+interval.
+loculated.
+pleural.
+resolution.
+tube.
 The hilar contours are stable.
 Moderate cardiomegaly is present.
 Calcification of the diaphragmatic pleura is noted.
@@ -8,4 +15,12 @@ The left pigtail catheter is in unchanged position.
 
 IMPRESSION:
 
-1. Pleural effusion is present.
+1. e
+2. f
+3. f
+4. u
+5. s
+6. i
+7. o
+8. n
+9. .

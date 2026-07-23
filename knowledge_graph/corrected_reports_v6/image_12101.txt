@@ -1,8 +1,29 @@
 FINDINGS:
 
+effusions.
+ards.
+endotracheal.
+enteric.
+lucency.
+mediastinum.
+moderate.
+pleural.
+pneumomediastinum.
+standard positions.
+trace.
+tubes.
 The endotracheal tube is in a standard position.
 The heart size is normal.
-The left costophrenic angle is not included in this study.
-The nasogastric tube is coiled in the stomach.
 
 IMPRESSION:
+
+1. e
+2. f
+3. f
+4. u
+5. s
+6. i
+7. o
+8. n
+9. s
+10. .

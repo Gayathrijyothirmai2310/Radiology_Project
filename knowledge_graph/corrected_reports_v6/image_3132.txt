@@ -3,11 +3,152 @@ FINDINGS:
 There are no pleural effusions.
 No pneumothorax.
 There is blunting of the left costophrenic angle, which could reflect a small effusion.
+base.
+good position.
+increased opacification.
+infection.
+left.
+linear changes.
+picc line.
+right base.
 The hilar contours are stable.
 The heart is mildly enlarged.
 
 IMPRESSION:
 
-1. There are no pleural effusions.
-2. No pneumothorax.
-3. There is blunting of the left costophrenic angle, which could reflect a small effusion.
+1. T
+2. h
+3. e
+4. r
+5. e
+6.  
+7. a
+8. r
+9. e
+10.  
+11. n
+12. o
+13.  
+14. p
+15. l
+16. e
+17. u
+18. r
+19. a
+20. l
+21.  
+22. e
+23. f
+24. f
+25. u
+26. s
+27. i
+28. o
+29. n
+30. s
+31. .
+32.  
+33. N
+34. o
+35.  
+36. p
+37. n
+38. e
+39. u
+40. m
+41. o
+42. t
+43. h
+44. o
+45. r
+46. a
+47. x
+48. .
+49.  
+50. T
+51. h
+52. e
+53. r
+54. e
+55.  
+56. i
+57. s
+58.  
+59. b
+60. l
+61. u
+62. n
+63. t
+64. i
+65. n
+66. g
+67.  
+68. o
+69. f
+70.  
+71. t
+72. h
+73. e
+74.  
+75. l
+76. e
+77. f
+78. t
+79.  
+80. c
+81. o
+82. s
+83. t
+84. o
+85. p
+86. h
+87. r
+88. e
+89. n
+90. i
+91. c
+92.  
+93. a
+94. n
+95. g
+96. l
+97. e
+98. ,
+99.  
+100. w
+101. h
+102. i
+103. c
+104. h
+105.  
+106. c
+107. o
+108. u
+109. l
+110. d
+111.  
+112. r
+113. e
+114. f
+115. l
+116. e
+117. c
+118. t
+119.  
+120. a
+121.  
+122. s
+123. m
+124. a
+125. l
+126. l
+127.  
+128. e
+129. f
+130. f
+131. u
+132. s
+133. i
+134. o
+135. n
+136. .

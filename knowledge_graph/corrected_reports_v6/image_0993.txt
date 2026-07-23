@@ -1,14 +1,95 @@
 FINDINGS:
 
+effusions.
 There is a right pleural effusion.
-There is blunting of the right costophrenic angle, consistent with a small pleural effusion.
-Pulmonary opacity is present.
+bilateral.
+edema.
+new endotracheal tube.
+opacities.
+pulmonary.
+right lung.
+right mainstem bronchus.
 There is pulmonary edema.
 The heart is severely enlarged.
 The patient is status post median sternotomy.
 
 IMPRESSION:
 
-1. There is a right pleural effusion.
-2. There is blunting of the right costophrenic angle, consistent with a small pleural effusion.
-3. Pulmonary opacity is present.
+1. e
+2. f
+3. f
+4. u
+5. s
+6. i
+7. o
+8. n
+9. s
+10. .
+11.  
+12. T
+13. h
+14. e
+15. r
+16. e
+17.  
+18. i
+19. s
+20.  
+21. a
+22.  
+23. r
+24. i
+25. g
+26. h
+27. t
+28.  
+29. p
+30. l
+31. e
+32. u
+33. r
+34. a
+35. l
+36.  
+37. e
+38. f
+39. f
+40. u
+41. s
+42. i
+43. o
+44. n
+45. .
+46.  
+47. e
+48. d
+49. e
+50. m
+51. a
+52. .
+53.  
+54. T
+55. h
+56. e
+57. r
+58. e
+59.  
+60. i
+61. s
+62.  
+63. p
+64. u
+65. l
+66. m
+67. o
+68. n
+69. a
+70. r
+71. y
+72.  
+73. e
+74. d
+75. e
+76. m
+77. a
+78. .

@@ -1,6 +1,8 @@
 FINDINGS:
 
-Pulmonary opacity is present.
+basilar.
+opacities.
+pneumonia.
 The trachea is central.
 The heart is mildly enlarged.
 There is blunting of the left costophrenic angle.
@@ -8,4 +10,22 @@ The mediastinal contours are normal.
 
 IMPRESSION:
 
-1. Pulmonary opacity is present.
+1. b
+2. a
+3. s
+4. i
+5. l
+6. a
+7. r
+8. .
+9.  
+10. o
+11. p
+12. a
+13. c
+14. i
+15. t
+16. i
+17. e
+18. s
+19. .

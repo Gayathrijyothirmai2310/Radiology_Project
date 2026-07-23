@@ -1,5 +1,11 @@
 FINDINGS:
 
+atelectasis.
+chest.
+interval placement.
+moderate.
+small amount.
+tube.
 The hilar contours are normal.
 There is volume loss at both bases.
 The heart size is normal.
@@ -7,3 +13,16 @@ Blunting of the costophrenic angles persists.
 A right-sided chest tube is in place.
 
 IMPRESSION:
+
+1. a
+2. t
+3. e
+4. l
+5. e
+6. c
+7. t
+8. a
+9. s
+10. i
+11. s
+12. .

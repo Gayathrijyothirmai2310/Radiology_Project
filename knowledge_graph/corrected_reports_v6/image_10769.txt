@@ -1,18 +1,89 @@
 FINDINGS:
 
-There is a moderate left pleural effusion.
-There is a left retrocardiac opacity.
+effusion.
 No pneumothorax.
-Pleural effusion is present.
+There is a moderate left pleural effusion.
+left.
+moderate.
+pigtail catheter.
+pleural.
+resolved.
+right.
+right  sided.
+stable.
+thoracentesis.
 The endotracheal tube is in a standard position.
 The cardiac silhouette is enlarged.
 A large hiatal hernia is present.
-The right-sided PICC line tip is in the mid SVC.
-The pigtail catheter is in the same position.
 
 IMPRESSION:
 
-1. There is a moderate left pleural effusion.
-2. There is a left retrocardiac opacity.
-3. No pneumothorax.
-4. Pleural effusion is present.
+1. e
+2. f
+3. f
+4. u
+5. s
+6. i
+7. o
+8. n
+9. .
+10.  
+11. N
+12. o
+13.  
+14. p
+15. n
+16. e
+17. u
+18. m
+19. o
+20. t
+21. h
+22. o
+23. r
+24. a
+25. x
+26. .
+27.  
+28. T
+29. h
+30. e
+31. r
+32. e
+33.  
+34. i
+35. s
+36.  
+37. a
+38.  
+39. m
+40. o
+41. d
+42. e
+43. r
+44. a
+45. t
+46. e
+47.  
+48. l
+49. e
+50. f
+51. t
+52.  
+53. p
+54. l
+55. e
+56. u
+57. r
+58. a
+59. l
+60.  
+61. e
+62. f
+63. f
+64. u
+65. s
+66. i
+67. o
+68. n
+69. .

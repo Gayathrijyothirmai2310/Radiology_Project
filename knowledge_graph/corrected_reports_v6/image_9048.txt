@@ -1,5 +1,12 @@
 FINDINGS:
 
+aorta.
+change.
+deviation.
+dilated.
+increased.
+substantial.
+trachea.
 The trachea is deviated to the right.
 There is no evidence of pulmonary edema.
 The heart size is normal.
@@ -7,3 +14,44 @@ There is a large hiatal hernia.
 The aorta is tortuous and calcified.
 
 IMPRESSION:
+
+1. T
+2. h
+3. e
+4. r
+5. e
+6.  
+7. i
+8. s
+9.  
+10. n
+11. o
+12.  
+13. e
+14. v
+15. i
+16. d
+17. e
+18. n
+19. c
+20. e
+21.  
+22. o
+23. f
+24.  
+25. p
+26. u
+27. l
+28. m
+29. o
+30. n
+31. a
+32. r
+33. y
+34.  
+35. e
+36. d
+37. e
+38. m
+39. a
+40. .

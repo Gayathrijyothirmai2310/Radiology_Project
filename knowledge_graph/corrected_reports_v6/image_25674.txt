@@ -1,7 +1,14 @@
 FINDINGS:
 
 No pneumothorax.
-Pulmonary opacity is present.
+acute.
+bilateral.
+cardiopulmonary.
+chronic.
+opacities.
+parenchymal.
+process.
+superimposed.
 There is a rightward deviation of the trachea.
 The heart size is normal.
 The right costophrenic angle is not fully included on the image.
@@ -9,5 +16,19 @@ The mediastinal contours are unchanged.
 
 IMPRESSION:
 
-1. No pneumothorax.
-2. Pulmonary opacity is present.
+1. N
+2. o
+3.  
+4. p
+5. n
+6. e
+7. u
+8. m
+9. o
+10. t
+11. h
+12. o
+13. r
+14. a
+15. x
+16. .

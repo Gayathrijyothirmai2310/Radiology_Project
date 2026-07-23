@@ -1,15 +1,177 @@
 FINDINGS:
 
+opacity.
 Small bilateral pleural effusions are present.
 No pneumothorax.
 Blunting of the left costophrenic angle suggests a small pleural effusion.
-Pulmonary opacity is present.
+atelectasis.
+basilar.
+fluid.
+infectious.
+left.
+pleural.
 The hilar contours are normal.
 A dual lead pacemaker is noted.
 
 IMPRESSION:
 
-1. Small bilateral pleural effusions are present.
-2. No pneumothorax.
-3. Blunting of the left costophrenic angle suggests a small pleural effusion.
-4. Pulmonary opacity is present.
+1. o
+2. p
+3. a
+4. c
+5. i
+6. t
+7. y
+8. .
+9.  
+10. S
+11. m
+12. a
+13. l
+14. l
+15.  
+16. b
+17. i
+18. l
+19. a
+20. t
+21. e
+22. r
+23. a
+24. l
+25.  
+26. p
+27. l
+28. e
+29. u
+30. r
+31. a
+32. l
+33.  
+34. e
+35. f
+36. f
+37. u
+38. s
+39. i
+40. o
+41. n
+42. s
+43.  
+44. a
+45. r
+46. e
+47.  
+48. p
+49. r
+50. e
+51. s
+52. e
+53. n
+54. t
+55. .
+56.  
+57. N
+58. o
+59.  
+60. p
+61. n
+62. e
+63. u
+64. m
+65. o
+66. t
+67. h
+68. o
+69. r
+70. a
+71. x
+72. .
+73.  
+74. B
+75. l
+76. u
+77. n
+78. t
+79. i
+80. n
+81. g
+82.  
+83. o
+84. f
+85.  
+86. t
+87. h
+88. e
+89.  
+90. l
+91. e
+92. f
+93. t
+94.  
+95. c
+96. o
+97. s
+98. t
+99. o
+100. p
+101. h
+102. r
+103. e
+104. n
+105. i
+106. c
+107.  
+108. a
+109. n
+110. g
+111. l
+112. e
+113.  
+114. s
+115. u
+116. g
+117. g
+118. e
+119. s
+120. t
+121. s
+122.  
+123. a
+124.  
+125. s
+126. m
+127. a
+128. l
+129. l
+130.  
+131. p
+132. l
+133. e
+134. u
+135. r
+136. a
+137. l
+138.  
+139. e
+140. f
+141. f
+142. u
+143. s
+144. i
+145. o
+146. n
+147. .
+148.  
+149. a
+150. t
+151. e
+152. l
+153. e
+154. c
+155. t
+156. a
+157. s
+158. i
+159. s
+160. .

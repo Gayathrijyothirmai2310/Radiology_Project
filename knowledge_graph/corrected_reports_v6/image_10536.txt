@@ -1,10 +1,37 @@
 FINDINGS:
 
-Pulmonary opacity is present.
-5 cm above the carina.
+aspiration.
+bibasilar.
+chest.
+greater.
+inferior.
+opacities.
+suboptimal positioning.
+tube.
 The heart size is normal.
 A right-sided chest tube has been placed.
 
 IMPRESSION:
 
-1. Pulmonary opacity is present.
+1. a
+2. s
+3. p
+4. i
+5. r
+6. a
+7. t
+8. i
+9. o
+10. n
+11. .
+12.  
+13. b
+14. i
+15. b
+16. a
+17. s
+18. i
+19. l
+20. a
+21. r
+22. .

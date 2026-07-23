@@ -1,7 +1,9 @@
 FINDINGS:
 
 There is a left retrocardiac opacity and left-sided pleural effusion.
-There is blunting of the left costophrenic sinus, likely caused by a small pleural effusion.
+atelectasis.
+bibasilar.
+improved.
 The endotracheal tube is in a standard position.
 There is mild prominence of the pulmonary interstitial markings.
 The heart is mildly enlarged.
@@ -9,5 +11,85 @@ The monitoring and support devices are constant.
 
 IMPRESSION:
 
-1. There is a left retrocardiac opacity and left-sided pleural effusion.
-2. There is blunting of the left costophrenic sinus, likely caused by a small pleural effusion.
+1. T
+2. h
+3. e
+4. r
+5. e
+6.  
+7. i
+8. s
+9.  
+10. a
+11.  
+12. l
+13. e
+14. f
+15. t
+16.  
+17. r
+18. e
+19. t
+20. r
+21. o
+22. c
+23. a
+24. r
+25. d
+26. i
+27. a
+28. c
+29.  
+30. o
+31. p
+32. a
+33. c
+34. i
+35. t
+36. y
+37.  
+38. a
+39. n
+40. d
+41.  
+42. l
+43. e
+44. f
+45. t
+46. -
+47. s
+48. i
+49. d
+50. e
+51. d
+52.  
+53. p
+54. l
+55. e
+56. u
+57. r
+58. a
+59. l
+60.  
+61. e
+62. f
+63. f
+64. u
+65. s
+66. i
+67. o
+68. n
+69. .
+70.  
+71. a
+72. t
+73. e
+74. l
+75. e
+76. c
+77. t
+78. a
+79. s
+80. i
+81. s
+82. .

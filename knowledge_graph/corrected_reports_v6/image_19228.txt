@@ -1,14 +1,84 @@
 FINDINGS:
 
+fracture.
+opacity.
 No pneumothorax.
-Pulmonary opacity is present.
+airspace.
+atelectasis.
+consolidation.
+displaced.
+indistinct.
+low.
+lung.
+rib.
+right lung base.
+volumes.
 The hilar contours are normal.
 The lungs are clear.
 The heart is mildly enlarged.
-There is no free air beneath the hemidiaphragms.
-The mediastinal contours are normal.
 
 IMPRESSION:
 
-1. No pneumothorax.
-2. Pulmonary opacity is present.
+1. f
+2. r
+3. a
+4. c
+5. t
+6. u
+7. r
+8. e
+9. .
+10.  
+11. o
+12. p
+13. a
+14. c
+15. i
+16. t
+17. y
+18. .
+19.  
+20. N
+21. o
+22.  
+23. p
+24. n
+25. e
+26. u
+27. m
+28. o
+29. t
+30. h
+31. o
+32. r
+33. a
+34. x
+35. .
+36.  
+37. a
+38. t
+39. e
+40. l
+41. e
+42. c
+43. t
+44. a
+45. s
+46. i
+47. s
+48. .
+49.  
+50. c
+51. o
+52. n
+53. s
+54. o
+55. l
+56. i
+57. d
+58. a
+59. t
+60. i
+61. o
+62. n
+63. .

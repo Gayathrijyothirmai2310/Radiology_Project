@@ -1,10 +1,26 @@
 FINDINGS:
 
-Pleural effusion is present.
+effusion.
+appropriate.
+endotracheal.
+enteric.
+increased.
+pleural.
+small.
+tubes.
+underlying.
 The lungs are otherwise clear.
 The heart size is normal.
 An orogastric tube is seen coursing into the stomach.
 
 IMPRESSION:
 
-1. Pleural effusion is present.
+1. e
+2. f
+3. f
+4. u
+5. s
+6. i
+7. o
+8. n
+9. .

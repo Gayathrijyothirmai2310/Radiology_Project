@@ -1,7 +1,11 @@
 FINDINGS:
 
+effusion.
 No pneumothorax.
-Pleural effusion is present.
+atelectasis.
+basilar.
+right.
+small.
 The hilar contours are normal.
 The lungs are clear.
 The heart size is normal.
@@ -10,5 +14,42 @@ A dual lead pacemaker is in place.
 
 IMPRESSION:
 
-1. No pneumothorax.
-2. Pleural effusion is present.
+1. e
+2. f
+3. f
+4. u
+5. s
+6. i
+7. o
+8. n
+9. .
+10.  
+11. N
+12. o
+13.  
+14. p
+15. n
+16. e
+17. u
+18. m
+19. o
+20. t
+21. h
+22. o
+23. r
+24. a
+25. x
+26. .
+27.  
+28. a
+29. t
+30. e
+31. l
+32. e
+33. c
+34. t
+35. a
+36. s
+37. i
+38. s
+39. .

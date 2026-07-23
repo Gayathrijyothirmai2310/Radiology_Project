@@ -1,15 +1,93 @@
 FINDINGS:
 
+effusions.
+opacity.
 Bilateral pleural effusions are present.
-There is blunting of the left costophrenic angle, likely due to a small pleural effusion.
-Pulmonary opacity is present.
+bilateral pleural.
+consolidation.
+large.
+left lung.
+pneumonia.
+right lung.
+unchanged.
 The tracheostomy tube is in a standard position.
 Bibasilar opacities are present.
 The cardiomediastinal silhouette is unchanged.
-The right PICC line and enteric tube are unchanged in position.
 
 IMPRESSION:
 
-1. Bilateral pleural effusions are present.
-2. There is blunting of the left costophrenic angle, likely due to a small pleural effusion.
-3. Pulmonary opacity is present.
+1. e
+2. f
+3. f
+4. u
+5. s
+6. i
+7. o
+8. n
+9. s
+10. .
+11.  
+12. o
+13. p
+14. a
+15. c
+16. i
+17. t
+18. y
+19. .
+20.  
+21. B
+22. i
+23. l
+24. a
+25. t
+26. e
+27. r
+28. a
+29. l
+30.  
+31. p
+32. l
+33. e
+34. u
+35. r
+36. a
+37. l
+38.  
+39. e
+40. f
+41. f
+42. u
+43. s
+44. i
+45. o
+46. n
+47. s
+48.  
+49. a
+50. r
+51. e
+52.  
+53. p
+54. r
+55. e
+56. s
+57. e
+58. n
+59. t
+60. .
+61.  
+62. c
+63. o
+64. n
+65. s
+66. o
+67. l
+68. i
+69. d
+70. a
+71. t
+72. i
+73. o
+74. n
+75. .
