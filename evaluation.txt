@@ -1,0 +1,15 @@
+
+                 Table 1: Comparison Table                  
+
+Metric                         CheXagent    V9          
+============================================================
+BLEU                           0.0485       0.0673      
+ROUGE-1                        0.3843       0.4328      
+ROUGE-2                        0.1340       0.1627      
+ROUGE-L                        0.2429       0.2916      
+BERTScore (F1)                 0.8720       0.8864      
+CheXbert Micro Precision       0.8864       0.9031      
+CheXbert Micro Recall          0.8864       0.8987      
+CheXbert Micro F1              0.8864       0.9009      
+CheXbert Macro F1              0.2476       0.2834      
+GREEN Score                    0.2560       0.7318      
