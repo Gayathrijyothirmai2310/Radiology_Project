@@ -10,81 +10,68 @@ metrics = [
     "Micro F1", "Macro F1", "GREEN"
 ]
 
-chexagent_raw = [0.0485, 0.3843, 0.1340, 0.2429, 0.8720, 0.8864, 0.8864, 0.8864, 0.2476, 0.2560]
-v9_raw        = [0.0673, 0.4328, 0.1627, 0.2916, 0.8864, 0.9031, 0.8987, 0.9009, 0.2834, 0.7318]
+chexagent = [0.0485, 0.3843, 0.1340, 0.2429, 0.8720, 0.8864, 0.8864, 0.8864, 0.2476, 0.2560]
+v9        = [0.0673, 0.4328, 0.1627, 0.2916, 0.8864, 0.9031, 0.8987, 0.9009, 0.2834, 0.7318]
 
 # -----------------------------
-# Normalize per metric (important!)
+# Positions
 # -----------------------------
-all_vals = np.array([chexagent_raw, v9_raw])
-min_vals = all_vals.min(axis=0)
-max_vals = all_vals.max(axis=0)
-
-chexagent = (np.array(chexagent_raw) - min_vals) / (max_vals - min_vals + 1e-8)
-v9        = (np.array(v9_raw)        - min_vals) / (max_vals - min_vals + 1e-8)
+x = np.arange(len(metrics))
+width = 0.35
 
 # -----------------------------
-# Radar setup
-# -----------------------------
-N = len(metrics)
-angles = np.linspace(0, 2*np.pi, N, endpoint=False)
-
-# Close loop
-angles = np.concatenate([angles, [angles[0]]])
-chexagent = np.concatenate([chexagent, [chexagent[0]]])
-v9        = np.concatenate([v9, [v9[0]]])
-
-# -----------------------------
-# Style (Seaborn-like)
+# Style (clean & publication-like)
 # -----------------------------
 plt.style.use("seaborn-v0_8-whitegrid")
+fig, ax = plt.subplots(figsize=(12, 6))
 
-fig = plt.figure(figsize=(8, 8))
-ax = plt.subplot(111, polar=True)
-
-# Colors (soft, publication-friendly)
-color_chex = "#4C72B0"   # muted blue
-color_v9   = "#DD8452"   # muted orange
+# Colors (consistent, single color per model)
+color_chex = "#4C72B0"
+color_v9   = "#DD8452"
 
 # -----------------------------
-# Plot
+# Plot bars
 # -----------------------------
-ax.plot(angles, chexagent, linewidth=2.5, color=color_chex, label="CheXagent")
-ax.fill(angles, chexagent, color=color_chex, alpha=0.25)
-
-ax.plot(angles, v9, linewidth=2.5, color=color_v9, label="V9")
-ax.fill(angles, v9, color=color_v9, alpha=0.25)
+bars1 = ax.bar(x - width/2, chexagent, width, label="CheXagent", color=color_chex)
+bars2 = ax.bar(x + width/2, v9, width, label="V9", color=color_v9)
 
 # -----------------------------
-# Labels
+# Labels & formatting
 # -----------------------------
-ax.set_xticks(angles[:-1])
-ax.set_xticklabels(metrics, fontsize=10)
+ax.set_xlabel("Metrics", fontsize=11)
+ax.set_ylabel("Score", fontsize=11)
+ax.set_title("Model Comparison Across Evaluation Metrics", fontsize=14, weight="semibold")
 
-ax.set_yticks([0.2, 0.4, 0.6, 0.8])
-ax.set_yticklabels(["0.2", "0.4", "0.6", "0.8"], fontsize=9)
-ax.set_ylim(0, 1)
+ax.set_xticks(x)
+ax.set_xticklabels(metrics, rotation=30, ha="right")
+
+ax.legend(frameon=True)
+ax.grid(axis='y', linestyle='--', alpha=0.6)
+
+# Remove top/right borders for clean look
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
 
 # -----------------------------
-# Clean aesthetics
+# Optional: add value labels
 # -----------------------------
-ax.spines["polar"].set_visible(False)
-ax.grid(color="gray", linestyle="--", linewidth=0.5, alpha=0.5)
+def add_labels(bars):
+    for bar in bars:
+        height = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width()/2,
+                height + 0.01,
+                f"{height:.2f}",
+                ha='center', va='bottom', fontsize=8)
 
-# Title
-plt.title("Model Comparison Across Metrics (Normalized Radar)", 
-          fontsize=14, pad=20, weight="semibold")
-
-# Legend
-legend = plt.legend(loc="upper right", bbox_to_anchor=(1.25, 1.1), frameon=True)
-legend.get_frame().set_alpha(0.9)
+add_labels(bars1)
+add_labels(bars2)
 
 plt.tight_layout()
 
 # -----------------------------
-# Save (publication ready)
+# Save (publication quality)
 # -----------------------------
-plt.savefig("radar_comparison.png", dpi=300, bbox_inches="tight")
-plt.savefig("radar_comparison.pdf", bbox_inches="tight")
+plt.savefig("vertical_comparison.png", dpi=300, bbox_inches="tight")
+plt.savefig("vertical_comparison.pdf", bbox_inches="tight")
 
 plt.show()
