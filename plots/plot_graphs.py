@@ -1,39 +1,90 @@
-import os
-import matplotlib.pyplot as plt
 import numpy as np
+import matplotlib.pyplot as plt
 
+# -----------------------------
+# Data
+# -----------------------------
 metrics = [
     "BLEU", "ROUGE-1", "ROUGE-2", "ROUGE-L",
-    "BERTScore F1",
-    "CheXbert Micro Precision",
-    "CheXbert Micro Recall",
-    "CheXbert Micro F1",
-    "CheXbert Macro F1",
-    "GREEN"
+    "BERTScore", "Micro Precision", "Micro Recall",
+    "Micro F1", "Macro F1", "GREEN"
 ]
 
-chexagent = [0.0485, 0.3843, 0.1340, 0.2429, 0.8720, 0.8864, 0.8864, 0.8864, 0.2476, 0.2560]
-v9        = [0.0673, 0.4328, 0.1627, 0.2916, 0.8864, 0.9031, 0.8987, 0.9009, 0.2834, 0.7318]
+chexagent_raw = [0.0485, 0.3843, 0.1340, 0.2429, 0.8720, 0.8864, 0.8864, 0.8864, 0.2476, 0.2560]
+v9_raw        = [0.0673, 0.4328, 0.1627, 0.2916, 0.8864, 0.9031, 0.8987, 0.9009, 0.2834, 0.7318]
 
-os.makedirs("plots", exist_ok=True)
+# -----------------------------
+# Normalize per metric (important!)
+# -----------------------------
+all_vals = np.array([chexagent_raw, v9_raw])
+min_vals = all_vals.min(axis=0)
+max_vals = all_vals.max(axis=0)
 
-x = np.arange(len(metrics))
-width = 0.35
+chexagent = (np.array(chexagent_raw) - min_vals) / (max_vals - min_vals + 1e-8)
+v9        = (np.array(v9_raw)        - min_vals) / (max_vals - min_vals + 1e-8)
 
-plt.figure(figsize=(14, 7))
+# -----------------------------
+# Radar setup
+# -----------------------------
+N = len(metrics)
+angles = np.linspace(0, 2*np.pi, N, endpoint=False)
 
+# Close loop
+angles = np.concatenate([angles, [angles[0]]])
+chexagent = np.concatenate([chexagent, [chexagent[0]]])
+v9        = np.concatenate([v9, [v9[0]]])
 
-plt.bar(x - width/2, chexagent, width, label="CheXagent", color='blue')
-plt.bar(x + width/2, v9, width, label="V9", color='orange')
+# -----------------------------
+# Style (Seaborn-like)
+# -----------------------------
+plt.style.use("seaborn-v0_8-whitegrid")
 
-plt.xticks(x, metrics, rotation=30, ha='right')
-plt.ylabel("Score")
-plt.title("Comparison of Evaluation Metrics")
+fig = plt.figure(figsize=(8, 8))
+ax = plt.subplot(111, polar=True)
 
-plt.legend()
-plt.grid(axis='y')
+# Colors (soft, publication-friendly)
+color_chex = "#4C72B0"   # muted blue
+color_v9   = "#DD8452"   # muted orange
+
+# -----------------------------
+# Plot
+# -----------------------------
+ax.plot(angles, chexagent, linewidth=2.5, color=color_chex, label="CheXagent")
+ax.fill(angles, chexagent, color=color_chex, alpha=0.25)
+
+ax.plot(angles, v9, linewidth=2.5, color=color_v9, label="V9")
+ax.fill(angles, v9, color=color_v9, alpha=0.25)
+
+# -----------------------------
+# Labels
+# -----------------------------
+ax.set_xticks(angles[:-1])
+ax.set_xticklabels(metrics, fontsize=10)
+
+ax.set_yticks([0.2, 0.4, 0.6, 0.8])
+ax.set_yticklabels(["0.2", "0.4", "0.6", "0.8"], fontsize=9)
+ax.set_ylim(0, 1)
+
+# -----------------------------
+# Clean aesthetics
+# -----------------------------
+ax.spines["polar"].set_visible(False)
+ax.grid(color="gray", linestyle="--", linewidth=0.5, alpha=0.5)
+
+# Title
+plt.title("Model Comparison Across Metrics (Normalized Radar)", 
+          fontsize=14, pad=20, weight="semibold")
+
+# Legend
+legend = plt.legend(loc="upper right", bbox_to_anchor=(1.25, 1.1), frameon=True)
+legend.get_frame().set_alpha(0.9)
 
 plt.tight_layout()
-plt.savefig("plots/comparison_all_metrics.png")
 
-print("Saved at plots/comparison_all_metrics.png")
+# -----------------------------
+# Save (publication ready)
+# -----------------------------
+plt.savefig("radar_comparison.png", dpi=300, bbox_inches="tight")
+plt.savefig("radar_comparison.pdf", bbox_inches="tight")
+
+plt.show()
